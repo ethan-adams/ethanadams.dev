@@ -1,3 +1,4 @@
+import 'package:ethanadamsdev_flutter/bio.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(EthanWeb());
@@ -57,15 +58,14 @@ class EthanWeb extends StatelessWidget {
               ],
             ),
             // Main Container starts here
-            Container(
-              child: Expanded(
-                child: Container(
-                  margin: EdgeInsets.all(15),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: Colors.grey.shade900,
-                  ),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.grey.shade900,
                 ),
+                child: Bio(),
               ),
             )
           ],
