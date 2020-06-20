@@ -1,9 +1,12 @@
 import 'package:ethanadamsdev_flutter/utilities/constants.dart';
+import 'package:ethanadamsdev_flutter/utilities/web_handler.dart';
 import 'package:flutter/material.dart';
 
 class Bio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    WebHandler web = new WebHandler(url: 'https://firebasestorage.googleapis.com/v0/b/ethanadams-dev.appspot.com/o/Resume6-3-2020.pdf?alt=media&token=af39d2b0-a30c-4df1-81e1-a888dd9c2053');
+
     return Container(
       height: 600,
       child: Material(
@@ -51,6 +54,7 @@ class Bio extends StatelessWidget {
                         color: Colors.orange,
                         onPressed: () {
                           print('resume!');
+                          web.launchURL();
                         },
                         elevation: 6,
                       ),
