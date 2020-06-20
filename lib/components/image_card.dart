@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ethanadamsdev_flutter/constants.dart';
+import 'file:///D:/Desktop%20-%20HDD/development/ethanadamsdev_flutter/lib/utilities/constants.dart';
 //CURRENTLY UNUSED
 class ImageCard extends StatelessWidget {
   final Widget child;

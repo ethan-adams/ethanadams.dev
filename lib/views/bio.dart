@@ -1,4 +1,4 @@
-import 'package:ethanadamsdev_flutter/constants.dart';
+import 'package:ethanadamsdev_flutter/utilities/constants.dart';
 import 'package:flutter/material.dart';
 
 class Bio extends StatelessWidget {
