@@ -49,7 +49,7 @@ class EthanWeb extends StatelessWidget {
               children: [
                 Bio(),
                 SizedBox(height: 20),
-                Projects(),
+                //Projects(),
               ],
             ),
           ),
