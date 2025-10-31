@@ -4,11 +4,13 @@
 export interface Dimension {
   id: string;
   name: string;
+  icon?: string; // Emoji icon for visual identification
   description: string;
   unit: string;
   min: number; // Min value in dataset
   max: number; // Max value in dataset
   higherIsBetter: boolean; // true = higher values are better, false = lower is better
+  sourceUrl?: string; // Optional URL to data source
 }
 
 /**

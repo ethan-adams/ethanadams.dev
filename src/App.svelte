@@ -2,8 +2,10 @@
   import Map from './lib/components/Map.svelte';
   import ControlPanel from './lib/components/ControlPanel.svelte';
   import { countyScores } from './lib/stores/dimensions';
+  import { theme } from './lib/stores/theme';
+  import { onMount } from 'svelte';
 
-  let showDebug = false;
+  let showDebug = $state(false);
 
   // Toggle debug with 'd' key
   function handleKeyPress(e: KeyboardEvent) {
@@ -11,9 +13,19 @@
       showDebug = !showDebug;
     }
   }
+
+  // Initialize theme on mount
+  onMount(() => {
+    document.documentElement.setAttribute('data-theme', $theme);
+  });
+
+  // Update theme attribute when theme changes
+  $effect(() => {
+    document.documentElement.setAttribute('data-theme', $theme);
+  });
 </script>
 
-<svelte:window on:keypress={handleKeyPress} />
+<svelte:window onkeypress={handleKeyPress} />
 
 <main>
   <ControlPanel />

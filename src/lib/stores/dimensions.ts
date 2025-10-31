@@ -1,7 +1,7 @@
 import { writable, derived } from 'svelte/store';
 import type { DimensionWeight, CountyScore } from '../types';
 import { dimensions } from '../data/dimensions';
-import { expandedCountyData } from '../data/expandedCountyData';
+import { realCountyData } from '../data/realCountyData';
 import { calculateAllCountyScores } from '../utils/scoring';
 
 /**
@@ -13,12 +13,18 @@ export const dimensionRankOrder = writable<string[]>(
 );
 
 /**
+ * Bias curve exponent (1.0 = more even, 3.0 = more extreme)
+ * Controls how much the top dimensions dominate the scoring
+ */
+export const biasCurve = writable<number>(2.0);
+
+/**
  * Derived store: convert rank order to weights
  * Top rank gets highest weight, exponentially decreasing
  */
 export const dimensionWeights = derived(
-  dimensionRankOrder,
-  ($rankOrder) => {
+  [dimensionRankOrder, biasCurve],
+  ([$rankOrder, $biasCurve]) => {
     const weights: DimensionWeight[] = [];
     const n = $rankOrder.length;
 
@@ -26,9 +32,10 @@ export const dimensionWeights = derived(
     // Rank 1 (top) gets much more weight than rank 4 (bottom)
     $rankOrder.forEach((dimensionId, index) => {
       const rank = index + 1; // 1-indexed rank
-      // Weight formula: 2^(n - rank) / sum
-      // E.g., for 4 dimensions: [8, 4, 2, 1] → normalized to [0.53, 0.27, 0.13, 0.07]
-      const rawWeight = Math.pow(2, n - rank);
+      // Weight formula: base^(n - rank) where base is controlled by biasCurve
+      // Lower biasCurve = more even distribution (closer to 1)
+      // Higher biasCurve = more extreme splits (top dimensions dominate)
+      const rawWeight = Math.pow($biasCurve, n - rank);
       weights.push({ dimensionId, weight: rawWeight });
     });
 
@@ -48,7 +55,7 @@ export const dimensionWeights = derived(
 export const countyScores = derived(
   dimensionWeights,
   ($weights) => {
-    return calculateAllCountyScores(expandedCountyData, dimensions, $weights);
+    return calculateAllCountyScores(realCountyData, dimensions, $weights);
   }
 );
 

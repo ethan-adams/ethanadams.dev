@@ -5,10 +5,52 @@
   padding: 0;
 }
 
+/* CSS Variables for theming - Forest Green inspired palette */
+:root[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f4f1;
+  --bg-tertiary: #e8f5e9;
+  --text-primary: #1b3a28;
+  --text-secondary: #4a6b5a;
+  --text-tertiary: #6b8778;
+  --border-primary: #c8d9ce;
+  --border-secondary: #a8c4b5;
+  --border-active: #2e7d32;
+  --accent-primary: #2e7d32;
+  --accent-hover: #1b5e20;
+  --accent-light: #4caf50;
+  --accent-gold: #d4af37;
+  --shadow-sm: 0 1px 2px rgba(27, 58, 40, 0.08);
+  --shadow-md: 0 4px 6px rgba(27, 58, 40, 0.12);
+  --overlay-bg: rgba(255, 255, 255, 0.95);
+}
+
+:root[data-theme="dark"] {
+  --bg-primary: #0d1b12;
+  --bg-secondary: #152820;
+  --bg-tertiary: #1a3d2b;
+  --text-primary: #e8f5ea;
+  --text-secondary: #b8d4c0;
+  --text-tertiary: #8ca896;
+  --border-primary: #2d4a39;
+  --border-secondary: #3d5a49;
+  --border-active: #4caf50;
+  --accent-primary: #66bb6a;
+  --accent-hover: #81c784;
+  --accent-light: #4caf50;
+  --accent-gold: #ffd700;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.5);
+  --overlay-bg: rgba(13, 27, 18, 0.95);
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #app {

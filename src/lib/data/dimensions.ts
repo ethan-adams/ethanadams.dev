@@ -2,44 +2,63 @@ import type { Dimension } from '../types';
 
 /**
  * Initial dimensions for county evaluation
- * Starting with 4 low-cost, easy-to-obtain data dimensions
+ * Starting with 5 dimensions including real FBI crime statistics
  */
 export const dimensions: Dimension[] = [
   {
     id: 'land_value',
     name: 'Land Value',
-    description: 'Average price per acre for undeveloped land',
+    icon: '💰',
+    description: 'Average price per acre for agricultural land (USDA Census 2022 - real API data)',
     unit: '$/acre',
     min: 0,
     max: 50000,
     higherIsBetter: false, // Lower land value is better (more affordable)
+    sourceUrl: 'https://quickstats.nass.usda.gov/',
   },
   {
     id: 'sunny_days',
     name: 'Sunny Days',
-    description: 'Average number of sunny days per year',
+    icon: '☀️',
+    description: 'Average sunny days per year (estimated from NOAA climate patterns by latitude/region)',
     unit: 'days/year',
     min: 100,
     max: 300,
     higherIsBetter: true, // More sunny days is better
+    sourceUrl: 'https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals',
   },
   {
     id: 'growing_season',
     name: 'Growing Season',
-    description: 'Length of frost-free growing season',
+    icon: '🌱',
+    description: 'Frost-free days (estimated from USDA hardiness zones and latitude patterns)',
     unit: 'days',
     min: 60,
     max: 240,
     higherIsBetter: true, // Longer growing season is better
+    sourceUrl: 'https://planthardiness.ars.usda.gov/',
   },
   {
     id: 'fiber_coverage',
     name: 'Fiber Availability',
-    description: 'Percentage of county with fiber internet access',
+    icon: '🌐',
+    description: 'Fiber internet coverage (estimated from FCC state rankings and urbanization)',
     unit: '% coverage',
     min: 0,
     max: 100,
     higherIsBetter: true, // Higher fiber coverage is better
+    sourceUrl: 'https://broadbandmap.fcc.gov/',
+  },
+  {
+    id: 'crime_rate',
+    name: 'Crime Rate',
+    icon: '🛡️',
+    description: 'Violent crime rate per 100k residents (based on FBI UCR 2022 state data with urban/rural adjustments)',
+    unit: 'per 100k',
+    min: 50,
+    max: 1500,
+    higherIsBetter: false, // Lower crime rate is better (safer)
+    sourceUrl: 'https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend',
   },
 ];
 
