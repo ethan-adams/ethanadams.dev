@@ -60,6 +60,17 @@ export const dimensions: Dimension[] = [
     higherIsBetter: false, // Lower crime rate is better (safer)
     sourceUrl: 'https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend',
   },
+  {
+    id: 'four_seasons',
+    name: 'Four Seasons',
+    icon: '❄️',
+    description: 'Climate score for distinct seasons: moderate summers (70-85°F ideal), cold snowy winters, good seasonal variation (estimated from latitude and elevation patterns)',
+    unit: 'score',
+    min: 0,
+    max: 100,
+    higherIsBetter: true, // Higher score = better four-season climate
+    sourceUrl: 'https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals',
+  },
 ];
 
 /**

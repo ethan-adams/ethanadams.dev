@@ -1,10 +1,10 @@
 /**
  * Real County Data
  * Combined from multiple public data sources
- * Generated: 2025-10-31T00:48:18.392Z
+ * Generated: 2025-10-31T18:16:15.007Z
  *
  * Counties: 3221
- * Dimensions: land_value, sunny_days, growing_season, fiber_coverage, crime_rate
+ * Dimensions: land_value, sunny_days, growing_season, fiber_coverage, crime_rate, four_seasons
  */
 
 import type { CountyData } from '../types/county';
@@ -17,7 +17,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 24
     }
   },
   {
@@ -27,7 +28,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 363,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 30
     }
   },
   {
@@ -37,7 +39,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 26
     }
   },
   {
@@ -47,7 +50,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 25
     }
   },
   {
@@ -57,7 +61,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 42,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 33
     }
   },
   {
@@ -67,7 +72,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -77,7 +83,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 25
     }
   },
   {
@@ -87,7 +94,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 42,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 25
     }
   },
   {
@@ -97,7 +105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 354,
       "fiber_coverage": 42,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 32
     }
   },
   {
@@ -107,7 +116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 363,
       "fiber_coverage": 42,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 34
     }
   },
   {
@@ -117,7 +127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -127,7 +138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 27
     }
   },
   {
@@ -137,7 +149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 359,
       "fiber_coverage": 45,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 28
     }
   },
   {
@@ -146,7 +159,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 165,
       "fiber_coverage": 18,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -155,7 +169,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 126,
       "growing_season": 160,
       "fiber_coverage": 29,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -165,7 +180,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 128,
       "growing_season": 164,
       "fiber_coverage": 29,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -174,7 +190,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 121,
       "growing_season": 163,
       "fiber_coverage": 23,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -183,7 +200,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 117,
       "growing_season": 155,
       "fiber_coverage": 23,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -192,7 +210,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 111,
       "growing_season": 158,
       "fiber_coverage": 25,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -201,7 +220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 85,
       "fiber_coverage": 25,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -210,7 +230,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 110,
       "growing_season": 164,
       "fiber_coverage": 34,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -220,7 +241,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 325,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 51
     }
   },
   {
@@ -230,7 +252,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 327,
       "fiber_coverage": 44,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -240,7 +263,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 266,
       "growing_season": 322,
       "fiber_coverage": 68,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -250,7 +274,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 267,
       "growing_season": 346,
       "fiber_coverage": 71,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 57
     }
   },
   {
@@ -260,7 +285,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 259,
       "growing_season": 352,
       "fiber_coverage": 92,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 56
     }
   },
   {
@@ -270,7 +296,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 329,
       "fiber_coverage": 67,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 49
     }
   },
   {
@@ -280,7 +307,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 339,
       "fiber_coverage": 75,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -290,7 +318,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 264,
       "growing_season": 336,
       "fiber_coverage": 69,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 61
     }
   },
   {
@@ -300,7 +329,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 340,
       "fiber_coverage": 77,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 49
     }
   },
   {
@@ -310,7 +340,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 255,
       "growing_season": 324,
       "fiber_coverage": 64,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 57
     }
   },
   {
@@ -320,7 +351,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 253,
       "growing_season": 279,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 94
     }
   },
   {
@@ -330,7 +362,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 267,
       "fiber_coverage": 77,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -340,7 +373,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 266,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -350,7 +384,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 280,
       "fiber_coverage": 67,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 97
     }
   },
   {
@@ -360,7 +395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 284,
       "fiber_coverage": 99,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -370,7 +406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 271,
       "fiber_coverage": 76,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -380,7 +417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 279,
       "fiber_coverage": 65,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -390,7 +428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -400,7 +439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 262,
       "growing_season": 342,
       "fiber_coverage": 59,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -410,7 +450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -420,7 +461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -430,7 +472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -440,7 +483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -450,7 +494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -460,7 +505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 362,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 30
     }
   },
   {
@@ -470,7 +516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 359,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -480,7 +527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 360,
       "fiber_coverage": 70,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -490,7 +538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -500,7 +549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 30
     }
   },
   {
@@ -510,7 +560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -520,7 +571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -530,7 +582,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -540,7 +593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -550,7 +604,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -560,7 +615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 352,
       "fiber_coverage": 54,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -570,7 +626,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 282,
       "fiber_coverage": 67,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -580,7 +637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 278,
       "fiber_coverage": 100,
-      "crime_rate": 592
+      "crime_rate": 592,
+      "four_seasons": 100
     }
   },
   {
@@ -590,7 +648,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 269,
       "growing_season": 276,
       "fiber_coverage": 78,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 5
     }
   },
   {
@@ -600,7 +659,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 274,
       "fiber_coverage": 64,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -610,7 +670,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 324,
       "fiber_coverage": 78,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -620,7 +681,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 282,
       "fiber_coverage": 80,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -630,7 +692,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 280,
       "fiber_coverage": 63,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 94
     }
   },
   {
@@ -639,7 +702,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 274,
       "fiber_coverage": 61,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -649,7 +713,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 281,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -659,7 +724,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 317,
       "fiber_coverage": 57,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 89
     }
   },
   {
@@ -669,7 +735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -679,7 +746,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -689,7 +757,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -699,7 +768,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -709,7 +779,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -719,7 +790,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -729,7 +801,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -738,7 +811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 125,
       "growing_season": 156,
       "fiber_coverage": 33,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -747,7 +821,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 107,
       "fiber_coverage": 24,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -757,7 +832,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 304,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 441
+      "crime_rate": 441,
+      "four_seasons": 4
     }
   },
   {
@@ -767,7 +843,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 293,
       "growing_season": 354,
       "fiber_coverage": 56,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 31
     }
   },
   {
@@ -777,7 +854,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 326,
       "fiber_coverage": 50,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -787,7 +865,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 317,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 55
     }
   },
   {
@@ -797,7 +876,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 330,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 30
     }
   },
   {
@@ -807,7 +887,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 323,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -817,7 +898,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 334,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 29
     }
   },
   {
@@ -827,7 +909,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 318,
       "fiber_coverage": 49,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -837,7 +920,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 330,
       "fiber_coverage": 47,
-      "crime_rate": 470
+      "crime_rate": 470,
+      "four_seasons": 30
     }
   },
   {
@@ -847,7 +931,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 320,
       "fiber_coverage": 39,
-      "crime_rate": 470
+      "crime_rate": 470,
+      "four_seasons": 51
     }
   },
   {
@@ -857,7 +942,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 332,
       "fiber_coverage": 30,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -867,7 +953,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 322,
       "fiber_coverage": 42,
-      "crime_rate": 470
+      "crime_rate": 470,
+      "four_seasons": 32
     }
   },
   {
@@ -877,7 +964,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 314,
       "fiber_coverage": 44,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -887,7 +975,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 313,
       "fiber_coverage": 50,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 51
     }
   },
   {
@@ -897,7 +986,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 327,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 34
     }
   },
   {
@@ -907,7 +997,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 328,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -917,7 +1008,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -927,7 +1019,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 353,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 34
     }
   },
   {
@@ -937,7 +1030,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -947,7 +1041,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 290,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 0
     }
   },
   {
@@ -957,7 +1052,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 284,
       "fiber_coverage": 45,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 73
     }
   },
   {
@@ -967,7 +1063,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 262,
       "fiber_coverage": 39,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 54
     }
   },
   {
@@ -977,7 +1074,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 288,
       "fiber_coverage": 41,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 73
     }
   },
   {
@@ -987,7 +1085,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 299,
       "fiber_coverage": 37,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 74
     }
   },
   {
@@ -997,7 +1096,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 274,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 62
     }
   },
   {
@@ -1007,7 +1107,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 302,
       "fiber_coverage": 48,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -1017,7 +1118,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 291,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 74
     }
   },
   {
@@ -1027,7 +1129,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 305,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -1037,7 +1140,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 307,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -1047,7 +1151,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 307,
       "fiber_coverage": 59,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -1057,7 +1162,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 300,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -1067,7 +1173,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 316,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 66
     }
   },
   {
@@ -1077,7 +1184,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 313,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -1087,7 +1195,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 318,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 61
     }
   },
   {
@@ -1097,7 +1206,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 313,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 61
     }
   },
   {
@@ -1107,7 +1217,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 308,
       "fiber_coverage": 40,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 62
     }
   },
   {
@@ -1117,7 +1228,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 308,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -1127,7 +1239,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 303,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 90
     }
   },
   {
@@ -1137,7 +1250,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 301,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -1147,7 +1261,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 291,
       "fiber_coverage": 38,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -1157,7 +1272,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 306,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 87
     }
   },
   {
@@ -1167,7 +1283,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 302,
       "fiber_coverage": 41,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -1177,7 +1294,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 305,
       "fiber_coverage": 46,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -1187,7 +1305,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 308,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 63
     }
   },
   {
@@ -1197,7 +1316,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 299,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -1207,7 +1327,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 304,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -1217,7 +1338,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 305,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -1227,7 +1349,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 322,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -1237,7 +1360,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 294,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -1247,7 +1371,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 307,
       "fiber_coverage": 53,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -1257,7 +1382,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 298,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -1267,7 +1393,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 294,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -1277,7 +1404,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 284,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -1287,7 +1415,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 290,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -1297,7 +1426,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 297,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -1307,7 +1437,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 293,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -1317,7 +1448,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 304,
       "fiber_coverage": 73,
-      "crime_rate": 595
+      "crime_rate": 595,
+      "four_seasons": 60
     }
   },
   {
@@ -1327,7 +1459,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 304,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -1337,7 +1470,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 299,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -1347,7 +1481,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 305,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -1357,7 +1492,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 308,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -1367,7 +1503,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 318,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 63
     }
   },
   {
@@ -1377,7 +1514,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 312,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -1387,7 +1525,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 316,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -1397,7 +1536,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 312,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 61
     }
   },
   {
@@ -1407,7 +1547,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 308,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -1417,7 +1558,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 313,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -1427,7 +1569,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 292,
       "fiber_coverage": 57,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -1437,7 +1580,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 305,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -1447,7 +1591,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 321,
       "fiber_coverage": 44,
-      "crime_rate": 595
+      "crime_rate": 595,
+      "four_seasons": 63
     }
   },
   {
@@ -1457,7 +1602,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 299,
       "fiber_coverage": 59,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -1467,7 +1613,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 305,
       "fiber_coverage": 41,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -1477,7 +1624,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 312,
       "fiber_coverage": 42,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 87
     }
   },
   {
@@ -1487,7 +1635,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 300,
       "fiber_coverage": 42,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -1497,7 +1646,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 301,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -1507,7 +1657,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -1517,7 +1668,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 361,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -1527,7 +1679,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -1537,7 +1690,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 357,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -1547,7 +1701,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 355,
       "fiber_coverage": 89,
-      "crime_rate": 561
+      "crime_rate": 561,
+      "four_seasons": 30
     }
   },
   {
@@ -1557,7 +1712,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -1567,7 +1723,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -1577,7 +1734,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 357,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -1587,7 +1745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 360,
       "fiber_coverage": 54,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -1597,7 +1756,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -1607,7 +1767,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 354,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -1617,7 +1778,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 363,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -1627,7 +1789,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 356,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 30
     }
   },
   {
@@ -1637,7 +1800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -1647,7 +1811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -1657,7 +1822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 355,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -1667,7 +1833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -1677,7 +1844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 363,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -1687,7 +1855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 364,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -1697,7 +1866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 561
+      "crime_rate": 561,
+      "four_seasons": 26
     }
   },
   {
@@ -1707,7 +1877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 302,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -1717,7 +1888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 312,
       "fiber_coverage": 32,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 77
     }
   },
   {
@@ -1727,7 +1899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 304,
       "fiber_coverage": 38,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -1737,7 +1910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 311,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -1747,7 +1921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -1757,7 +1932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 314,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -1767,7 +1943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 306,
       "fiber_coverage": 64,
-      "crime_rate": 595
+      "crime_rate": 595,
+      "four_seasons": 77
     }
   },
   {
@@ -1777,7 +1954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 306,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -1787,7 +1965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 300,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -1797,7 +1976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 315,
       "fiber_coverage": 31,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -1807,7 +1987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 313,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 74
     }
   },
   {
@@ -1817,7 +1998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 319,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -1827,7 +2009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 309,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -1837,7 +2020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 315,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -1847,7 +2031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -1857,7 +2042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 305,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -1867,7 +2053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 309,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -1877,7 +2064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 313,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -1887,7 +2075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 318,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -1897,7 +2086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 315,
       "fiber_coverage": 31,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -1907,7 +2097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 309,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -1917,7 +2108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 311,
       "fiber_coverage": 30,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -1927,7 +2119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 312,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 71
     }
   },
   {
@@ -1937,7 +2130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 313,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -1947,7 +2141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 302,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -1957,7 +2152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 325,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -1967,7 +2163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 322,
       "fiber_coverage": 31,
-      "crime_rate": 392
+      "crime_rate": 392,
+      "four_seasons": 60
     }
   },
   {
@@ -1977,7 +2174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -1987,7 +2185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 23
     }
   },
   {
@@ -1997,7 +2196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2007,7 +2207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2017,7 +2218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 24
     }
   },
   {
@@ -2027,7 +2229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2037,7 +2240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2047,7 +2251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2057,7 +2262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2067,7 +2273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 314,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -2077,7 +2284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 325,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -2087,7 +2295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 302,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -2097,7 +2306,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 322,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -2107,7 +2317,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 314,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -2117,7 +2328,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 309,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 75
     }
   },
   {
@@ -2127,7 +2339,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 325,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -2137,7 +2350,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 321,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -2147,7 +2361,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 317,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 64
     }
   },
   {
@@ -2157,7 +2372,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 307,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -2167,7 +2383,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 320,
       "fiber_coverage": 36,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -2177,7 +2394,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 305,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -2187,7 +2405,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 317,
       "fiber_coverage": 34,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 73
     }
   },
   {
@@ -2197,7 +2416,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 308,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 69
     }
   },
   {
@@ -2207,7 +2427,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 324,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -2217,7 +2438,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 323,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -2227,7 +2449,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 312,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -2237,7 +2460,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 319,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -2247,7 +2471,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 325,
       "fiber_coverage": 36,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -2257,7 +2482,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 308,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -2267,7 +2493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 290,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -2277,7 +2504,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 306,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -2287,7 +2515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 290,
       "fiber_coverage": 47,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -2297,7 +2526,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 289,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -2307,7 +2537,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 297,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -2317,7 +2548,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 293,
       "fiber_coverage": 49,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -2327,7 +2559,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 296,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -2337,7 +2570,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 292,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -2347,7 +2581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 303,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -2357,7 +2592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 292,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -2367,7 +2603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 304,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -2377,7 +2614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 306,
       "fiber_coverage": 36,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -2387,7 +2625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 300,
       "fiber_coverage": 43,
-      "crime_rate": 186
+      "crime_rate": 186,
+      "four_seasons": 91
     }
   },
   {
@@ -2397,7 +2636,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 290,
       "fiber_coverage": 47,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -2407,7 +2647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 288,
       "fiber_coverage": 40,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 88
     }
   },
   {
@@ -2417,7 +2658,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 292,
       "fiber_coverage": 73,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -2427,7 +2669,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 287,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -2437,7 +2680,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 301,
       "fiber_coverage": 48,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -2447,7 +2691,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 297,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -2457,7 +2702,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 299,
       "fiber_coverage": 75,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -2467,7 +2713,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 304,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 77
     }
   },
   {
@@ -2477,7 +2724,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 315,
       "fiber_coverage": 39,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -2487,7 +2735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 278,
       "fiber_coverage": 51,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -2497,7 +2746,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 290,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -2507,7 +2757,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 291,
       "fiber_coverage": 54,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 89
     }
   },
   {
@@ -2517,7 +2768,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 277,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -2527,7 +2779,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 289,
       "fiber_coverage": 41,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -2537,7 +2790,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 272,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 76
     }
   },
   {
@@ -2547,7 +2801,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 292,
       "fiber_coverage": 41,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -2557,7 +2812,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 279,
       "fiber_coverage": 56,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -2567,7 +2823,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 282,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -2577,7 +2834,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 284,
       "fiber_coverage": 51,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 84
     }
   },
   {
@@ -2587,7 +2845,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 282,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 92
     }
   },
   {
@@ -2597,7 +2856,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 34
     }
   },
   {
@@ -2607,7 +2867,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 30
     }
   },
   {
@@ -2617,7 +2878,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 30
     }
   },
   {
@@ -2627,7 +2889,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 1
     }
   },
   {
@@ -2637,7 +2900,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -2647,7 +2911,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 23
     }
   },
   {
@@ -2657,7 +2922,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 365,
       "fiber_coverage": 39,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 2
     }
   },
   {
@@ -2667,7 +2933,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -2677,7 +2944,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 24
     }
   },
   {
@@ -2687,7 +2955,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -2697,7 +2966,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 2
     }
   },
   {
@@ -2707,7 +2977,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 287,
       "fiber_coverage": 44,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 0
     }
   },
   {
@@ -2717,7 +2988,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 288,
       "fiber_coverage": 44,
-      "crime_rate": 153
+      "crime_rate": 153,
+      "four_seasons": 0
     }
   },
   {
@@ -2727,7 +2999,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 313,
       "fiber_coverage": 64,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -2737,7 +3010,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 319,
       "fiber_coverage": 59,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 80
     }
   },
   {
@@ -2747,7 +3021,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 328,
       "fiber_coverage": 59,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 78
     }
   },
   {
@@ -2757,7 +3032,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 319,
       "fiber_coverage": 49,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 78
     }
   },
   {
@@ -2767,7 +3043,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 284,
       "fiber_coverage": 48,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 0
     }
   },
   {
@@ -2777,7 +3054,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 322,
       "fiber_coverage": 65,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 81
     }
   },
   {
@@ -2787,7 +3065,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 317,
       "fiber_coverage": 49,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 80
     }
   },
   {
@@ -2797,7 +3076,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 332,
       "fiber_coverage": 58,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 77
     }
   },
   {
@@ -2807,7 +3087,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 271,
       "fiber_coverage": 56,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 0
     }
   },
   {
@@ -2817,7 +3098,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 317,
       "fiber_coverage": 45,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 79
     }
   },
   {
@@ -2827,7 +3109,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 304,
       "fiber_coverage": 60,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 93
     }
   },
   {
@@ -2837,7 +3120,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 286,
       "fiber_coverage": 43,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 86
     }
   },
   {
@@ -2847,7 +3131,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 304,
       "fiber_coverage": 57,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -2857,7 +3142,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 307,
       "fiber_coverage": 43,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -2867,7 +3153,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 293,
       "fiber_coverage": 46,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 90
     }
   },
   {
@@ -2877,7 +3164,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 290,
       "fiber_coverage": 51,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 95
     }
   },
   {
@@ -2887,7 +3175,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 292,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -2897,7 +3186,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 299,
       "fiber_coverage": 52,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -2907,7 +3197,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 269,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 78
     }
   },
   {
@@ -2917,7 +3208,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 136,
       "growing_season": 288,
       "fiber_coverage": 45,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -2927,7 +3219,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 293,
       "fiber_coverage": 59,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 97
     }
   },
   {
@@ -2937,7 +3230,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 284,
       "fiber_coverage": 44,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -2947,7 +3241,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 291,
       "fiber_coverage": 87,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 90
     }
   },
   {
@@ -2957,7 +3252,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 306,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -2967,7 +3263,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 285,
       "fiber_coverage": 55,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -2977,7 +3274,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 273,
       "fiber_coverage": 51,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 80
     }
   },
   {
@@ -2987,7 +3285,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 139,
       "growing_season": 286,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -2997,7 +3296,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 287,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -3007,7 +3307,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 286,
       "fiber_coverage": 46,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -3017,7 +3318,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 294,
       "fiber_coverage": 54,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -3027,7 +3329,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 293,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 90
     }
   },
   {
@@ -3037,7 +3340,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 288,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -3047,7 +3351,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 284,
       "fiber_coverage": 48,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 95
     }
   },
   {
@@ -3057,7 +3362,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 297,
       "fiber_coverage": 44,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 97
     }
   },
   {
@@ -3067,7 +3373,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 296,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -3077,7 +3384,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 278,
       "fiber_coverage": 46,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -3087,7 +3395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 294,
       "fiber_coverage": 43,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 89
     }
   },
   {
@@ -3097,7 +3406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 266,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 78
     }
   },
   {
@@ -3107,7 +3417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 291,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 92
     }
   },
   {
@@ -3117,7 +3428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 275,
       "fiber_coverage": 51,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 85
     }
   },
   {
@@ -3127,7 +3439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 284,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 80
     }
   },
   {
@@ -3137,7 +3450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 292,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -3147,7 +3461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 315,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -3157,7 +3472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 303,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -3167,7 +3483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 316,
       "fiber_coverage": 38,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -3177,7 +3494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 298,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -3187,7 +3505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 321,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 62
     }
   },
   {
@@ -3197,7 +3516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 315,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 67
     }
   },
   {
@@ -3207,7 +3527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 307,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -3217,7 +3538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 315,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 64
     }
   },
   {
@@ -3227,7 +3549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 307,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 60
     }
   },
   {
@@ -3237,7 +3560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 311,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -3247,7 +3571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 304,
       "fiber_coverage": 45,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 66
     }
   },
   {
@@ -3257,7 +3582,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 297,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -3267,7 +3593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 303,
       "fiber_coverage": 45,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -3277,7 +3604,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 309,
       "fiber_coverage": 50,
-      "crime_rate": 760
+      "crime_rate": 760,
+      "four_seasons": 61
     }
   },
   {
@@ -3287,7 +3615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 311,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -3297,7 +3626,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 251,
       "fiber_coverage": 27,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 62
     }
   },
   {
@@ -3307,7 +3637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 245,
       "fiber_coverage": 29,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 86
     }
   },
   {
@@ -3317,7 +3648,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 255,
       "fiber_coverage": 26,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 67
     }
   },
   {
@@ -3327,7 +3659,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 297,
       "fiber_coverage": 33,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -3337,7 +3670,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 297,
       "fiber_coverage": 38,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -3347,7 +3681,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 303,
       "fiber_coverage": 41,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -3357,7 +3692,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 309,
       "fiber_coverage": 42,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -3367,7 +3703,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 314,
       "fiber_coverage": 32,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 87
     }
   },
   {
@@ -3377,7 +3714,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 309,
       "fiber_coverage": 33,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -3387,7 +3725,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 303,
       "fiber_coverage": 31,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -3397,7 +3736,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 299,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -3407,7 +3747,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 296,
       "fiber_coverage": 46,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -3417,7 +3758,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 285,
       "growing_season": 316,
       "fiber_coverage": 64,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 50
     }
   },
   {
@@ -3427,7 +3769,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 286,
       "growing_season": 276,
       "fiber_coverage": 64,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 53
     }
   },
   {
@@ -3437,7 +3780,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 289,
       "growing_season": 279,
       "fiber_coverage": 56,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 57
     }
   },
   {
@@ -3447,7 +3791,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 318,
       "fiber_coverage": 62,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 83
     }
   },
   {
@@ -3457,7 +3802,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 322,
       "fiber_coverage": 57,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 83
     }
   },
   {
@@ -3467,7 +3813,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 315,
       "fiber_coverage": 62,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 88
     }
   },
   {
@@ -3477,7 +3824,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 287,
       "growing_season": 329,
       "fiber_coverage": 43,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 37
     }
   },
   {
@@ -3487,7 +3835,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 273,
       "growing_season": 318,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 37
     }
   },
   {
@@ -3497,7 +3846,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 250,
       "fiber_coverage": 31,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 57
     }
   },
   {
@@ -3507,7 +3857,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 239,
       "fiber_coverage": 31,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 64
     }
   },
   {
@@ -3517,7 +3868,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 255,
       "fiber_coverage": 34,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 82
     }
   },
   {
@@ -3527,7 +3879,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 258,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 67
     }
   },
   {
@@ -3537,7 +3890,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 235,
       "fiber_coverage": 27,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 60
     }
   },
   {
@@ -3547,7 +3901,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 247,
       "fiber_coverage": 26,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 85
     }
   },
   {
@@ -3557,7 +3912,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 302,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -3567,7 +3923,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 305,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -3577,7 +3934,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 295,
       "fiber_coverage": 41,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -3587,7 +3945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 311,
       "fiber_coverage": 44,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -3597,7 +3956,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 301,
       "fiber_coverage": 47,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -3607,7 +3967,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 302,
       "fiber_coverage": 50,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -3617,7 +3978,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 92
     }
   },
   {
@@ -3627,7 +3989,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 299,
       "fiber_coverage": 34,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -3637,7 +4000,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 311,
       "fiber_coverage": 41,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -3647,7 +4011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 311,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -3657,7 +4022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 297,
       "fiber_coverage": 32,
-      "crime_rate": 234
+      "crime_rate": 234,
+      "four_seasons": 84
     }
   },
   {
@@ -3667,7 +4033,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 298,
       "fiber_coverage": 41,
-      "crime_rate": 234
+      "crime_rate": 234,
+      "four_seasons": 88
     }
   },
   {
@@ -3677,7 +4044,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 290,
       "fiber_coverage": 42,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -3687,7 +4055,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 361,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 25
     }
   },
   {
@@ -3697,7 +4066,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 358,
       "fiber_coverage": 39,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -3707,7 +4077,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 360,
       "fiber_coverage": 43,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 29
     }
   },
   {
@@ -3717,7 +4088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 361,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 25
     }
   },
   {
@@ -3727,7 +4099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 358,
       "fiber_coverage": 44,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 27
     }
   },
   {
@@ -3737,7 +4110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 355,
       "fiber_coverage": 41,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -3747,7 +4121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 364,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 32
     }
   },
   {
@@ -3757,7 +4132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 364,
       "fiber_coverage": 44,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 2
     }
   },
   {
@@ -3767,7 +4143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 353,
       "fiber_coverage": 29,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -3777,7 +4154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 365,
       "fiber_coverage": 43,
-      "crime_rate": 407
+      "crime_rate": 407,
+      "four_seasons": 27
     }
   },
   {
@@ -3787,7 +4165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 312,
       "fiber_coverage": 47,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -3797,7 +4176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 314,
       "fiber_coverage": 37,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -3807,7 +4187,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 310,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 78
     }
   },
   {
@@ -3817,7 +4198,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 303,
       "fiber_coverage": 36,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 67
     }
   },
   {
@@ -3827,7 +4209,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 309,
       "fiber_coverage": 52,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -3837,7 +4220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 305,
       "fiber_coverage": 36,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 65
     }
   },
   {
@@ -3847,7 +4231,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 318,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -3857,7 +4242,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 302,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -3867,7 +4253,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 306,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -3877,7 +4264,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 340,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -3887,7 +4275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 327,
       "fiber_coverage": 64,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 68
     }
   },
   {
@@ -3897,7 +4286,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 335,
       "fiber_coverage": 57,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 32
     }
   },
   {
@@ -3907,7 +4297,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 329,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -3917,7 +4308,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 314,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -3927,7 +4319,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 288,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 0
     }
   },
   {
@@ -3937,7 +4330,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 317,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -3947,7 +4341,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 330,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -3957,7 +4352,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 341,
       "fiber_coverage": 75,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -3967,7 +4363,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 331,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -3977,7 +4374,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 341,
       "fiber_coverage": 59,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -3987,7 +4385,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 330,
       "fiber_coverage": 73,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -3997,7 +4396,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 330,
       "fiber_coverage": 100,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -4007,7 +4407,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 347,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 32
     }
   },
   {
@@ -4017,7 +4418,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 332,
       "fiber_coverage": 62,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -4027,7 +4429,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 345,
       "fiber_coverage": 64,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 33
     }
   },
   {
@@ -4037,7 +4440,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 320,
       "fiber_coverage": 71,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -4047,7 +4451,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 293,
       "fiber_coverage": 51,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -4057,7 +4462,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 308,
       "fiber_coverage": 51,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -4067,7 +4473,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 297,
       "fiber_coverage": 40,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -4077,7 +4484,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 302,
       "fiber_coverage": 43,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -4087,7 +4495,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 315,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 87
     }
   },
   {
@@ -4097,7 +4506,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 308,
       "fiber_coverage": 43,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -4107,7 +4517,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 309,
       "fiber_coverage": 79,
-      "crime_rate": 431
+      "crime_rate": 431,
+      "four_seasons": 69
     }
   },
   {
@@ -4117,7 +4528,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 312,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -4127,7 +4539,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 312,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 78
     }
   },
   {
@@ -4137,7 +4550,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 302,
       "fiber_coverage": 55,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -4147,7 +4561,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 294,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -4157,7 +4572,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 301,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -4167,7 +4583,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 304,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -4177,7 +4594,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 306,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -4187,7 +4605,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 329,
       "fiber_coverage": 44,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -4197,7 +4616,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 327,
       "fiber_coverage": 44,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 31
     }
   },
   {
@@ -4207,7 +4627,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 331,
       "fiber_coverage": 50,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -4217,7 +4638,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 325,
       "fiber_coverage": 40,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -4227,7 +4649,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 323,
       "fiber_coverage": 42,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -4237,7 +4660,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 343,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -4247,7 +4671,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 348,
       "fiber_coverage": 71,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -4257,7 +4682,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 327,
       "fiber_coverage": 72,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -4267,7 +4693,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 283,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -4277,7 +4704,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 278,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -4287,7 +4715,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 274,
       "fiber_coverage": 36,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -4297,7 +4726,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 283,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -4307,7 +4737,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 276,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -4317,7 +4748,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 268,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 69
     }
   },
   {
@@ -4327,7 +4759,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 277,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -4337,7 +4770,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 264,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -4347,7 +4781,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 272,
       "fiber_coverage": 25,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -4357,7 +4792,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 265,
       "fiber_coverage": 27,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -4367,7 +4803,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 305,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -4377,7 +4814,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 305,
       "fiber_coverage": 45,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 77
     }
   },
   {
@@ -4387,7 +4825,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 299,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 79
     }
   },
   {
@@ -4397,7 +4836,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 298,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -4407,7 +4847,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 298,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -4417,7 +4858,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 287,
       "growing_season": 328,
       "fiber_coverage": 34,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 26
     }
   },
   {
@@ -4427,7 +4869,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 284,
       "growing_season": 322,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 31
     }
   },
   {
@@ -4437,7 +4880,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 275,
       "growing_season": 327,
       "fiber_coverage": 44,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 40
     }
   },
   {
@@ -4447,7 +4891,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 285,
       "growing_season": 321,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 44
     }
   },
   {
@@ -4457,7 +4902,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 284,
       "growing_season": 334,
       "fiber_coverage": 49,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 33
     }
   },
   {
@@ -4467,7 +4913,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 305,
       "fiber_coverage": 50,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -4477,7 +4924,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 316,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -4487,7 +4935,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 302,
       "fiber_coverage": 57,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -4497,7 +4946,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 304,
       "fiber_coverage": 65,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -4507,7 +4957,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 314,
       "fiber_coverage": 59,
-      "crime_rate": 254
+      "crime_rate": 254,
+      "four_seasons": 92
     }
   },
   {
@@ -4517,7 +4968,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 300,
       "fiber_coverage": 50,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -4527,7 +4979,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 316,
       "fiber_coverage": 46,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -4537,7 +4990,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 319,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -4547,7 +5001,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 301,
       "fiber_coverage": 58,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -4557,7 +5012,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 318,
       "fiber_coverage": 53,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -4567,7 +5023,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 310,
       "fiber_coverage": 57,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -4577,7 +5034,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 320,
       "fiber_coverage": 48,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -4587,7 +5045,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 318,
       "fiber_coverage": 48,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -4597,7 +5056,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 319,
       "fiber_coverage": 57,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -4607,7 +5067,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 321,
       "fiber_coverage": 52,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -4617,7 +5078,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 306,
       "fiber_coverage": 47,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -4627,7 +5089,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 322,
       "fiber_coverage": 86,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -4637,7 +5100,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 307,
       "fiber_coverage": 60,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -4647,7 +5111,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 309,
       "fiber_coverage": 44,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 95
     }
   },
   {
@@ -4657,7 +5122,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 326,
       "fiber_coverage": 54,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -4667,7 +5133,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 310,
       "fiber_coverage": 50,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -4677,7 +5144,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 320,
       "fiber_coverage": 55,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -4687,7 +5155,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 310,
       "fiber_coverage": 43,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -4697,7 +5166,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 348,
       "fiber_coverage": 37,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 26
     }
   },
   {
@@ -4707,7 +5177,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 349,
       "fiber_coverage": 44,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 27
     }
   },
   {
@@ -4717,7 +5188,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 350,
       "fiber_coverage": 42,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -4727,7 +5199,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 346,
       "fiber_coverage": 54,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 32
     }
   },
   {
@@ -4737,7 +5210,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 317,
       "fiber_coverage": 61,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -4747,7 +5221,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 323,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -4757,7 +5232,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 316,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -4767,7 +5243,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 317,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -4777,7 +5254,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 331,
       "fiber_coverage": 72,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -4787,7 +5265,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 316,
       "fiber_coverage": 69,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -4797,7 +5276,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 327,
       "fiber_coverage": 63,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -4807,7 +5287,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 317,
       "fiber_coverage": 55,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -4817,7 +5298,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 318,
       "fiber_coverage": 65,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -4827,7 +5309,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 327,
       "fiber_coverage": 60,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 65
     }
   },
   {
@@ -4837,7 +5320,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 319,
       "fiber_coverage": 72,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -4847,7 +5331,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 323,
       "fiber_coverage": 71,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -4857,7 +5342,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 327,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -4867,7 +5353,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 329,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -4877,7 +5364,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 319,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -4887,7 +5375,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 326,
       "fiber_coverage": 64,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 67
     }
   },
   {
@@ -4897,7 +5386,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 315,
       "fiber_coverage": 72,
-      "crime_rate": 942
+      "crime_rate": 942,
+      "four_seasons": 67
     }
   },
   {
@@ -4907,7 +5397,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 359,
       "fiber_coverage": 55,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 25
     }
   },
   {
@@ -4917,7 +5408,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 357,
       "fiber_coverage": 52,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 23
     }
   },
   {
@@ -4927,7 +5419,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 354,
       "fiber_coverage": 47,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 28
     }
   },
   {
@@ -4937,7 +5430,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 361,
       "fiber_coverage": 42,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -4947,7 +5441,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 291,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -4957,7 +5452,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 300,
       "fiber_coverage": 38,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 79
     }
   },
   {
@@ -4967,7 +5463,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 285,
       "fiber_coverage": 35,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -4977,7 +5474,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 293,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -4987,7 +5485,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 289,
       "fiber_coverage": 37,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -4997,7 +5496,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 282,
       "fiber_coverage": 35,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 77
     }
   },
   {
@@ -5007,7 +5507,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 279,
       "fiber_coverage": 39,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 73
     }
   },
   {
@@ -5017,7 +5518,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 285,
       "fiber_coverage": 30,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -5027,7 +5529,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 281,
       "fiber_coverage": 39,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -5037,7 +5540,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 297,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -5047,7 +5551,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 284,
       "fiber_coverage": 32,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 85
     }
   },
   {
@@ -5057,7 +5562,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 288,
       "fiber_coverage": 28,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -5067,7 +5573,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 284,
       "fiber_coverage": 37,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -5077,7 +5584,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 283,
       "fiber_coverage": 39,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -5087,7 +5595,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 308,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -5097,7 +5606,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 315,
       "fiber_coverage": 43,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 44
     }
   },
   {
@@ -5107,7 +5617,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 330,
       "fiber_coverage": 43,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -5117,7 +5628,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 320,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 47
     }
   },
   {
@@ -5127,7 +5639,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 317,
       "fiber_coverage": 44,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 44
     }
   },
   {
@@ -5137,7 +5650,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 328,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 49
     }
   },
   {
@@ -5147,7 +5661,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 330,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 46
     }
   },
   {
@@ -5157,7 +5672,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 335,
       "fiber_coverage": 50,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 33
     }
   },
   {
@@ -5167,7 +5683,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 334,
       "fiber_coverage": 49,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -5177,7 +5694,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 316,
       "fiber_coverage": 34,
-      "crime_rate": 641
+      "crime_rate": 641,
+      "four_seasons": 51
     }
   },
   {
@@ -5187,7 +5705,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 318,
       "fiber_coverage": 37,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 50
     }
   },
   {
@@ -5197,7 +5716,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 286,
       "fiber_coverage": 68,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 60
     }
   },
   {
@@ -5207,7 +5727,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 284,
       "fiber_coverage": 51,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -5217,7 +5738,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 298,
       "fiber_coverage": 96,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 65
     }
   },
   {
@@ -5227,7 +5749,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 305,
       "fiber_coverage": 57,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 57
     }
   },
   {
@@ -5237,7 +5760,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 281,
       "fiber_coverage": 51,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 57
     }
   },
   {
@@ -5247,7 +5771,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 314,
       "fiber_coverage": 49,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 95
     }
   },
   {
@@ -5257,7 +5782,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 50
     }
   },
   {
@@ -5267,7 +5793,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 355,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 23
     }
   },
   {
@@ -5277,7 +5804,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -5287,7 +5815,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 26
     }
   },
   {
@@ -5297,7 +5826,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 33
     }
   },
   {
@@ -5307,7 +5837,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 352,
       "fiber_coverage": 53,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 47
     }
   },
   {
@@ -5317,7 +5848,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 26
     }
   },
   {
@@ -5327,7 +5859,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5337,7 +5870,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -5347,7 +5881,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -5357,7 +5892,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -5367,7 +5903,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 14
     }
   },
   {
@@ -5377,7 +5914,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 12
     }
   },
   {
@@ -5387,7 +5925,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 10
     }
   },
   {
@@ -5397,7 +5936,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5407,7 +5947,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5417,7 +5958,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 342
+      "crime_rate": 342,
+      "four_seasons": 0
     }
   },
   {
@@ -5427,7 +5969,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -5437,7 +5980,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5447,7 +5991,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 300,
       "fiber_coverage": 77,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 73
     }
   },
   {
@@ -5457,7 +6002,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 315,
       "fiber_coverage": 71,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -5467,7 +6013,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 323,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -5477,7 +6024,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -5487,7 +6035,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 33
     }
   },
   {
@@ -5497,7 +6046,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5507,7 +6057,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5517,7 +6068,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5527,7 +6079,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5537,7 +6090,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 26
     }
   },
   {
@@ -5547,7 +6101,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 361,
       "fiber_coverage": 68,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 20
     }
   },
   {
@@ -5557,7 +6112,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 361,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 16
     }
   },
   {
@@ -5567,7 +6123,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5577,7 +6134,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5587,7 +6145,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5597,7 +6156,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 13
     }
   },
   {
@@ -5607,7 +6167,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5617,7 +6178,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5627,7 +6189,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5637,7 +6200,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5647,7 +6211,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -5657,7 +6222,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -5667,7 +6233,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5677,7 +6244,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 359,
       "fiber_coverage": 60,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 46
     }
   },
   {
@@ -5687,7 +6255,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5697,7 +6266,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 361,
       "fiber_coverage": 65,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 32
     }
   },
   {
@@ -5707,7 +6277,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 358,
       "fiber_coverage": 62,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 49
     }
   },
   {
@@ -5717,7 +6288,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 2
     }
   },
   {
@@ -5727,7 +6299,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 342
+      "crime_rate": 342,
+      "four_seasons": 23
     }
   },
   {
@@ -5737,7 +6310,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 47
     }
   },
   {
@@ -5747,7 +6321,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5757,7 +6332,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 342
+      "crime_rate": 342,
+      "four_seasons": 23
     }
   },
   {
@@ -5767,7 +6343,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -5777,7 +6354,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5787,7 +6365,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -5797,7 +6376,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5807,7 +6387,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5817,7 +6398,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -5827,7 +6409,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5837,7 +6420,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5847,7 +6431,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -5857,7 +6442,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 342
+      "crime_rate": 342,
+      "four_seasons": 0
     }
   },
   {
@@ -5867,7 +6453,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 22
     }
   },
   {
@@ -5877,7 +6464,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -5887,7 +6475,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 318,
       "fiber_coverage": 70,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 70
     }
   },
   {
@@ -5897,7 +6486,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 329,
       "fiber_coverage": 69,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -5907,7 +6497,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 317,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -5917,7 +6508,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 324,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -5927,7 +6519,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 323,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -5937,7 +6530,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 323,
       "fiber_coverage": 66,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -5947,7 +6541,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 310,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -5957,7 +6552,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 315,
       "fiber_coverage": 76,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 80
     }
   },
   {
@@ -5967,7 +6563,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 325,
       "fiber_coverage": 61,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -5976,7 +6573,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 333,
       "fiber_coverage": 69,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -5985,7 +6583,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 325,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -5994,7 +6593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 334,
       "fiber_coverage": 100,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 76
     }
   },
   {
@@ -6003,7 +6603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 333,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -6012,7 +6613,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 335,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -6021,7 +6623,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 327,
       "fiber_coverage": 64,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -6030,7 +6633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 326,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -6039,7 +6643,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 314,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -6048,7 +6653,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 330,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 76
     }
   },
   {
@@ -6058,7 +6664,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 270,
       "fiber_coverage": 84,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 56
     }
   },
   {
@@ -6068,7 +6675,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 272,
       "fiber_coverage": 69,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 55
     }
   },
   {
@@ -6078,7 +6686,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 286,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 0
     }
   },
   {
@@ -6088,7 +6697,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 281,
       "fiber_coverage": 48,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 89
     }
   },
   {
@@ -6098,7 +6708,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 283,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -6108,7 +6719,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 302,
       "fiber_coverage": 51,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -6118,7 +6730,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 297,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -6128,7 +6741,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 274,
       "fiber_coverage": 46,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 87
     }
   },
   {
@@ -6138,7 +6752,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 280,
       "fiber_coverage": 49,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 89
     }
   },
   {
@@ -6148,7 +6763,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 281,
       "fiber_coverage": 49,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -6158,7 +6774,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 273,
       "fiber_coverage": 55,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 87
     }
   },
   {
@@ -6168,7 +6785,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 284,
       "fiber_coverage": 48,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 95
     }
   },
   {
@@ -6178,7 +6796,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 283,
       "fiber_coverage": 44,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 89
     }
   },
   {
@@ -6188,7 +6807,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 290,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 85
     }
   },
   {
@@ -6198,7 +6818,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 284,
       "fiber_coverage": 36,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 91
     }
   },
   {
@@ -6208,7 +6829,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 261,
       "fiber_coverage": 34,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -6218,7 +6840,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 259,
       "fiber_coverage": 39,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -6228,7 +6851,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 250,
       "fiber_coverage": 29,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 94
     }
   },
   {
@@ -6238,7 +6862,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 268,
       "fiber_coverage": 43,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 98
     }
   },
   {
@@ -6247,7 +6872,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 356,
       "fiber_coverage": 39,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6257,7 +6883,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 287,
       "fiber_coverage": 76,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 50
     }
   },
   {
@@ -6267,7 +6894,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 131,
       "growing_season": 283,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -6277,7 +6905,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 276,
       "fiber_coverage": 67,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -6287,7 +6916,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 300,
       "fiber_coverage": 26,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 78
     }
   },
   {
@@ -6297,7 +6927,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 320,
       "fiber_coverage": 21,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 76
     }
   },
   {
@@ -6307,7 +6938,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 306,
       "fiber_coverage": 33,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -6317,7 +6949,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 313,
       "fiber_coverage": 28,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -6327,7 +6960,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 307,
       "fiber_coverage": 27,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 75
     }
   },
   {
@@ -6337,7 +6971,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 313,
       "fiber_coverage": 25,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -6347,7 +6982,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 309,
       "fiber_coverage": 31,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 80
     }
   },
   {
@@ -6357,7 +6993,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 307,
       "fiber_coverage": 27,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 76
     }
   },
   {
@@ -6367,7 +7004,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 320,
       "fiber_coverage": 32,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 72
     }
   },
   {
@@ -6377,7 +7015,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 318,
       "fiber_coverage": 21,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 76
     }
   },
   {
@@ -6387,7 +7026,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 282,
       "fiber_coverage": 44,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 0
     }
   },
   {
@@ -6397,7 +7037,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 284,
       "fiber_coverage": 43,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 87
     }
   },
   {
@@ -6407,7 +7048,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 282,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 81
     }
   },
   {
@@ -6417,7 +7059,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 287,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 88
     }
   },
   {
@@ -6427,7 +7070,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 303,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 96
     }
   },
   {
@@ -6437,7 +7081,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 302,
       "fiber_coverage": 83,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 73
     }
   },
   {
@@ -6447,7 +7092,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 312,
       "fiber_coverage": 80,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 50
     }
   },
   {
@@ -6457,7 +7103,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 300,
       "fiber_coverage": 100,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 72
     }
   },
   {
@@ -6467,7 +7114,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 308,
       "fiber_coverage": 84,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 70
     }
   },
   {
@@ -6477,7 +7125,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 296,
       "fiber_coverage": 49,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 90
     }
   },
   {
@@ -6487,7 +7136,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 309,
       "fiber_coverage": 33,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 89
     }
   },
   {
@@ -6497,7 +7147,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 331,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -6507,7 +7158,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 320,
       "fiber_coverage": 70,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 76
     }
   },
   {
@@ -6517,7 +7169,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 334,
       "fiber_coverage": 66,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -6527,7 +7180,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 330,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 80
     }
   },
   {
@@ -6537,7 +7191,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 316,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -6547,7 +7202,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 316,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -6557,7 +7213,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 331,
       "fiber_coverage": 76,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -6567,7 +7224,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 326,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -6577,7 +7235,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 339,
       "fiber_coverage": 80,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -6587,7 +7246,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 322,
       "fiber_coverage": 80,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -6597,7 +7257,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 22
     }
   },
   {
@@ -6607,7 +7268,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 1
     }
   },
   {
@@ -6617,7 +7279,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -6627,7 +7290,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 30,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -6637,7 +7301,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 360,
       "fiber_coverage": 36,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 26
     }
   },
   {
@@ -6647,7 +7312,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 634
+      "crime_rate": 634,
+      "four_seasons": 23
     }
   },
   {
@@ -6657,7 +7323,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 355,
       "fiber_coverage": 38,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 30
     }
   },
   {
@@ -6667,7 +7334,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 32
     }
   },
   {
@@ -6677,7 +7345,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -6687,7 +7356,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 43,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -6697,7 +7367,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 358,
       "fiber_coverage": 80,
-      "crime_rate": 634
+      "crime_rate": 634,
+      "four_seasons": 33
     }
   },
   {
@@ -6707,7 +7378,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 24
     }
   },
   {
@@ -6717,7 +7389,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 23
     }
   },
   {
@@ -6727,7 +7400,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 24
     }
   },
   {
@@ -6737,7 +7411,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 354,
       "fiber_coverage": 42,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 33
     }
   },
   {
@@ -6746,7 +7421,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 124,
       "fiber_coverage": 35,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -6756,7 +7432,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 128,
       "growing_season": 151,
       "fiber_coverage": 19,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -6765,7 +7442,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 118,
       "growing_season": 165,
       "fiber_coverage": 20,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -6774,7 +7452,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 89,
       "fiber_coverage": 20,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -6783,7 +7462,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 113,
       "growing_season": 164,
       "fiber_coverage": 28,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -6792,7 +7472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 155,
       "fiber_coverage": 16,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -6801,7 +7482,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 126,
       "fiber_coverage": 24,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -6811,7 +7493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 314,
       "fiber_coverage": 42,
-      "crime_rate": 941
+      "crime_rate": 941,
+      "four_seasons": 48
     }
   },
   {
@@ -6821,7 +7504,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 316,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -6831,7 +7515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 273,
       "growing_season": 294,
       "fiber_coverage": 61,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -6841,7 +7526,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 268,
       "growing_season": 335,
       "fiber_coverage": 77,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 58
     }
   },
   {
@@ -6851,7 +7537,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 33,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 30
     }
   },
   {
@@ -6861,7 +7548,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 32
     }
   },
   {
@@ -6871,7 +7559,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 317,
       "fiber_coverage": 40,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -6881,7 +7570,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 317
+      "crime_rate": 317,
+      "four_seasons": 23
     }
   },
   {
@@ -6891,7 +7581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 27
     }
   },
   {
@@ -6901,7 +7592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 24
     }
   },
   {
@@ -6911,7 +7603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 37,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 27
     }
   },
   {
@@ -6921,7 +7614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 33,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 22
     }
   },
   {
@@ -6931,7 +7625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 106,
       "fiber_coverage": 34,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -6940,7 +7635,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 115,
       "fiber_coverage": 23,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -6949,7 +7645,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 352,
       "fiber_coverage": 37,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6958,7 +7655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 349,
       "fiber_coverage": 53,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6967,7 +7665,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 353,
       "fiber_coverage": 55,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6976,7 +7675,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 361,
       "fiber_coverage": 48,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6985,7 +7685,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 352,
       "fiber_coverage": 47,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -6994,7 +7695,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 358,
       "fiber_coverage": 42,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7003,7 +7705,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 355,
       "fiber_coverage": 39,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7012,7 +7715,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 359,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7021,7 +7725,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 344,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7030,7 +7735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 358,
       "fiber_coverage": 41,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7039,7 +7745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 345,
       "fiber_coverage": 51,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7048,7 +7755,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 352,
       "fiber_coverage": 49,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7057,7 +7765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 349,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7066,7 +7775,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 359,
       "fiber_coverage": 35,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -7076,7 +7786,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 26
     }
   },
   {
@@ -7086,7 +7797,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 22
     }
   },
   {
@@ -7096,7 +7808,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 363,
       "fiber_coverage": 43,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -7106,7 +7819,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 262,
       "growing_season": 344,
       "fiber_coverage": 67,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 56
     }
   },
   {
@@ -7116,7 +7830,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 261,
       "growing_season": 311,
       "fiber_coverage": 66,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 64
     }
   },
   {
@@ -7126,7 +7841,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 304,
       "fiber_coverage": 74,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 52
     }
   },
   {
@@ -7136,7 +7852,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 328,
       "fiber_coverage": 72,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 56
     }
   },
   {
@@ -7146,7 +7863,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 282,
       "growing_season": 351,
       "fiber_coverage": 73,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 34
     }
   },
   {
@@ -7156,7 +7874,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 272,
       "growing_season": 352,
       "fiber_coverage": 66,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 34
     }
   },
   {
@@ -7166,7 +7885,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 268,
       "growing_season": 342,
       "fiber_coverage": 63,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 45
     }
   },
   {
@@ -7176,7 +7896,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 266,
       "growing_season": 347,
       "fiber_coverage": 94,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 31
     }
   },
   {
@@ -7186,7 +7907,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 300,
       "growing_season": 307,
       "fiber_coverage": 100,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -7196,7 +7918,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 257,
       "growing_season": 329,
       "fiber_coverage": 60,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -7206,7 +7929,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 255,
       "growing_season": 282,
       "fiber_coverage": 62,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -7216,7 +7940,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 279,
       "fiber_coverage": 62,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 92
     }
   },
   {
@@ -7226,7 +7951,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 293,
       "fiber_coverage": 63,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -7236,7 +7962,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 275,
       "fiber_coverage": 61,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 99
     }
   },
   {
@@ -7246,7 +7973,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 277,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 99
     }
   },
   {
@@ -7256,7 +7984,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 296,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -7266,7 +7995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 253,
       "growing_season": 287,
       "fiber_coverage": 77,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -7276,7 +8006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 277,
       "fiber_coverage": 76,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -7286,7 +8017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 283,
       "fiber_coverage": 73,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -7296,7 +8028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 286,
       "fiber_coverage": 69,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 98
     }
   },
   {
@@ -7306,7 +8039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 346,
       "fiber_coverage": 62,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 49
     }
   },
   {
@@ -7316,7 +8050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 297,
       "growing_season": 292,
       "fiber_coverage": 66,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -7326,7 +8061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 262,
       "growing_season": 334,
       "fiber_coverage": 73,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 47
     }
   },
   {
@@ -7336,7 +8072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 255,
       "growing_season": 323,
       "fiber_coverage": 77,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 52
     }
   },
   {
@@ -7346,7 +8083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 324,
       "fiber_coverage": 78,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 55
     }
   },
   {
@@ -7356,7 +8094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 266,
       "growing_season": 333,
       "fiber_coverage": 80,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 60
     }
   },
   {
@@ -7366,7 +8105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 272,
       "growing_season": 342,
       "fiber_coverage": 70,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 51
     }
   },
   {
@@ -7376,7 +8116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 337,
       "fiber_coverage": 65,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 52
     }
   },
   {
@@ -7386,7 +8127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 345,
       "fiber_coverage": 74,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 51
     }
   },
   {
@@ -7396,7 +8138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 337,
       "fiber_coverage": 77,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 64
     }
   },
   {
@@ -7405,7 +8148,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 151,
       "fiber_coverage": 15,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -7415,7 +8159,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -7425,7 +8170,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 317,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -7435,7 +8181,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 283,
       "growing_season": 345,
       "fiber_coverage": 76,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 31
     }
   },
   {
@@ -7445,7 +8192,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 264,
       "growing_season": 346,
       "fiber_coverage": 74,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 40
     }
   },
   {
@@ -7455,7 +8203,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 278,
       "growing_season": 347,
       "fiber_coverage": 70,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 44
     }
   },
   {
@@ -7465,7 +8214,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 278,
       "growing_season": 327,
       "fiber_coverage": 70,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 48
     }
   },
   {
@@ -7475,7 +8225,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 353,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 30
     }
   },
   {
@@ -7485,7 +8236,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7495,7 +8247,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 353,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -7505,7 +8258,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 356,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -7515,7 +8269,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -7525,7 +8280,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7535,7 +8291,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 360,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -7545,7 +8302,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 359,
       "fiber_coverage": 53,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7555,7 +8313,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7565,7 +8324,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 356,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -7575,7 +8335,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -7585,7 +8346,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 350,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -7595,7 +8357,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 356,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -7605,7 +8368,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 281,
       "fiber_coverage": 61,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 98
     }
   },
   {
@@ -7615,7 +8379,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 278,
       "fiber_coverage": 79,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -7625,7 +8390,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 265,
       "fiber_coverage": 68,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -7635,7 +8401,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 268
+      "crime_rate": 268,
+      "four_seasons": 0
     }
   },
   {
@@ -7645,7 +8412,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7655,7 +8423,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7665,7 +8434,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7675,7 +8445,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7685,7 +8456,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7695,7 +8467,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7705,7 +8478,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7715,7 +8489,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7725,7 +8500,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7735,7 +8511,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7745,7 +8522,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7755,7 +8533,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 364,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7765,7 +8544,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 360,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7775,7 +8555,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -7785,7 +8566,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 351,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -7795,7 +8577,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 356,
       "fiber_coverage": 50,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -7805,7 +8588,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7815,7 +8599,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -7825,7 +8610,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7835,7 +8621,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 364,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -7845,7 +8632,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -7855,7 +8643,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -7865,7 +8654,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 361,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -7875,7 +8665,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 313,
       "fiber_coverage": 53,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 88
     }
   },
   {
@@ -7885,7 +8676,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 328,
       "fiber_coverage": 58,
-      "crime_rate": 366
+      "crime_rate": 366,
+      "four_seasons": 78
     }
   },
   {
@@ -7894,7 +8686,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 317,
       "fiber_coverage": 49,
-      "crime_rate": 1024
+      "crime_rate": 1024,
+      "four_seasons": 80
     }
   },
   {
@@ -7904,7 +8697,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7914,7 +8708,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7924,7 +8719,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7934,7 +8730,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 95,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7944,7 +8741,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 257,
       "growing_season": 343,
       "fiber_coverage": 60,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7954,7 +8752,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7964,7 +8763,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -7973,7 +8773,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 116,
       "growing_season": 169,
       "fiber_coverage": 28,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -7983,7 +8784,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 316,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 97
     }
   },
   {
@@ -7993,7 +8795,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8003,7 +8806,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8013,7 +8817,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8023,7 +8828,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8033,7 +8839,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8043,7 +8850,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 253,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8053,7 +8861,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8063,7 +8872,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8073,7 +8883,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8083,7 +8894,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8093,7 +8905,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 85,
-      "crime_rate": 536
+      "crime_rate": 536,
+      "four_seasons": 0
     }
   },
   {
@@ -8103,7 +8916,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 96,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -8113,7 +8927,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 266,
       "fiber_coverage": 62,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8123,7 +8938,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 301,
       "fiber_coverage": 79,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8133,7 +8949,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 302,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8143,7 +8960,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 279,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8153,7 +8971,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 255,
       "growing_season": 285,
       "fiber_coverage": 78,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -8163,7 +8982,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 277,
       "fiber_coverage": 61,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8173,7 +8993,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 299,
       "fiber_coverage": 68,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8183,7 +9004,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 281,
       "fiber_coverage": 70,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -8193,7 +9015,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 276,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8203,7 +9026,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 280,
       "fiber_coverage": 77,
-      "crime_rate": 592
+      "crime_rate": 592,
+      "four_seasons": 100
     }
   },
   {
@@ -8213,7 +9037,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 272,
       "fiber_coverage": 67,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -8223,7 +9048,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 320,
       "fiber_coverage": 44,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 89
     }
   },
   {
@@ -8233,7 +9059,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 314,
       "fiber_coverage": 54,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 90
     }
   },
   {
@@ -8243,7 +9070,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 328,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 55
     }
   },
   {
@@ -8253,7 +9081,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 327,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 27
     }
   },
   {
@@ -8263,7 +9092,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 327,
       "fiber_coverage": 70,
-      "crime_rate": 941
+      "crime_rate": 941,
+      "four_seasons": 30
     }
   },
   {
@@ -8273,7 +9103,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 329,
       "fiber_coverage": 36,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 26
     }
   },
   {
@@ -8283,7 +9114,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 316,
       "fiber_coverage": 40,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 46
     }
   },
   {
@@ -8293,7 +9125,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 322,
       "fiber_coverage": 35,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -8303,7 +9136,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 329,
       "fiber_coverage": 43,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 51
     }
   },
   {
@@ -8313,7 +9147,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 333,
       "fiber_coverage": 45,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -8323,7 +9158,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 332,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -8333,7 +9169,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 318,
       "fiber_coverage": 73,
-      "crime_rate": 941
+      "crime_rate": 941,
+      "four_seasons": 51
     }
   },
   {
@@ -8343,7 +9180,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 335,
       "fiber_coverage": 38,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 27
     }
   },
   {
@@ -8353,7 +9191,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 321,
       "fiber_coverage": 49,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 14
     }
   },
   {
@@ -8363,7 +9202,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 330,
       "fiber_coverage": 36,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -8373,7 +9213,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 330,
       "fiber_coverage": 50,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -8383,7 +9224,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 275,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 0
     }
   },
   {
@@ -8393,7 +9235,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 293,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 0
     }
   },
   {
@@ -8403,7 +9246,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 296,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 75
     }
   },
   {
@@ -8413,7 +9257,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 282,
       "fiber_coverage": 52,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 69
     }
   },
   {
@@ -8423,7 +9268,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 276,
       "fiber_coverage": 43,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 60
     }
   },
   {
@@ -8433,7 +9279,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 279,
       "fiber_coverage": 40,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 56
     }
   },
   {
@@ -8443,7 +9290,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 294,
       "fiber_coverage": 55,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 76
     }
   },
   {
@@ -8453,7 +9301,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 313,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 54
     }
   },
   {
@@ -8463,7 +9312,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 330,
       "fiber_coverage": 49,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 27
     }
   },
   {
@@ -8473,7 +9323,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 324,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 52
     }
   },
   {
@@ -8483,7 +9334,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 334,
       "fiber_coverage": 34,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 29
     }
   },
   {
@@ -8493,7 +9345,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 325,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 28
     }
   },
   {
@@ -8503,7 +9356,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 326,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 17
     }
   },
   {
@@ -8513,7 +9367,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 315,
       "fiber_coverage": 45,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 51
     }
   },
   {
@@ -8523,7 +9378,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 313,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 55
     }
   },
   {
@@ -8533,7 +9389,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 334,
       "fiber_coverage": 48,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 15
     }
   },
   {
@@ -8543,7 +9400,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 320,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -8553,7 +9411,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -8563,7 +9422,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 361,
       "fiber_coverage": 83,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -8573,7 +9433,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 304,
       "growing_season": 362,
       "fiber_coverage": 52,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 39
     }
   },
   {
@@ -8583,7 +9444,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 299,
       "growing_season": 357,
       "fiber_coverage": 62,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 29
     }
   },
   {
@@ -8593,7 +9455,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 303,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 29
     }
   },
   {
@@ -8603,7 +9466,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 302,
       "growing_season": 351,
       "fiber_coverage": 52,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 34
     }
   },
   {
@@ -8613,7 +9477,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 310,
       "growing_season": 350,
       "fiber_coverage": 51,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 37
     }
   },
   {
@@ -8623,7 +9488,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 306,
       "growing_season": 360,
       "fiber_coverage": 50,
-      "crime_rate": 441
+      "crime_rate": 441,
+      "four_seasons": 28
     }
   },
   {
@@ -8633,7 +9499,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 302,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 441
+      "crime_rate": 441,
+      "four_seasons": 3
     }
   },
   {
@@ -8643,7 +9510,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 313,
       "growing_season": 363,
       "fiber_coverage": 49,
-      "crime_rate": 441
+      "crime_rate": 441,
+      "four_seasons": 30
     }
   },
   {
@@ -8653,7 +9521,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 335,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 26
     }
   },
   {
@@ -8663,7 +9532,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 338,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 28
     }
   },
   {
@@ -8673,7 +9543,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 288,
       "fiber_coverage": 43,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 80
     }
   },
   {
@@ -8683,7 +9554,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 296,
       "fiber_coverage": 53,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -8693,7 +9565,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 266,
       "fiber_coverage": 38,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 59
     }
   },
   {
@@ -8703,7 +9576,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 285,
       "fiber_coverage": 45,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 79
     }
   },
   {
@@ -8713,7 +9587,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 308,
       "fiber_coverage": 56,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 57
     }
   },
   {
@@ -8723,7 +9598,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 301,
       "fiber_coverage": 59,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -8733,7 +9609,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 294,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -8743,7 +9620,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 301,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -8753,7 +9631,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 305,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 66
     }
   },
   {
@@ -8763,7 +9642,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 308,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -8773,7 +9653,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 300,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -8783,7 +9664,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 307,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -8793,7 +9675,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 301,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -8803,7 +9686,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 63
     }
   },
   {
@@ -8813,7 +9697,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 315,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -8823,7 +9708,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 289,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -8833,7 +9719,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 304,
       "fiber_coverage": 41,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 87
     }
   },
   {
@@ -8843,7 +9730,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 311,
       "fiber_coverage": 51,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -8853,7 +9741,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 293,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -8863,7 +9752,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 293,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -8873,7 +9763,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 306,
       "fiber_coverage": 36,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -8883,7 +9774,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 297,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -8893,7 +9785,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 310,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -8903,7 +9796,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 315,
       "fiber_coverage": 38,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -8913,7 +9807,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 305,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 90
     }
   },
   {
@@ -8923,7 +9818,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 314,
       "fiber_coverage": 39,
-      "crime_rate": 535
+      "crime_rate": 535,
+      "four_seasons": 63
     }
   },
   {
@@ -8933,7 +9829,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 304,
       "fiber_coverage": 53,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 90
     }
   },
   {
@@ -8943,7 +9840,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 290,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -8953,7 +9851,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 305,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 62
     }
   },
   {
@@ -8963,7 +9862,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 306,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -8973,7 +9873,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 296,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -8983,7 +9884,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 312,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -8993,7 +9895,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 308,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -9003,7 +9906,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 301,
       "fiber_coverage": 54,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -9013,7 +9917,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 310,
       "fiber_coverage": 53,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 87
     }
   },
   {
@@ -9023,7 +9928,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 307,
       "fiber_coverage": 36,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 69
     }
   },
   {
@@ -9033,7 +9939,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 299,
       "fiber_coverage": 53,
-      "crime_rate": 267
+      "crime_rate": 267,
+      "four_seasons": 88
     }
   },
   {
@@ -9043,7 +9950,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 314,
       "fiber_coverage": 81,
-      "crime_rate": 535
+      "crime_rate": 535,
+      "four_seasons": 65
     }
   },
   {
@@ -9053,7 +9961,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 301,
       "fiber_coverage": 45,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -9063,7 +9972,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 288,
       "fiber_coverage": 38,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -9073,7 +9983,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 298,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -9083,7 +9994,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 310,
       "fiber_coverage": 47,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -9093,7 +10005,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 320,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -9103,7 +10016,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 303,
       "fiber_coverage": 67,
-      "crime_rate": 535
+      "crime_rate": 535,
+      "four_seasons": 89
     }
   },
   {
@@ -9113,7 +10027,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 304,
       "fiber_coverage": 35,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -9123,7 +10038,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 293,
       "fiber_coverage": 48,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 74
     }
   },
   {
@@ -9133,7 +10049,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 285,
       "fiber_coverage": 43,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 75
     }
   },
   {
@@ -9143,7 +10060,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 295,
       "fiber_coverage": 49,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -9153,7 +10071,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 292,
       "fiber_coverage": 41,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 71
     }
   },
   {
@@ -9163,7 +10082,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 299,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 80
     }
   },
   {
@@ -9173,7 +10093,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 293,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 72
     }
   },
   {
@@ -9183,7 +10104,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 293,
       "fiber_coverage": 45,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 77
     }
   },
   {
@@ -9193,7 +10115,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 287,
       "fiber_coverage": 53,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -9203,7 +10126,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 269,
       "fiber_coverage": 38,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 58
     }
   },
   {
@@ -9213,7 +10137,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 275,
       "fiber_coverage": 46,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 64
     }
   },
   {
@@ -9223,7 +10148,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 281,
       "fiber_coverage": 37,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 74
     }
   },
   {
@@ -9233,7 +10159,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 284,
       "fiber_coverage": 36,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 64
     }
   },
   {
@@ -9243,7 +10170,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 297,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -9253,7 +10181,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 300,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -9263,7 +10192,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 302,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -9273,7 +10203,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 309,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 63
     }
   },
   {
@@ -9283,7 +10214,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 309,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 62
     }
   },
   {
@@ -9293,7 +10225,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 299,
       "fiber_coverage": 45,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -9303,7 +10236,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 300,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -9313,7 +10247,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 312,
       "fiber_coverage": 55,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 87
     }
   },
   {
@@ -9323,7 +10258,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 364,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -9333,7 +10269,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -9343,7 +10280,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -9353,7 +10291,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -9363,7 +10302,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 353,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -9373,7 +10313,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -9383,7 +10324,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -9393,7 +10335,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -9403,7 +10346,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 301,
       "fiber_coverage": 40,
-      "crime_rate": 298
+      "crime_rate": 298,
+      "four_seasons": 74
     }
   },
   {
@@ -9413,7 +10357,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 306,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -9423,7 +10368,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 315,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -9433,7 +10379,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 302,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -9443,7 +10390,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 302,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -9453,7 +10401,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 302,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -9463,7 +10412,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 311,
       "fiber_coverage": 31,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -9473,7 +10423,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 324,
       "fiber_coverage": 42,
-      "crime_rate": 298
+      "crime_rate": 298,
+      "four_seasons": 67
     }
   },
   {
@@ -9483,7 +10434,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 315,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -9493,7 +10445,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 301,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -9503,7 +10456,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 312,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -9513,7 +10467,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 314,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -9523,7 +10478,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 318,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -9533,7 +10489,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 308,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -9543,7 +10500,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 302,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -9553,7 +10511,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 310,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -9563,7 +10522,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -9573,7 +10533,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 24
     }
   },
   {
@@ -9583,7 +10544,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -9593,7 +10555,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 1
     }
   },
   {
@@ -9603,7 +10566,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -9613,7 +10577,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -9623,7 +10588,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 23
     }
   },
   {
@@ -9633,7 +10599,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -9643,7 +10610,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 313,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -9653,7 +10621,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 321,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -9663,7 +10632,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 313,
       "fiber_coverage": 44,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -9673,7 +10643,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 312,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -9683,7 +10654,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 304,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 76
     }
   },
   {
@@ -9693,7 +10665,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 314,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -9703,7 +10676,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 320,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -9713,7 +10687,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 324,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -9723,7 +10698,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 306,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -9733,7 +10709,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 323,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -9743,7 +10720,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 324,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -9753,7 +10731,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 306,
       "fiber_coverage": 32,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 74
     }
   },
   {
@@ -9763,7 +10742,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 316,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -9773,7 +10753,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 297,
       "fiber_coverage": 48,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9783,7 +10764,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 295,
       "fiber_coverage": 45,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -9793,7 +10775,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -9803,7 +10786,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 296,
       "fiber_coverage": 45,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 88
     }
   },
   {
@@ -9813,7 +10797,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 301,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -9823,7 +10808,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 290,
       "fiber_coverage": 50,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9833,7 +10819,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 293,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -9843,7 +10830,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 286,
       "fiber_coverage": 38,
-      "crime_rate": 186
+      "crime_rate": 186,
+      "four_seasons": 85
     }
   },
   {
@@ -9853,7 +10841,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 296,
       "fiber_coverage": 42,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9863,7 +10852,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 302,
       "fiber_coverage": 42,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -9873,7 +10863,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 291,
       "fiber_coverage": 32,
-      "crime_rate": 186
+      "crime_rate": 186,
+      "four_seasons": 92
     }
   },
   {
@@ -9883,7 +10874,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 308,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -9893,7 +10885,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 300,
       "fiber_coverage": 45,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9903,7 +10896,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 296,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -9913,7 +10907,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 307,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -9923,7 +10918,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 295,
       "fiber_coverage": 43,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -9933,7 +10929,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 295,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -9943,7 +10940,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 310,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9953,7 +10951,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 314,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 77
     }
   },
   {
@@ -9963,7 +10962,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 300,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -9973,7 +10973,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 297,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -9983,7 +10984,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 302,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -9993,7 +10995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 309,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -10003,7 +11006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 292,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -10013,7 +11017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 299,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -10023,7 +11028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 293,
       "fiber_coverage": 41,
-      "crime_rate": 372
+      "crime_rate": 372,
+      "four_seasons": 92
     }
   },
   {
@@ -10033,7 +11039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 297,
       "fiber_coverage": 48,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -10043,7 +11050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 305,
       "fiber_coverage": 45,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -10053,7 +11061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 318,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -10063,7 +11072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 308,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -10073,7 +11083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 309,
       "fiber_coverage": 31,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -10083,7 +11094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 325,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -10093,7 +11105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 361,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -10103,7 +11116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 295,
       "fiber_coverage": 57,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -10113,7 +11127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 266,
       "fiber_coverage": 59,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 75
     }
   },
   {
@@ -10123,7 +11138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 291,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -10133,7 +11149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 282,
       "fiber_coverage": 54,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 85
     }
   },
   {
@@ -10143,7 +11160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 271,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 84
     }
   },
   {
@@ -10153,7 +11171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 285,
       "fiber_coverage": 44,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -10163,7 +11182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 294,
       "fiber_coverage": 41,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -10173,7 +11193,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 287,
       "fiber_coverage": 46,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -10183,7 +11204,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 277,
       "fiber_coverage": 59,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 83
     }
   },
   {
@@ -10193,7 +11215,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 289,
       "fiber_coverage": 57,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 84
     }
   },
   {
@@ -10203,7 +11226,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 298,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -10213,7 +11237,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 270,
       "fiber_coverage": 49,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 77
     }
   },
   {
@@ -10223,7 +11248,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 280,
       "fiber_coverage": 57,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 90
     }
   },
   {
@@ -10233,7 +11259,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 282,
       "fiber_coverage": 45,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -10243,7 +11270,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 285,
       "fiber_coverage": 40,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -10253,7 +11281,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 281,
       "fiber_coverage": 59,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 87
     }
   },
   {
@@ -10263,7 +11292,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 276,
       "fiber_coverage": 45,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -10273,7 +11303,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 279,
       "fiber_coverage": 40,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -10283,7 +11314,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 297,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -10293,7 +11325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 277,
       "fiber_coverage": 55,
-      "crime_rate": 388
+      "crime_rate": 388,
+      "four_seasons": 89
     }
   },
   {
@@ -10303,7 +11336,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 291,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -10313,7 +11347,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 43,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10323,7 +11358,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 356,
       "fiber_coverage": 30,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -10333,7 +11369,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 363,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 29
     }
   },
   {
@@ -10343,7 +11380,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -10353,7 +11391,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 34,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 2
     }
   },
   {
@@ -10363,7 +11402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10373,7 +11413,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10383,7 +11424,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 291,
       "fiber_coverage": 38,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -10393,7 +11435,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10403,7 +11446,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 359,
       "fiber_coverage": 42,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 27
     }
   },
   {
@@ -10413,7 +11457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 27
     }
   },
   {
@@ -10423,7 +11468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 308,
       "fiber_coverage": 64,
-      "crime_rate": 407
+      "crime_rate": 407,
+      "four_seasons": 0
     }
   },
   {
@@ -10433,7 +11479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 1
     }
   },
   {
@@ -10443,7 +11490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 37,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10453,7 +11501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 293,
       "fiber_coverage": 44,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 85
     }
   },
   {
@@ -10463,7 +11512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 356,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -10473,7 +11523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 361,
       "fiber_coverage": 60,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -10483,7 +11534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 278,
       "fiber_coverage": 46,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 55
     }
   },
   {
@@ -10493,7 +11545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 354,
       "fiber_coverage": 70,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 31
     }
   },
   {
@@ -10503,7 +11556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 354,
       "fiber_coverage": 41,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 26
     }
   },
   {
@@ -10513,7 +11567,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 363,
       "fiber_coverage": 42,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -10523,7 +11578,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 331,
       "fiber_coverage": 60,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -10533,7 +11589,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 319,
       "fiber_coverage": 62,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -10543,7 +11600,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 329,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -10553,7 +11611,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 316,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 68
     }
   },
   {
@@ -10563,7 +11622,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 316,
       "fiber_coverage": 68,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -10573,7 +11633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 327,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -10583,7 +11644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 327,
       "fiber_coverage": 75,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -10593,7 +11655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 334,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -10603,7 +11666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 326,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -10613,7 +11677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 315,
       "fiber_coverage": 66,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -10623,7 +11688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 333,
       "fiber_coverage": 61,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -10633,7 +11699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 268,
       "fiber_coverage": 78,
-      "crime_rate": 388
+      "crime_rate": 388,
+      "four_seasons": 79
     }
   },
   {
@@ -10643,7 +11710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 277,
       "fiber_coverage": 44,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 0
     }
   },
   {
@@ -10653,7 +11721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 307,
       "fiber_coverage": 43,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 83
     }
   },
   {
@@ -10663,7 +11732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 311,
       "fiber_coverage": 40,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 91
     }
   },
   {
@@ -10673,7 +11743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 309,
       "fiber_coverage": 79,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 93
     }
   },
   {
@@ -10683,7 +11754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -10693,7 +11765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 298,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -10703,7 +11776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 300,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -10713,7 +11787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 305,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -10723,7 +11798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 287,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -10733,7 +11809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 306,
       "fiber_coverage": 33,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -10743,7 +11820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 289,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 90
     }
   },
   {
@@ -10753,7 +11831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 299,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -10763,7 +11842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 291,
       "growing_season": 281,
       "fiber_coverage": 52,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 54
     }
   },
   {
@@ -10773,7 +11853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 293,
       "growing_season": 263,
       "fiber_coverage": 60,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 65
     }
   },
   {
@@ -10783,7 +11864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 285,
       "growing_season": 279,
       "fiber_coverage": 57,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 64
     }
   },
   {
@@ -10793,7 +11875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 282,
       "growing_season": 320,
       "fiber_coverage": 66,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 50
     }
   },
   {
@@ -10803,7 +11886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 285,
       "growing_season": 316,
       "fiber_coverage": 66,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 49
     }
   },
   {
@@ -10813,7 +11897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 294,
       "fiber_coverage": 38,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 88
     }
   },
   {
@@ -10823,7 +11908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 309,
       "fiber_coverage": 49,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 78
     }
   },
   {
@@ -10833,7 +11919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 309,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -10843,7 +11930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 307,
       "fiber_coverage": 43,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -10853,7 +11941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 305,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -10863,7 +11952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 295,
       "fiber_coverage": 49,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -10873,7 +11963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 312,
       "fiber_coverage": 54,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -10883,7 +11974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -10893,7 +11985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 303,
       "fiber_coverage": 51,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 68
     }
   },
   {
@@ -10903,7 +11996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 302,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -10913,7 +12007,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 304,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 79
     }
   },
   {
@@ -10923,7 +12018,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 310,
       "fiber_coverage": 52,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -10933,7 +12029,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 293,
       "fiber_coverage": 48,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -10943,7 +12040,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 307,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -10953,7 +12051,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 301,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -10963,7 +12062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 334,
       "fiber_coverage": 70,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -10973,7 +12073,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 312,
       "fiber_coverage": 72,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 68
     }
   },
   {
@@ -10983,7 +12084,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 329,
       "fiber_coverage": 63,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -10993,7 +12095,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 317,
       "fiber_coverage": 75,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -11003,7 +12106,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 326,
       "fiber_coverage": 95,
-      "crime_rate": 942
+      "crime_rate": 942,
+      "four_seasons": 54
     }
   },
   {
@@ -11013,7 +12117,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 329,
       "fiber_coverage": 100,
-      "crime_rate": 942
+      "crime_rate": 942,
+      "four_seasons": 55
     }
   },
   {
@@ -11023,7 +12128,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 321,
       "fiber_coverage": 95,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -11033,7 +12139,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 317,
       "fiber_coverage": 65,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -11043,7 +12150,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 320,
       "fiber_coverage": 66,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -11053,7 +12161,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 319,
       "fiber_coverage": 63,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -11063,7 +12172,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 319,
       "fiber_coverage": 70,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -11073,7 +12183,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 324,
       "fiber_coverage": 71,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -11083,7 +12194,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 319,
       "fiber_coverage": 62,
-      "crime_rate": 471
+      "crime_rate": 471,
+      "four_seasons": 55
     }
   },
   {
@@ -11093,7 +12205,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 327,
       "fiber_coverage": 71,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -11103,7 +12216,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 324,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -11113,7 +12227,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 317,
       "fiber_coverage": 48,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 79
     }
   },
   {
@@ -11123,7 +12238,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 312,
       "fiber_coverage": 61,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -11133,7 +12249,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 328,
       "fiber_coverage": 59,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -11143,7 +12260,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 316,
       "fiber_coverage": 50,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -11153,7 +12271,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 321,
       "fiber_coverage": 51,
-      "crime_rate": 328
+      "crime_rate": 328,
+      "four_seasons": 80
     }
   },
   {
@@ -11163,7 +12282,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 325,
       "fiber_coverage": 45,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 79
     }
   },
   {
@@ -11173,7 +12293,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 331,
       "fiber_coverage": 49,
-      "crime_rate": 655
+      "crime_rate": 655,
+      "four_seasons": 82
     }
   },
   {
@@ -11183,7 +12304,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 291,
       "growing_season": 282,
       "fiber_coverage": 63,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 60
     }
   },
   {
@@ -11193,7 +12315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 289,
       "growing_season": 273,
       "fiber_coverage": 77,
-      "crime_rate": 460
+      "crime_rate": 460,
+      "four_seasons": 56
     }
   },
   {
@@ -11203,7 +12326,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 295,
       "fiber_coverage": 50,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 92
     }
   },
   {
@@ -11213,7 +12337,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 311,
       "fiber_coverage": 35,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 92
     }
   },
   {
@@ -11223,7 +12348,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 311,
       "fiber_coverage": 39,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 96
     }
   },
   {
@@ -11233,7 +12359,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 308,
       "fiber_coverage": 41,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 95
     }
   },
   {
@@ -11243,7 +12370,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 307,
       "fiber_coverage": 65,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 88
     }
   },
   {
@@ -11253,7 +12381,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 329,
       "fiber_coverage": 54,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 80
     }
   },
   {
@@ -11263,7 +12392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 317,
       "fiber_coverage": 49,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 87
     }
   },
   {
@@ -11273,7 +12403,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 303,
       "fiber_coverage": 45,
-      "crime_rate": 431
+      "crime_rate": 431,
+      "four_seasons": 79
     }
   },
   {
@@ -11283,7 +12414,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 296,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -11293,7 +12425,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 306,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -11303,7 +12436,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 324,
       "fiber_coverage": 46,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 51
     }
   },
   {
@@ -11313,7 +12447,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 318,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 47
     }
   },
   {
@@ -11323,7 +12458,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 335,
       "fiber_coverage": 49,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 29
     }
   },
   {
@@ -11333,7 +12469,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 322,
       "fiber_coverage": 50,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 46
     }
   },
   {
@@ -11343,7 +12480,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 309,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 29
     }
   },
   {
@@ -11353,7 +12491,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 321,
       "fiber_coverage": 31,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -11363,7 +12502,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 323,
       "fiber_coverage": 34,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -11373,7 +12513,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 318,
       "fiber_coverage": 45,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 46
     }
   },
   {
@@ -11383,7 +12524,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 319,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -11393,7 +12535,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 320,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 33
     }
   },
   {
@@ -11403,7 +12546,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 330,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 34
     }
   },
   {
@@ -11413,7 +12557,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 330,
       "fiber_coverage": 73,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -11423,7 +12568,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 315,
       "fiber_coverage": 64,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -11433,7 +12579,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 32
     }
   },
   {
@@ -11443,7 +12590,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -11453,7 +12601,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -11463,7 +12612,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -11473,7 +12623,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 361,
       "fiber_coverage": 67,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 46
     }
   },
   {
@@ -11483,7 +12634,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 12
     }
   },
   {
@@ -11493,7 +12645,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -11503,7 +12656,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 30
     }
   },
   {
@@ -11513,7 +12667,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 2
     }
   },
   {
@@ -11523,7 +12678,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 363,
       "fiber_coverage": 59,
-      "crime_rate": 312
+      "crime_rate": 312,
+      "four_seasons": 26
     }
   },
   {
@@ -11533,7 +12689,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 312
+      "crime_rate": 312,
+      "four_seasons": 34
     }
   },
   {
@@ -11543,7 +12700,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -11553,7 +12711,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 324,
       "fiber_coverage": 61,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 77
     }
   },
   {
@@ -11563,7 +12722,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 272,
       "fiber_coverage": 52,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 0
     }
   },
   {
@@ -11573,7 +12733,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 314,
       "fiber_coverage": 60,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 94
     }
   },
   {
@@ -11583,7 +12744,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 308,
       "fiber_coverage": 60,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 94
     }
   },
   {
@@ -11593,7 +12755,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 305,
       "fiber_coverage": 46,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 93
     }
   },
   {
@@ -11603,7 +12766,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 316,
       "fiber_coverage": 46,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 87
     }
   },
   {
@@ -11613,7 +12777,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 321,
       "fiber_coverage": 50,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 86
     }
   },
   {
@@ -11623,7 +12788,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 323,
       "fiber_coverage": 60,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 85
     }
   },
   {
@@ -11633,7 +12799,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 329,
       "fiber_coverage": 46,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 83
     }
   },
   {
@@ -11643,7 +12810,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 321,
       "fiber_coverage": 49,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 82
     }
   },
   {
@@ -11653,7 +12821,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 312,
       "fiber_coverage": 46,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 86
     }
   },
   {
@@ -11663,7 +12832,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 311,
       "fiber_coverage": 46,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 88
     }
   },
   {
@@ -11673,7 +12843,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 276,
       "growing_season": 326,
       "fiber_coverage": 39,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 43
     }
   },
   {
@@ -11683,7 +12854,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 236,
       "fiber_coverage": 40,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 80
     }
   },
   {
@@ -11693,7 +12865,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 257,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 70
     }
   },
   {
@@ -11703,7 +12876,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 334,
       "fiber_coverage": 68,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -11713,7 +12887,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 330,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -11723,7 +12898,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 272,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -11733,7 +12909,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 274,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -11743,7 +12920,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 274,
       "fiber_coverage": 26,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -11753,7 +12931,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 277,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -11763,7 +12942,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 290,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 67
     }
   },
   {
@@ -11773,7 +12953,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 287,
       "fiber_coverage": 33,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 66
     }
   },
   {
@@ -11783,7 +12964,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 283,
       "fiber_coverage": 26,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -11793,7 +12975,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 284,
       "fiber_coverage": 25,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -11803,7 +12986,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 287,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -11813,7 +12997,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 274,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 70
     }
   },
   {
@@ -11823,7 +13008,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 273,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -11833,7 +13019,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 274,
       "fiber_coverage": 25,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -11843,7 +13030,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 317,
       "fiber_coverage": 65,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -11853,7 +13041,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 333,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -11863,7 +13052,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 325,
       "fiber_coverage": 76,
-      "crime_rate": 641
+      "crime_rate": 641,
+      "four_seasons": 32
     }
   },
   {
@@ -11873,7 +13063,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 317,
       "fiber_coverage": 40,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -11883,7 +13074,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 326,
       "fiber_coverage": 50,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -11893,7 +13085,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 324,
       "fiber_coverage": 30,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 29
     }
   },
   {
@@ -11903,7 +13096,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 318,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -11913,7 +13107,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 322,
       "fiber_coverage": 48,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -11923,7 +13118,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 317,
       "fiber_coverage": 37,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 47
     }
   },
   {
@@ -11933,7 +13129,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 333,
       "fiber_coverage": 40,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 46
     }
   },
   {
@@ -11943,7 +13140,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 328,
       "fiber_coverage": 32,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 47
     }
   },
   {
@@ -11953,7 +13151,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 326,
       "fiber_coverage": 36,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 49
     }
   },
   {
@@ -11963,7 +13162,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 326,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -11973,7 +13173,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 317,
       "fiber_coverage": 34,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -11983,7 +13184,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 314,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 94
     }
   },
   {
@@ -11993,7 +13195,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 318,
       "fiber_coverage": 64,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 95
     }
   },
   {
@@ -12003,7 +13206,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 278,
       "fiber_coverage": 46,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 80
     }
   },
   {
@@ -12013,7 +13217,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 293,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -12023,7 +13228,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 134,
       "growing_season": 280,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 86
     }
   },
   {
@@ -12033,7 +13239,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 244,
       "fiber_coverage": 43,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 63
     }
   },
   {
@@ -12043,7 +13250,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 259,
       "fiber_coverage": 34,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 85
     }
   },
   {
@@ -12053,7 +13261,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 243,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 78
     }
   },
   {
@@ -12063,7 +13272,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 241,
       "fiber_coverage": 39,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 63
     }
   },
   {
@@ -12073,7 +13283,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 246,
       "fiber_coverage": 28,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 80
     }
   },
   {
@@ -12083,7 +13294,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 245,
       "fiber_coverage": 40,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 86
     }
   },
   {
@@ -12093,7 +13305,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 246,
       "fiber_coverage": 38,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 76
     }
   },
   {
@@ -12103,7 +13316,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 244,
       "fiber_coverage": 31,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 88
     }
   },
   {
@@ -12113,7 +13327,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 244,
       "fiber_coverage": 33,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 56
     }
   },
   {
@@ -12123,7 +13338,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 273,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -12133,7 +13349,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 267,
       "fiber_coverage": 26,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -12143,7 +13360,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 270,
       "fiber_coverage": 45,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -12153,7 +13371,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 266,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -12163,7 +13382,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 285,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 67
     }
   },
   {
@@ -12173,7 +13393,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 268,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -12183,7 +13404,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 268,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -12193,7 +13415,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 272,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 69
     }
   },
   {
@@ -12203,7 +13426,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 271,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -12213,7 +13437,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 309,
       "fiber_coverage": 43,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 76
     }
   },
   {
@@ -12223,7 +13448,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 308,
       "fiber_coverage": 44,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -12233,7 +13459,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 302,
       "fiber_coverage": 52,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -12243,7 +13470,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 296,
       "fiber_coverage": 51,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 87
     }
   },
   {
@@ -12253,7 +13481,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 307,
       "fiber_coverage": 55,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 67
     }
   },
   {
@@ -12263,7 +13492,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 299,
       "fiber_coverage": 59,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -12273,7 +13503,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 315,
       "fiber_coverage": 58,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -12283,7 +13514,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 298,
       "fiber_coverage": 52,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -12293,7 +13525,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12303,7 +13536,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 362,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 19
     }
   },
   {
@@ -12313,7 +13547,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12323,7 +13558,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12333,7 +13569,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -12343,7 +13580,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12353,7 +13591,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -12363,7 +13602,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12373,7 +13613,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -12383,7 +13624,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -12393,7 +13635,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12403,7 +13646,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 24
     }
   },
   {
@@ -12413,7 +13657,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -12423,7 +13668,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -12433,7 +13679,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 288,
       "fiber_coverage": 46,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -12443,7 +13690,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 285,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 88
     }
   },
   {
@@ -12453,7 +13701,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 303,
       "fiber_coverage": 49,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -12463,7 +13712,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 304,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -12473,7 +13723,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 273,
       "fiber_coverage": 59,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 84
     }
   },
   {
@@ -12483,7 +13734,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 132,
       "growing_season": 282,
       "fiber_coverage": 60,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 82
     }
   },
   {
@@ -12493,7 +13745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 252,
       "fiber_coverage": 31,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 83
     }
   },
   {
@@ -12503,7 +13756,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 294,
       "fiber_coverage": 47,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 95
     }
   },
   {
@@ -12513,7 +13767,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 297,
       "fiber_coverage": 33,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -12523,7 +13778,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 290,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 92
     }
   },
   {
@@ -12533,7 +13789,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 311,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -12543,7 +13800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 310,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 90
     }
   },
   {
@@ -12553,7 +13811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 308,
       "fiber_coverage": 34,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -12563,7 +13822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 306,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 93
     }
   },
   {
@@ -12573,7 +13833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 290,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -12583,7 +13844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 290,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 90
     }
   },
   {
@@ -12593,7 +13855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 287,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 88
     }
   },
   {
@@ -12603,7 +13866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 304,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -12613,7 +13877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 298,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -12623,7 +13888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 288,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -12633,7 +13899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 306,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -12643,7 +13910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 308,
       "fiber_coverage": 46,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 65
     }
   },
   {
@@ -12653,7 +13921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 304,
       "fiber_coverage": 45,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -12663,7 +13932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 296,
       "fiber_coverage": 59,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 90
     }
   },
   {
@@ -12673,7 +13943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 303,
       "fiber_coverage": 44,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 87
     }
   },
   {
@@ -12683,7 +13954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 309,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -12693,7 +13965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 275,
       "fiber_coverage": 49,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 0
     }
   },
   {
@@ -12703,7 +13976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 315,
       "fiber_coverage": 54,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -12713,7 +13987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 275,
       "growing_season": 323,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 35
     }
   },
   {
@@ -12723,7 +13998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 279,
       "growing_season": 319,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 25
     }
   },
   {
@@ -12733,7 +14009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 289,
       "growing_season": 341,
       "fiber_coverage": 34,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 12
     }
   },
   {
@@ -12743,7 +14020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 286,
       "growing_season": 327,
       "fiber_coverage": 45,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 40
     }
   },
   {
@@ -12753,7 +14031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 289,
       "growing_season": 322,
       "fiber_coverage": 46,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 43
     }
   },
   {
@@ -12763,7 +14042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 316,
       "fiber_coverage": 74,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -12773,7 +14053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 327,
       "fiber_coverage": 71,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -12783,7 +14064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 319,
       "fiber_coverage": 72,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -12793,7 +14075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 330,
       "fiber_coverage": 62,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 64
     }
   },
   {
@@ -12803,7 +14086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 311,
       "fiber_coverage": 60,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -12813,7 +14097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 281,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 0
     }
   },
   {
@@ -12823,7 +14108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 315,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -12833,7 +14119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 314,
       "fiber_coverage": 68,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -12843,7 +14130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 345,
       "fiber_coverage": 50,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 31
     }
   },
   {
@@ -12853,7 +14141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 349,
       "fiber_coverage": 35,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -12863,7 +14152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 361,
       "fiber_coverage": 52,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -12873,7 +14163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 360,
       "fiber_coverage": 45,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 31
     }
   },
   {
@@ -12883,7 +14174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 359,
       "fiber_coverage": 43,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -12893,7 +14185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 288,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 83
     }
   },
   {
@@ -12903,7 +14196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 139,
       "growing_season": 277,
       "fiber_coverage": 55,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 83
     }
   },
   {
@@ -12913,7 +14207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 276,
       "fiber_coverage": 56,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 84
     }
   },
   {
@@ -12923,7 +14218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 286,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 90
     }
   },
   {
@@ -12933,7 +14229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 293,
       "fiber_coverage": 43,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -12943,7 +14240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 280,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -12953,7 +14251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 303,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -12963,7 +14262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -12973,7 +14273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 310,
       "fiber_coverage": 36,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -12983,7 +14284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 304,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -12993,7 +14295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -13003,7 +14306,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 312,
       "fiber_coverage": 44,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -13013,7 +14317,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 297,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -13023,7 +14328,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 296,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -13033,7 +14339,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 310,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 93
     }
   },
   {
@@ -13043,7 +14350,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 299,
       "fiber_coverage": 32,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 90
     }
   },
   {
@@ -13053,7 +14361,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 300,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -13063,7 +14372,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 294,
       "fiber_coverage": 42,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -13073,7 +14383,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 25,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -13083,7 +14394,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 30,
-      "crime_rate": 204
+      "crime_rate": 204,
+      "four_seasons": 28
     }
   },
   {
@@ -13093,7 +14405,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 363,
       "fiber_coverage": 42,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 24
     }
   },
   {
@@ -13103,7 +14416,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -13113,7 +14427,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -13123,7 +14438,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 23
     }
   },
   {
@@ -13133,7 +14449,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 2
     }
   },
   {
@@ -13143,7 +14460,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 290,
       "growing_season": 335,
       "fiber_coverage": 49,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 17
     }
   },
   {
@@ -13153,7 +14471,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 292,
       "growing_season": 316,
       "fiber_coverage": 31,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 39
     }
   },
   {
@@ -13163,7 +14482,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 275,
       "growing_season": 313,
       "fiber_coverage": 43,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 39
     }
   },
   {
@@ -13173,7 +14493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 290,
       "growing_season": 316,
       "fiber_coverage": 32,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 35
     }
   },
   {
@@ -13183,7 +14504,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 288,
       "growing_season": 332,
       "fiber_coverage": 38,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 36
     }
   },
   {
@@ -13193,7 +14515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 318,
       "fiber_coverage": 46,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -13203,7 +14526,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 299,
       "fiber_coverage": 55,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -13213,7 +14537,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 309,
       "fiber_coverage": 54,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -13223,7 +14548,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 309,
       "fiber_coverage": 58,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 85
     }
   },
   {
@@ -13233,7 +14559,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 310,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 97
     }
   },
   {
@@ -13243,7 +14570,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 303,
       "fiber_coverage": 57,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 86
     }
   },
   {
@@ -13253,7 +14581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 300,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -13263,7 +14592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 314,
       "fiber_coverage": 55,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -13273,7 +14603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 316,
       "fiber_coverage": 30,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 49
     }
   },
   {
@@ -13283,7 +14614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 314,
       "fiber_coverage": 46,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 46
     }
   },
   {
@@ -13293,7 +14625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 323,
       "fiber_coverage": 40,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -13303,7 +14636,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 322,
       "fiber_coverage": 75,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -13313,7 +14647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 319,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -13323,7 +14658,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 320,
       "fiber_coverage": 34,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -13333,7 +14669,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 301,
       "fiber_coverage": 53,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -13343,7 +14680,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 308,
       "fiber_coverage": 54,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 55
     }
   },
   {
@@ -13353,7 +14691,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 136,
       "growing_season": 299,
       "fiber_coverage": 50,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 63
     }
   },
   {
@@ -13363,7 +14702,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 285,
       "fiber_coverage": 61,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 59
     }
   },
   {
@@ -13373,7 +14713,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 281,
       "fiber_coverage": 67,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 54
     }
   },
   {
@@ -13383,7 +14724,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 139,
       "growing_season": 280,
       "fiber_coverage": 50,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 54
     }
   },
   {
@@ -13393,7 +14735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 295,
       "fiber_coverage": 77,
-      "crime_rate": 669
+      "crime_rate": 669,
+      "four_seasons": 98
     }
   },
   {
@@ -13403,7 +14746,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 282,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 88
     }
   },
   {
@@ -13413,7 +14757,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 291,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 94
     }
   },
   {
@@ -13423,7 +14768,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 286,
       "fiber_coverage": 44,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 94
     }
   },
   {
@@ -13433,7 +14779,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 297,
       "fiber_coverage": 45,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -13443,7 +14790,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 269,
       "fiber_coverage": 60,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 80
     }
   },
   {
@@ -13453,7 +14801,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 139,
       "growing_season": 288,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 96
     }
   },
   {
@@ -13463,7 +14812,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 289,
       "fiber_coverage": 56,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -13473,7 +14823,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 293,
       "fiber_coverage": 51,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -13483,7 +14834,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 354,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -13493,7 +14845,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 352,
       "fiber_coverage": 36,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -13503,7 +14856,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 364,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -13513,7 +14867,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 1
     }
   },
   {
@@ -13523,7 +14878,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 356,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -13533,7 +14889,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 34,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -13543,7 +14900,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 25
     }
   },
   {
@@ -13553,7 +14911,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 303,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 66
     }
   },
   {
@@ -13563,7 +14922,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 315,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -13573,7 +14933,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 317,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 56
     }
   },
   {
@@ -13583,7 +14944,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 318,
       "fiber_coverage": 35,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -13593,7 +14955,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 321,
       "fiber_coverage": 37,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -13603,7 +14966,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 310,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 67
     }
   },
   {
@@ -13613,7 +14977,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 306,
       "fiber_coverage": 41,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 88
     }
   },
   {
@@ -13623,7 +14988,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 298,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 89
     }
   },
   {
@@ -13633,7 +14999,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 297,
       "fiber_coverage": 52,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 88
     }
   },
   {
@@ -13643,7 +15010,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 301,
       "fiber_coverage": 60,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -13653,7 +15021,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 301,
       "fiber_coverage": 49,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -13663,7 +15032,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 321,
       "fiber_coverage": 50,
-      "crime_rate": 254
+      "crime_rate": 254,
+      "four_seasons": 95
     }
   },
   {
@@ -13673,7 +15043,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 298,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -13683,7 +15054,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 323,
       "fiber_coverage": 65,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 98
     }
   },
   {
@@ -13693,7 +15065,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 298,
       "fiber_coverage": 50,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -13703,7 +15076,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 314,
       "fiber_coverage": 57,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 90
     }
   },
   {
@@ -13713,7 +15087,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13723,7 +15098,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 32
     }
   },
   {
@@ -13733,7 +15109,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -13743,7 +15120,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 363,
       "fiber_coverage": 57,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -13753,7 +15131,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13763,7 +15142,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13773,7 +15153,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13783,7 +15164,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -13793,7 +15175,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13803,7 +15186,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 654
+      "crime_rate": 654,
+      "four_seasons": 0
     }
   },
   {
@@ -13813,7 +15197,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 354,
       "fiber_coverage": 54,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 45
     }
   },
   {
@@ -13823,7 +15208,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 30
     }
   },
   {
@@ -13833,7 +15219,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -13843,7 +15230,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -13853,7 +15241,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 311,
       "fiber_coverage": 77,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 50
     }
   },
   {
@@ -13863,7 +15252,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 305,
       "fiber_coverage": 86,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 88
     }
   },
   {
@@ -13873,7 +15263,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 289,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 82
     }
   },
   {
@@ -13883,7 +15274,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 299,
       "fiber_coverage": 86,
-      "crime_rate": 669
+      "crime_rate": 669,
+      "four_seasons": 96
     }
   },
   {
@@ -13893,7 +15285,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 275,
       "fiber_coverage": 55,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 79
     }
   },
   {
@@ -13903,7 +15296,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 293,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 88
     }
   },
   {
@@ -13913,7 +15307,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 290,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -13923,7 +15318,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 284,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 95
     }
   },
   {
@@ -13933,7 +15329,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 285,
       "fiber_coverage": 46,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -13943,7 +15340,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 298,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 76
     }
   },
   {
@@ -13953,7 +15351,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 305,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -13963,7 +15362,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 315,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -13973,7 +15373,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 315,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -13983,7 +15384,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 306,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -13993,7 +15395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 317,
       "fiber_coverage": 36,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -14003,7 +15406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 318,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 62
     }
   },
   {
@@ -14013,7 +15417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 306,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -14023,7 +15428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 307,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -14033,7 +15439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 302,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -14043,7 +15450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 313,
       "fiber_coverage": 72,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -14053,7 +15461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 338,
       "fiber_coverage": 68,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -14063,7 +15472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 347,
       "fiber_coverage": 66,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 30
     }
   },
   {
@@ -14073,7 +15483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 333,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -14083,7 +15494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -14093,7 +15505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 321,
       "fiber_coverage": 58,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -14103,7 +15516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 309,
       "fiber_coverage": 58,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 97
     }
   },
   {
@@ -14113,7 +15527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 306,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 85
     }
   },
   {
@@ -14123,7 +15538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 313,
       "fiber_coverage": 53,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -14133,7 +15549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 312,
       "fiber_coverage": 46,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -14143,7 +15560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 285,
       "fiber_coverage": 48,
-      "crime_rate": 254
+      "crime_rate": 254,
+      "four_seasons": 0
     }
   },
   {
@@ -14153,7 +15571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 320,
       "fiber_coverage": 52,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -14163,7 +15582,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 311,
       "fiber_coverage": 58,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -14173,7 +15593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 310,
       "fiber_coverage": 51,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 93
     }
   },
   {
@@ -14183,7 +15604,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 320,
       "fiber_coverage": 52,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -14193,7 +15615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 357,
       "fiber_coverage": 43,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -14203,7 +15626,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 344,
       "fiber_coverage": 52,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 34
     }
   },
   {
@@ -14213,7 +15637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 363,
       "fiber_coverage": 37,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -14223,7 +15648,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -14233,7 +15659,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 278,
       "fiber_coverage": 28,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 73
     }
   },
   {
@@ -14243,7 +15670,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 285,
       "fiber_coverage": 44,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 81
     }
   },
   {
@@ -14253,7 +15681,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 279,
       "fiber_coverage": 34,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 82
     }
   },
   {
@@ -14263,7 +15692,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 301,
       "fiber_coverage": 33,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -14273,7 +15703,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 286,
       "fiber_coverage": 42,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 86
     }
   },
   {
@@ -14283,7 +15714,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 280,
       "fiber_coverage": 45,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 79
     }
   },
   {
@@ -14293,7 +15725,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 279,
       "fiber_coverage": 27,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -14303,7 +15736,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 277,
       "fiber_coverage": 39,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 69
     }
   },
   {
@@ -14313,7 +15747,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 280,
       "fiber_coverage": 41,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -14323,7 +15758,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 281,
       "fiber_coverage": 37,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 73
     }
   },
   {
@@ -14333,7 +15769,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 287,
       "fiber_coverage": 50,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 97
     }
   },
   {
@@ -14343,7 +15780,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 292,
       "fiber_coverage": 54,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 97
     }
   },
   {
@@ -14353,7 +15791,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 287,
       "fiber_coverage": 49,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 82
     }
   },
   {
@@ -14363,7 +15802,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 285,
       "fiber_coverage": 43,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -14373,7 +15813,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 284,
       "fiber_coverage": 56,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 87
     }
   },
   {
@@ -14383,7 +15824,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 282,
       "fiber_coverage": 57,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 82
     }
   },
   {
@@ -14393,7 +15835,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 289,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -14403,7 +15846,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 276,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 83
     }
   },
   {
@@ -14413,7 +15857,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 284,
       "fiber_coverage": 54,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 89
     }
   },
   {
@@ -14423,7 +15868,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 284,
       "fiber_coverage": 59,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 85
     }
   },
   {
@@ -14433,7 +15879,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 290,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -14443,7 +15890,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 290,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -14453,7 +15901,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 279,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 88
     }
   },
   {
@@ -14463,7 +15912,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 274,
       "fiber_coverage": 41,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 86
     }
   },
   {
@@ -14473,7 +15923,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 320,
       "fiber_coverage": 64,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -14483,7 +15934,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 333,
       "fiber_coverage": 63,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -14493,7 +15945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 321,
       "fiber_coverage": 66,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 50
     }
   },
   {
@@ -14503,7 +15956,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 331,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -14513,7 +15967,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 336,
       "fiber_coverage": 93,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 31
     }
   },
   {
@@ -14523,7 +15978,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 319,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -14533,7 +15989,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 338,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -14543,7 +16000,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 345,
       "fiber_coverage": 59,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -14553,7 +16011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 329,
       "fiber_coverage": 71,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -14563,7 +16022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 328,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -14573,7 +16033,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 319,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -14583,7 +16044,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 332,
       "fiber_coverage": 66,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -14593,7 +16055,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 330,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -14603,7 +16066,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 320,
       "fiber_coverage": 73,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -14613,7 +16077,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 313,
       "fiber_coverage": 55,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -14623,7 +16088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 319,
       "fiber_coverage": 48,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -14633,7 +16099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 324,
       "fiber_coverage": 57,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -14643,7 +16110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 293,
       "fiber_coverage": 60,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 100
     }
   },
   {
@@ -14653,7 +16121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 320,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -14663,7 +16132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 305,
       "fiber_coverage": 52,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -14673,7 +16143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 312,
       "fiber_coverage": 43,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -14683,7 +16154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 328,
       "fiber_coverage": 45,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -14693,7 +16165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 324,
       "fiber_coverage": 59,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -14703,7 +16176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 310,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -14713,7 +16187,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 311,
       "fiber_coverage": 43,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 99
     }
   },
   {
@@ -14723,7 +16198,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 307,
       "fiber_coverage": 43,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -14733,7 +16209,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 301,
       "fiber_coverage": 97,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 67
     }
   },
   {
@@ -14743,7 +16220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 308,
       "fiber_coverage": 68,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 67
     }
   },
   {
@@ -14753,7 +16231,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 136,
       "growing_season": 312,
       "fiber_coverage": 69,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 60
     }
   },
   {
@@ -14763,7 +16242,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 302,
       "fiber_coverage": 62,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -14773,7 +16253,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 289,
       "fiber_coverage": 62,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 59
     }
   },
   {
@@ -14783,7 +16264,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 300,
       "fiber_coverage": 54,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 54
     }
   },
   {
@@ -14793,7 +16275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 288,
       "fiber_coverage": 67,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -14803,7 +16286,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 134,
       "growing_season": 289,
       "fiber_coverage": 64,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 55
     }
   },
   {
@@ -14813,7 +16297,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 289,
       "fiber_coverage": 60,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 55
     }
   },
   {
@@ -14823,7 +16308,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 286,
       "fiber_coverage": 88,
-      "crime_rate": 388
+      "crime_rate": 388,
+      "four_seasons": 94
     }
   },
   {
@@ -14833,7 +16319,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 279,
       "fiber_coverage": 54,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 85
     }
   },
   {
@@ -14843,7 +16330,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 264,
       "fiber_coverage": 58,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 66
     }
   },
   {
@@ -14853,7 +16341,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 310,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 60
     }
   },
   {
@@ -14863,7 +16352,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 309,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 87
     }
   },
   {
@@ -14873,7 +16363,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 312,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 50
     }
   },
   {
@@ -14883,7 +16374,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 304,
       "fiber_coverage": 44,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -14893,7 +16385,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 299,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -14903,7 +16396,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 311,
       "fiber_coverage": 51,
-      "crime_rate": 380
+      "crime_rate": 380,
+      "four_seasons": 65
     }
   },
   {
@@ -14913,7 +16407,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 309,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -14923,7 +16418,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 296,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 88
     }
   },
   {
@@ -14933,7 +16429,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 312,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -14943,7 +16440,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 307,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 60
     }
   },
   {
@@ -14953,7 +16451,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 309,
       "fiber_coverage": 46,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -14963,7 +16462,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 305,
       "fiber_coverage": 55,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -14973,7 +16473,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 343,
       "fiber_coverage": 61,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -14983,7 +16484,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 325,
       "fiber_coverage": 97,
-      "crime_rate": 521
+      "crime_rate": 521,
+      "four_seasons": 62
     }
   },
   {
@@ -14993,7 +16495,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 345,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -15003,7 +16506,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 326,
       "fiber_coverage": 64,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -15013,7 +16517,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 322,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -15023,7 +16528,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 311,
       "fiber_coverage": 63,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -15033,7 +16539,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 348,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 31
     }
   },
   {
@@ -15043,7 +16550,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 345,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -15053,7 +16561,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 333,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -15063,7 +16572,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 328,
       "fiber_coverage": 63,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -15073,7 +16583,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 335,
       "fiber_coverage": 88,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -15083,7 +16594,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 332,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -15093,7 +16605,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 306,
       "fiber_coverage": 59,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 100
     }
   },
   {
@@ -15103,7 +16616,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 312,
       "fiber_coverage": 51,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -15113,7 +16627,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 311,
       "fiber_coverage": 51,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 95
     }
   },
   {
@@ -15123,7 +16638,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 324,
       "fiber_coverage": 72,
-      "crime_rate": 428
+      "crime_rate": 428,
+      "four_seasons": 92
     }
   },
   {
@@ -15133,7 +16649,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 314,
       "fiber_coverage": 46,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 95
     }
   },
   {
@@ -15143,7 +16660,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 328,
       "fiber_coverage": 60,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -15153,7 +16671,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 309,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -15163,7 +16682,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 309,
       "fiber_coverage": 60,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -15173,7 +16693,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 317,
       "fiber_coverage": 57,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -15183,7 +16704,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 306,
       "fiber_coverage": 56,
-      "crime_rate": 428
+      "crime_rate": 428,
+      "four_seasons": 95
     }
   },
   {
@@ -15193,7 +16715,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 327,
       "fiber_coverage": 89,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 91
     }
   },
   {
@@ -15203,7 +16726,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 292,
       "fiber_coverage": 93,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 92
     }
   },
   {
@@ -15213,7 +16737,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 307,
       "fiber_coverage": 84,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 91
     }
   },
   {
@@ -15223,7 +16748,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 310,
       "fiber_coverage": 84,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 85
     }
   },
   {
@@ -15233,7 +16759,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 314,
       "fiber_coverage": 84,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 55
     }
   },
   {
@@ -15243,7 +16770,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -15253,7 +16781,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -15263,7 +16792,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 97,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -15273,7 +16803,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 18
     }
   },
   {
@@ -15283,7 +16814,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 362,
       "fiber_coverage": 61,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -15293,7 +16825,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -15303,7 +16836,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -15313,7 +16847,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -15323,7 +16858,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 2
     }
   },
   {
@@ -15333,7 +16869,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -15343,7 +16880,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 313,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -15353,7 +16891,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 301,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 67
     }
   },
   {
@@ -15363,7 +16902,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 317,
       "fiber_coverage": 55,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 66
     }
   },
   {
@@ -15373,7 +16913,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 311,
       "fiber_coverage": 52,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -15383,7 +16924,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 308,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -15393,7 +16935,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 315,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 60
     }
   },
   {
@@ -15403,7 +16946,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 299,
       "fiber_coverage": 46,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -15413,7 +16957,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 326,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -15423,7 +16968,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 317,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -15433,7 +16979,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 326,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -15443,7 +16990,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 318,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 64
     }
   },
   {
@@ -15453,7 +17001,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 314,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -15462,7 +17011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 313,
       "fiber_coverage": 82,
-      "crime_rate": 760
+      "crime_rate": 760,
+      "four_seasons": 64
     }
   },
   {
@@ -15472,7 +17022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 251,
       "fiber_coverage": 28,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 89
     }
   },
   {
@@ -15482,7 +17033,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 319,
       "fiber_coverage": 68,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -15492,7 +17044,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 330,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -15502,7 +17055,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 321,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -15512,7 +17066,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 334,
       "fiber_coverage": 59,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -15522,7 +17077,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 302,
       "fiber_coverage": 44,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 66
     }
   },
   {
@@ -15532,7 +17088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 304,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 78
     }
   },
   {
@@ -15542,7 +17099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 309,
       "fiber_coverage": 59,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -15552,7 +17110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 303,
       "fiber_coverage": 53,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -15562,7 +17121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 319,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 76
     }
   },
   {
@@ -15572,7 +17132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 297,
       "fiber_coverage": 47,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -15582,7 +17143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 307,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -15592,7 +17154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 306,
       "fiber_coverage": 51,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 89
     }
   },
   {
@@ -15602,7 +17165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 312,
       "fiber_coverage": 49,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 89
     }
   },
   {
@@ -15612,7 +17176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 313,
       "fiber_coverage": 43,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 89
     }
   },
   {
@@ -15622,7 +17187,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 287,
       "fiber_coverage": 44,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 0
     }
   },
   {
@@ -15632,7 +17198,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 350,
       "fiber_coverage": 41,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 31
     }
   },
   {
@@ -15642,7 +17209,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 352,
       "fiber_coverage": 42,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -15652,7 +17220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 347,
       "fiber_coverage": 50,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 32
     }
   },
   {
@@ -15662,7 +17231,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 364,
       "fiber_coverage": 37,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -15672,7 +17242,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 354,
       "fiber_coverage": 42,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -15682,7 +17253,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 342,
       "fiber_coverage": 37,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -15692,7 +17264,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 276,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -15702,7 +17275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 286,
       "fiber_coverage": 36,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 74
     }
   },
   {
@@ -15712,7 +17286,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 282,
       "fiber_coverage": 43,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 73
     }
   },
   {
@@ -15722,7 +17297,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 283,
       "fiber_coverage": 34,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -15732,7 +17308,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 298,
       "fiber_coverage": 73,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -15742,7 +17319,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 291,
       "fiber_coverage": 33,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -15752,7 +17330,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 294,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 83
     }
   },
   {
@@ -15762,7 +17341,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 297,
       "fiber_coverage": 37,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -15772,7 +17352,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 291,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 83
     }
   },
   {
@@ -15781,7 +17362,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 283,
       "fiber_coverage": 29,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 88
     }
   },
   {
@@ -15791,7 +17373,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 283,
       "fiber_coverage": 44,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -15801,7 +17384,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 280,
       "fiber_coverage": 41,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 73
     }
   },
   {
@@ -15811,7 +17395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 292,
       "fiber_coverage": 40,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 79
     }
   },
   {
@@ -15821,7 +17406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 286,
       "fiber_coverage": 27,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 88
     }
   },
   {
@@ -15831,7 +17417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 234,
       "fiber_coverage": 28,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 77
     }
   },
   {
@@ -15841,7 +17428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 247,
       "fiber_coverage": 44,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 90
     }
   },
   {
@@ -15851,7 +17439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 241,
       "fiber_coverage": 25,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 80
     }
   },
   {
@@ -15861,7 +17450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 237,
       "fiber_coverage": 45,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 75
     }
   },
   {
@@ -15871,7 +17461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 251,
       "fiber_coverage": 33,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 67
     }
   },
   {
@@ -15881,7 +17472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 233,
       "fiber_coverage": 39,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 58
     }
   },
   {
@@ -15891,7 +17483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 249,
       "fiber_coverage": 34,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 56
     }
   },
   {
@@ -15901,7 +17494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 239,
       "fiber_coverage": 35,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 77
     }
   },
   {
@@ -15911,7 +17505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 297,
       "fiber_coverage": 32,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -15921,7 +17516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 310,
       "fiber_coverage": 45,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 87
     }
   },
   {
@@ -15931,7 +17527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 290,
       "fiber_coverage": 39,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -15941,7 +17538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 298,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -15951,7 +17549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 287,
       "fiber_coverage": 36,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -15961,7 +17560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 302,
       "fiber_coverage": 36,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -15971,7 +17571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 287,
       "fiber_coverage": 42,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -15981,7 +17582,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 299,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 88
     }
   },
   {
@@ -15991,7 +17593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 288,
       "fiber_coverage": 50,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -16001,7 +17604,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 291,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -16011,7 +17615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 307,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 62
     }
   },
   {
@@ -16021,7 +17626,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 298,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -16031,7 +17637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 290,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -16041,7 +17648,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 300,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -16051,7 +17659,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 303,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 64
     }
   },
   {
@@ -16061,7 +17670,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 300,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -16071,7 +17681,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 299,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -16081,7 +17692,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 302,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -16091,7 +17703,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 306,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 66
     }
   },
   {
@@ -16101,7 +17714,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 301,
       "fiber_coverage": 57,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -16111,7 +17725,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 311,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 58
     }
   },
   {
@@ -16121,7 +17736,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -16131,7 +17747,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -16141,7 +17758,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 355,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -16151,7 +17769,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -16161,7 +17780,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -16171,7 +17791,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 362,
       "fiber_coverage": 67,
-      "crime_rate": 281
+      "crime_rate": 281,
+      "four_seasons": 23
     }
   },
   {
@@ -16181,7 +17802,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 355,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -16191,7 +17813,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 350,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -16201,7 +17824,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -16211,7 +17835,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -16221,7 +17846,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 364,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -16231,7 +17857,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 363,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -16241,7 +17868,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 362,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -16251,7 +17879,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 359,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -16261,7 +17890,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 348,
       "fiber_coverage": 68,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -16271,7 +17901,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -16281,7 +17912,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 360,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -16291,7 +17923,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 301,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -16301,7 +17934,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 311,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -16311,7 +17945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 325,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -16321,7 +17956,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 311,
       "fiber_coverage": 32,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -16331,7 +17967,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 323,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -16341,7 +17978,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 311,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 64
     }
   },
   {
@@ -16351,7 +17989,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 323,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 70
     }
   },
   {
@@ -16361,7 +18000,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 311,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -16371,7 +18011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 308,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -16381,7 +18022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 312,
       "fiber_coverage": 36,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -16391,7 +18033,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 322,
       "fiber_coverage": 45,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -16401,7 +18044,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 321,
       "fiber_coverage": 30,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -16411,7 +18055,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 312,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -16421,7 +18066,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 306,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -16431,7 +18077,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 320,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -16441,7 +18088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 312,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -16451,7 +18099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16461,7 +18110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16471,7 +18121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16481,7 +18132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16491,7 +18143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 315,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16501,7 +18154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16511,7 +18165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16521,7 +18176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 895
+      "crime_rate": 895,
+      "four_seasons": 0
     }
   },
   {
@@ -16531,7 +18187,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 316,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -16541,7 +18198,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 317,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 69
     }
   },
   {
@@ -16551,7 +18209,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 318,
       "fiber_coverage": 50,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -16561,7 +18220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 322,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -16571,7 +18231,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 317,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -16581,7 +18242,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 310,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 62
     }
   },
   {
@@ -16591,7 +18253,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 311,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -16601,7 +18264,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 297,
       "fiber_coverage": 57,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -16611,7 +18275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 296,
       "fiber_coverage": 54,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -16621,7 +18286,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 299,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -16631,7 +18297,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 312,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 58
     }
   },
   {
@@ -16641,7 +18308,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 303,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 64
     }
   },
   {
@@ -16651,7 +18319,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 305,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 60
     }
   },
   {
@@ -16661,7 +18330,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 312,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -16671,7 +18341,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 304,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -16681,7 +18352,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 295,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -16691,7 +18363,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 306,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 63
     }
   },
   {
@@ -16701,7 +18374,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 296,
       "fiber_coverage": 51,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -16711,7 +18385,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 298,
       "fiber_coverage": 57,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -16721,7 +18396,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 311,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -16731,7 +18407,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -16741,7 +18418,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 358,
       "fiber_coverage": 70,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 22
     }
   },
   {
@@ -16751,7 +18429,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -16761,7 +18440,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -16771,7 +18451,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 355,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -16781,7 +18462,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 351,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -16791,7 +18473,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 324,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -16801,7 +18484,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 302,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -16811,7 +18495,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 315,
       "fiber_coverage": 39,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -16821,7 +18506,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 312,
       "fiber_coverage": 47,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -16831,7 +18517,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 316,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 74
     }
   },
   {
@@ -16841,7 +18528,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 315,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -16851,7 +18539,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 304,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -16861,7 +18550,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 307,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -16871,7 +18561,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 320,
       "fiber_coverage": 30,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -16881,7 +18572,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 314,
       "fiber_coverage": 32,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -16891,7 +18583,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 311,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -16901,7 +18594,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16911,7 +18605,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 25
     }
   },
   {
@@ -16921,7 +18616,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 24
     }
   },
   {
@@ -16931,7 +18627,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16941,7 +18638,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 22
     }
   },
   {
@@ -16951,7 +18649,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 365,
       "fiber_coverage": 42,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 25
     }
   },
   {
@@ -16961,7 +18660,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 22
     }
   },
   {
@@ -16971,7 +18671,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -16981,7 +18682,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 895
+      "crime_rate": 895,
+      "four_seasons": 23
     }
   },
   {
@@ -16991,7 +18693,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 37,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -17001,7 +18704,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -17011,7 +18715,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 314,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 55
     }
   },
   {
@@ -17021,7 +18726,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 314,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -17031,7 +18737,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 306,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 64
     }
   },
   {
@@ -17041,7 +18748,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 321,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -17051,7 +18759,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 323,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -17061,7 +18770,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 312,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -17071,7 +18781,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 310,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -17081,7 +18792,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 305,
       "fiber_coverage": 40,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 72
     }
   },
   {
@@ -17091,7 +18803,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 310,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -17101,7 +18814,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 309,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 55
     }
   },
   {
@@ -17111,7 +18825,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 314,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -17121,7 +18836,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 307,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -17131,7 +18847,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 305,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -17141,7 +18858,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 310,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -17151,7 +18869,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 321,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -17161,7 +18880,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17171,7 +18891,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17181,7 +18902,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 363,
       "fiber_coverage": 51,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -17191,7 +18913,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17201,7 +18924,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17211,7 +18935,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17221,7 +18946,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17231,7 +18957,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17241,7 +18968,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 363,
       "fiber_coverage": 50,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 50
     }
   },
   {
@@ -17251,7 +18979,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17261,7 +18990,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -17271,7 +19001,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17281,7 +19012,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -17291,7 +19023,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17301,7 +19034,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17311,7 +19045,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17321,7 +19056,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -17331,7 +19067,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 334,
       "fiber_coverage": 64,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 69
     }
   },
   {
@@ -17341,7 +19078,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 337,
       "fiber_coverage": 100,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -17350,7 +19088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 316,
       "fiber_coverage": 77,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 81
     }
   },
   {
@@ -17360,7 +19099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 272,
       "fiber_coverage": 84,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 53
     }
   },
   {
@@ -17370,7 +19110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 278,
       "fiber_coverage": 66,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 56
     }
   },
   {
@@ -17380,7 +19121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 285,
       "fiber_coverage": 79,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 57
     }
   },
   {
@@ -17390,7 +19132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 294,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 51
     }
   },
   {
@@ -17400,7 +19143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 270,
       "fiber_coverage": 77,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 50
     }
   },
   {
@@ -17410,7 +19154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 269,
       "fiber_coverage": 84,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 48
     }
   },
   {
@@ -17420,7 +19165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 271,
       "fiber_coverage": 67,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 56
     }
   },
   {
@@ -17430,7 +19176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 283,
       "fiber_coverage": 79,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 52
     }
   },
   {
@@ -17439,7 +19186,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 322,
       "fiber_coverage": 75,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 79
     }
   },
   {
@@ -17449,7 +19197,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 292,
       "fiber_coverage": 55,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -17459,7 +19208,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 286,
       "fiber_coverage": 46,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 87
     }
   },
   {
@@ -17469,7 +19219,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 290,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 95
     }
   },
   {
@@ -17479,7 +19230,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 277,
       "fiber_coverage": 37,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 85
     }
   },
   {
@@ -17489,7 +19241,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 287,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 88
     }
   },
   {
@@ -17499,7 +19252,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 284,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 94
     }
   },
   {
@@ -17509,7 +19263,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 274,
       "fiber_coverage": 36,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 84
     }
   },
   {
@@ -17519,7 +19274,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 298,
       "fiber_coverage": 45,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 97
     }
   },
   {
@@ -17529,7 +19285,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 281,
       "fiber_coverage": 37,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -17539,7 +19296,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 257,
       "fiber_coverage": 43,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 94
     }
   },
   {
@@ -17549,7 +19307,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 254,
       "fiber_coverage": 35,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -17559,7 +19318,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 258,
       "fiber_coverage": 31,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 98
     }
   },
   {
@@ -17569,7 +19329,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 258,
       "fiber_coverage": 42,
-      "crime_rate": 164
+      "crime_rate": 164,
+      "four_seasons": 97
     }
   },
   {
@@ -17579,7 +19340,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 321,
       "fiber_coverage": 27,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 80
     }
   },
   {
@@ -17589,7 +19351,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 313,
       "fiber_coverage": 20,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 73
     }
   },
   {
@@ -17599,7 +19362,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 324,
       "fiber_coverage": 26,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 81
     }
   },
   {
@@ -17609,7 +19373,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 308,
       "fiber_coverage": 37,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -17619,7 +19384,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 323,
       "fiber_coverage": 31,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 81
     }
   },
   {
@@ -17629,7 +19395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 307,
       "fiber_coverage": 40,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 73
     }
   },
   {
@@ -17639,7 +19406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 312,
       "fiber_coverage": 24,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 81
     }
   },
   {
@@ -17649,7 +19417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 302,
       "fiber_coverage": 23,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -17659,7 +19428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 313,
       "fiber_coverage": 31,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 72
     }
   },
   {
@@ -17669,7 +19439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 320,
       "fiber_coverage": 33,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 82
     }
   },
   {
@@ -17679,7 +19450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 299,
       "fiber_coverage": 28,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 87
     }
   },
   {
@@ -17689,7 +19461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 336,
       "fiber_coverage": 35,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -17699,7 +19472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 355,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 47
     }
   },
   {
@@ -17709,7 +19483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 334,
       "fiber_coverage": 34,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -17719,7 +19494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 319,
       "fiber_coverage": 22,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 76
     }
   },
   {
@@ -17729,7 +19505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 310,
       "fiber_coverage": 31,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -17739,7 +19516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 331,
       "fiber_coverage": 35,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 80
     }
   },
   {
@@ -17749,7 +19527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 301,
       "fiber_coverage": 39,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -17759,7 +19538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 313,
       "fiber_coverage": 24,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 74
     }
   },
   {
@@ -17769,7 +19549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 299,
       "fiber_coverage": 23,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 80
     }
   },
   {
@@ -17779,7 +19560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 300,
       "fiber_coverage": 38,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 78
     }
   },
   {
@@ -17789,7 +19571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 305,
       "fiber_coverage": 23,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -17799,7 +19582,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 297,
       "fiber_coverage": 45,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 91
     }
   },
   {
@@ -17809,7 +19593,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 283,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 85
     }
   },
   {
@@ -17819,7 +19604,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 290,
       "fiber_coverage": 49,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 89
     }
   },
   {
@@ -17829,7 +19615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 298,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 95
     }
   },
   {
@@ -17839,7 +19626,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 285,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 96
     }
   },
   {
@@ -17849,7 +19637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 274,
       "fiber_coverage": 80,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -17859,7 +19648,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 308,
       "fiber_coverage": 88,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 54
     }
   },
   {
@@ -17869,7 +19659,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 311,
       "fiber_coverage": 85,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 72
     }
   },
   {
@@ -17879,7 +19670,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 300,
       "fiber_coverage": 86,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 71
     }
   },
   {
@@ -17889,7 +19681,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 299,
       "fiber_coverage": 75,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 70
     }
   },
   {
@@ -17899,7 +19692,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 294,
       "fiber_coverage": 94,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 74
     }
   },
   {
@@ -17909,7 +19703,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 309,
       "fiber_coverage": 32,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 96
     }
   },
   {
@@ -17919,7 +19714,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 303,
       "fiber_coverage": 36,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 90
     }
   },
   {
@@ -17929,7 +19725,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 299,
       "fiber_coverage": 44,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 89
     }
   },
   {
@@ -17939,7 +19736,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 294,
       "fiber_coverage": 49,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 90
     }
   },
   {
@@ -17949,7 +19747,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 307,
       "fiber_coverage": 44,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 94
     }
   },
   {
@@ -17959,7 +19758,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 259,
       "fiber_coverage": 28,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -17969,7 +19769,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 324,
       "fiber_coverage": 60,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -17979,7 +19780,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 337,
       "fiber_coverage": 64,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -17989,7 +19791,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 333,
       "fiber_coverage": 93,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 80
     }
   },
   {
@@ -17999,7 +19802,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 318,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -18009,7 +19813,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 331,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -18019,7 +19824,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 341,
       "fiber_coverage": 61,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -18029,7 +19835,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 327,
       "fiber_coverage": 72,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -18039,7 +19846,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 331,
       "fiber_coverage": 70,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 76
     }
   },
   {
@@ -18049,7 +19857,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 321,
       "fiber_coverage": 81,
-      "crime_rate": 208
+      "crime_rate": 208,
+      "four_seasons": 71
     }
   },
   {
@@ -18059,7 +19868,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 316,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -18069,7 +19879,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 328,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -18079,7 +19890,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 310,
       "fiber_coverage": 64,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -18089,7 +19901,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 305,
       "fiber_coverage": 55,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 73
     }
   },
   {
@@ -18099,7 +19912,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 325,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -18109,7 +19923,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 339,
       "fiber_coverage": 66,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -18119,7 +19934,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 313,
       "fiber_coverage": 61,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 81
     }
   },
   {
@@ -18129,7 +19945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 332,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -18139,7 +19956,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 338,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -18149,7 +19967,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 322,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -18159,7 +19978,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 322,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -18169,7 +19989,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 329,
       "fiber_coverage": 74,
-      "crime_rate": 208
+      "crime_rate": 208,
+      "four_seasons": 70
     }
   },
   {
@@ -18179,7 +20000,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 331,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -18189,7 +20011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 320,
       "fiber_coverage": 94,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 79
     }
   },
   {
@@ -18199,7 +20022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 321,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -18208,7 +20032,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 361,
       "fiber_coverage": 42,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18217,7 +20042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 356,
       "fiber_coverage": 55,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18226,7 +20052,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 357,
       "fiber_coverage": 37,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18235,7 +20062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 349,
       "fiber_coverage": 36,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18244,7 +20072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 273,
       "fiber_coverage": 53,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18253,7 +20082,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 358,
       "fiber_coverage": 43,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18262,7 +20092,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 354,
       "fiber_coverage": 46,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18271,7 +20102,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 357,
       "fiber_coverage": 42,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18280,7 +20112,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 352,
       "fiber_coverage": 42,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18290,7 +20123,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 306,
       "fiber_coverage": 36,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 96
     }
   },
   {
@@ -18299,7 +20133,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 354,
       "fiber_coverage": 43,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18309,7 +20144,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 132,
       "growing_season": 281,
       "fiber_coverage": 71,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -18319,7 +20155,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 277,
       "fiber_coverage": 69,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 53
     }
   },
   {
@@ -18329,7 +20166,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 287,
       "fiber_coverage": 78,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 53
     }
   },
   {
@@ -18339,7 +20177,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 280,
       "fiber_coverage": 74,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 54
     }
   },
   {
@@ -18349,7 +20188,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 305,
       "fiber_coverage": 29,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -18359,7 +20199,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 312,
       "fiber_coverage": 28,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 89
     }
   },
   {
@@ -18369,7 +20210,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 310,
       "fiber_coverage": 32,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 74
     }
   },
   {
@@ -18379,7 +20221,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 322,
       "fiber_coverage": 31,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 71
     }
   },
   {
@@ -18389,7 +20232,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 309,
       "fiber_coverage": 28,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -18399,7 +20243,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 309,
       "fiber_coverage": 38,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 78
     }
   },
   {
@@ -18409,7 +20254,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 302,
       "fiber_coverage": 34,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 79
     }
   },
   {
@@ -18419,7 +20265,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 326,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -18428,7 +20275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 351,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18437,7 +20285,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 360,
       "fiber_coverage": 40,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18446,7 +20295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 345,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18455,7 +20305,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 348,
       "fiber_coverage": 50,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18464,7 +20315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 360,
       "fiber_coverage": 40,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18473,7 +20325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 352,
       "fiber_coverage": 39,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18482,7 +20335,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 343,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18491,7 +20345,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 344,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18500,7 +20355,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 359,
       "fiber_coverage": 51,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18509,7 +20365,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 358,
       "fiber_coverage": 41,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18518,7 +20375,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 359,
       "fiber_coverage": 49,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18527,7 +20385,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 351,
       "fiber_coverage": 36,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18536,7 +20395,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 347,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18546,7 +20406,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 323,
       "fiber_coverage": 75,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -18556,7 +20417,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -18566,7 +20428,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 26
     }
   },
   {
@@ -18576,7 +20439,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 323,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -18586,7 +20450,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 318,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -18596,7 +20461,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 320,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -18606,7 +20472,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 308,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 75
     }
   },
   {
@@ -18616,7 +20483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 316,
       "fiber_coverage": 30,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -18626,7 +20494,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 311,
       "fiber_coverage": 50,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -18636,7 +20505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 325,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -18646,7 +20516,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 318,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 75
     }
   },
   {
@@ -18656,7 +20527,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 303,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 64
     }
   },
   {
@@ -18666,7 +20538,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 312,
       "fiber_coverage": 40,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -18676,7 +20549,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 313,
       "fiber_coverage": 74,
-      "crime_rate": 392
+      "crime_rate": 392,
+      "four_seasons": 71
     }
   },
   {
@@ -18686,7 +20560,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 316,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -18696,7 +20571,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 318,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 70
     }
   },
   {
@@ -18705,7 +20581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 349,
       "fiber_coverage": 37,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -18715,7 +20592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 330,
       "fiber_coverage": 38,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -18725,7 +20603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 329,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 50
     }
   },
   {
@@ -18735,7 +20614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 339,
       "fiber_coverage": 65,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -18745,7 +20625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 340,
       "fiber_coverage": 59,
-      "crime_rate": 521
+      "crime_rate": 521,
+      "four_seasons": 65
     }
   },
   {
@@ -18755,7 +20636,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 285,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -18765,7 +20647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 272,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 66
     }
   },
   {
@@ -18775,7 +20658,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 283,
       "fiber_coverage": 30,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 71
     }
   },
   {
@@ -18785,7 +20669,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 284,
       "fiber_coverage": 27,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 75
     }
   },
   {
@@ -18795,7 +20680,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 281,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -18805,7 +20691,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 281,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -18815,7 +20702,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 271,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 75
     }
   },
   {
@@ -18825,7 +20713,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 279,
       "fiber_coverage": 27,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -18835,7 +20724,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 302,
       "fiber_coverage": 53,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 79
     }
   },
   {
@@ -18845,7 +20735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 87
     }
   },
   {
@@ -18855,7 +20746,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 318,
       "fiber_coverage": 25,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 72
     }
   },
   {
@@ -18865,7 +20757,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 295,
       "fiber_coverage": 43,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -18875,7 +20768,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 294,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 95
     }
   },
   {
@@ -18885,7 +20779,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 312,
       "fiber_coverage": 86,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 53
     }
   },
   {
@@ -18895,7 +20790,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 296,
       "fiber_coverage": 81,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 75
     }
   },
   {
@@ -18905,7 +20801,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 309,
       "fiber_coverage": 77,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 51
     }
   },
   {
@@ -18915,7 +20812,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 306,
       "fiber_coverage": 91,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 82
     }
   },
   {
@@ -18925,7 +20823,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 89
     }
   },
   {
@@ -18935,7 +20834,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 318,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 76
     }
   },
   {
@@ -18945,7 +20845,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 320,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -18955,7 +20856,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 340,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -18965,7 +20867,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 327,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -18975,7 +20878,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 323,
       "fiber_coverage": 60,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -18985,7 +20889,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 321,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -18994,7 +20899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 352,
       "fiber_coverage": 44,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -19003,7 +20909,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 347,
       "fiber_coverage": 53,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -19012,7 +20919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 346,
       "fiber_coverage": 55,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -19022,7 +20930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -19032,7 +20941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 27
     }
   },
   {
@@ -19042,7 +20952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 1
     }
   },
   {
@@ -19052,7 +20963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 43,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -19062,7 +20974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 34,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 28
     }
   },
   {
@@ -19072,7 +20985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 23
     }
   },
   {
@@ -19082,7 +20996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 32
     }
   },
   {
@@ -19092,7 +21007,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 40,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -19102,7 +21018,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 634
+      "crime_rate": 634,
+      "four_seasons": 0
     }
   },
   {
@@ -19112,7 +21029,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 324,
       "fiber_coverage": 45,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -19122,7 +21040,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 316,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -19132,7 +21051,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 315,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -19142,7 +21062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 301,
       "fiber_coverage": 50,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -19152,7 +21073,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 288,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -19162,7 +21084,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 297,
       "fiber_coverage": 68,
-      "crime_rate": 372
+      "crime_rate": 372,
+      "four_seasons": 92
     }
   },
   {
@@ -19172,7 +21095,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 306,
       "fiber_coverage": 33,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -19182,7 +21106,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 295,
       "fiber_coverage": 45,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -19192,7 +21117,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -19202,7 +21128,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 296,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -19212,7 +21139,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 303,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -19222,7 +21150,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 294,
       "fiber_coverage": 40,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -19232,7 +21161,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 283,
       "fiber_coverage": 46,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -19242,7 +21172,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 287,
       "fiber_coverage": 42,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -19252,7 +21183,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 306,
       "fiber_coverage": 47,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -19262,7 +21194,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 298,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -19272,7 +21205,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 294,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -19282,7 +21216,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 299,
       "fiber_coverage": 46,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -19292,7 +21227,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 302,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 88
     }
   },
   {
@@ -19302,7 +21238,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 308,
       "fiber_coverage": 40,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -19312,7 +21249,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 307,
       "fiber_coverage": 52,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -19322,7 +21260,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 274,
       "growing_season": 330,
       "fiber_coverage": 31,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 4
     }
   },
   {
@@ -19332,7 +21271,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 294,
       "growing_season": 338,
       "fiber_coverage": 48,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 27
     }
   },
   {
@@ -19342,7 +21282,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 281,
       "growing_season": 332,
       "fiber_coverage": 30,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 22
     }
   },
   {
@@ -19352,7 +21293,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 290,
       "growing_season": 315,
       "fiber_coverage": 49,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 27
     }
   },
   {
@@ -19362,7 +21304,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 311,
       "fiber_coverage": 65,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -19372,7 +21315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 298,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 87
     }
   },
   {
@@ -19382,7 +21326,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 310,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 89
     }
   },
   {
@@ -19392,7 +21337,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 306,
       "fiber_coverage": 65,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 91
     }
   },
   {
@@ -19402,7 +21348,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 314,
       "fiber_coverage": 55,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -19412,7 +21359,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 329,
       "fiber_coverage": 66,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -19422,7 +21370,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -19432,7 +21381,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 359,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -19442,7 +21392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -19452,7 +21403,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -19462,7 +21414,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 363,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -19472,7 +21425,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -19482,7 +21436,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -19492,7 +21447,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 361,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -19501,7 +21457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 106,
       "fiber_coverage": 25,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -19511,7 +21468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 326,
       "fiber_coverage": 31,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 49
     }
   },
   {
@@ -19521,7 +21479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 346,
       "fiber_coverage": 75,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 56
     }
   },
   {
@@ -19531,7 +21490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 276,
       "growing_season": 337,
       "fiber_coverage": 78,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 45
     }
   },
   {
@@ -19541,7 +21501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 340,
       "fiber_coverage": 68,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 48
     }
   },
   {
@@ -19551,7 +21512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 316,
       "fiber_coverage": 74,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 59
     }
   },
   {
@@ -19561,7 +21523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 266,
       "growing_season": 328,
       "fiber_coverage": 63,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 51
     }
   },
   {
@@ -19571,7 +21534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 262,
       "growing_season": 327,
       "fiber_coverage": 74,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 57
     }
   },
   {
@@ -19581,7 +21545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 263,
       "growing_season": 350,
       "fiber_coverage": 70,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 44
     }
   },
   {
@@ -19591,7 +21556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 286,
       "fiber_coverage": 72,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -19601,7 +21567,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 285,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -19611,7 +21578,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 275,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -19621,7 +21589,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 310,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 78
     }
   },
   {
@@ -19631,7 +21600,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 301,
       "fiber_coverage": 30,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -19641,7 +21611,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 274,
       "fiber_coverage": 50,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 74
     }
   },
   {
@@ -19651,7 +21622,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 285,
       "fiber_coverage": 41,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -19661,7 +21633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 279,
       "fiber_coverage": 46,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 79
     }
   },
   {
@@ -19671,7 +21644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 296,
       "fiber_coverage": 56,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -19681,7 +21655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 285,
       "fiber_coverage": 45,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 79
     }
   },
   {
@@ -19691,7 +21666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 276,
       "fiber_coverage": 54,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 77
     }
   },
   {
@@ -19701,7 +21677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 297,
       "fiber_coverage": 59,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -19711,7 +21688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 295,
       "fiber_coverage": 45,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 90
     }
   },
   {
@@ -19721,7 +21699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 285,
       "fiber_coverage": 51,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 82
     }
   },
   {
@@ -19731,7 +21710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 290,
       "fiber_coverage": 40,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 92
     }
   },
   {
@@ -19741,7 +21721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 26
     }
   },
   {
@@ -19751,7 +21732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 22
     }
   },
   {
@@ -19761,7 +21743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -19771,7 +21754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 364,
       "fiber_coverage": 27,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 29
     }
   },
   {
@@ -19781,7 +21765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 310,
       "fiber_coverage": 57,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -19791,7 +21776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 315,
       "fiber_coverage": 64,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -19801,7 +21787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 296,
       "fiber_coverage": 54,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 90
     }
   },
   {
@@ -19811,7 +21798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 326,
       "fiber_coverage": 60,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -19821,7 +21809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 308,
       "fiber_coverage": 49,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -19831,7 +21820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 314,
       "fiber_coverage": 53,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -19841,7 +21831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 309,
       "fiber_coverage": 48,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 96
     }
   },
   {
@@ -19851,7 +21842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 306,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -19861,7 +21853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 323,
       "fiber_coverage": 42,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 91
     }
   },
   {
@@ -19871,7 +21864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 328,
       "fiber_coverage": 42,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 93
     }
   },
   {
@@ -19881,7 +21875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 308,
       "fiber_coverage": 40,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -19891,7 +21886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 324,
       "fiber_coverage": 43,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -19901,7 +21897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 315,
       "fiber_coverage": 57,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -19911,7 +21908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 314,
       "fiber_coverage": 47,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 98
     }
   },
   {
@@ -19920,7 +21918,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 350,
       "fiber_coverage": 45,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -19930,7 +21929,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 2
     }
   },
   {
@@ -19940,7 +21940,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 364,
       "fiber_coverage": 32,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 1
     }
   },
   {
@@ -19950,7 +21951,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 357,
       "fiber_coverage": 37,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 31
     }
   },
   {
@@ -19960,7 +21962,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 259,
       "growing_season": 348,
       "fiber_coverage": 79,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 51
     }
   },
   {
@@ -19970,7 +21973,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 255,
       "growing_season": 343,
       "fiber_coverage": 69,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 44
     }
   },
   {
@@ -19980,7 +21984,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 264,
       "growing_season": 326,
       "fiber_coverage": 69,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 55
     }
   },
   {
@@ -19990,7 +21995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 104,
       "fiber_coverage": 34,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -20000,7 +22006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 288,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 99
     }
   },
   {
@@ -20010,7 +22017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 272,
       "fiber_coverage": 73,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -20020,7 +22028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20030,7 +22039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20040,7 +22050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20050,7 +22061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20060,7 +22072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 536
+      "crime_rate": 536,
+      "four_seasons": 0
     }
   },
   {
@@ -20070,7 +22083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 364,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -20080,7 +22094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -20090,7 +22105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 357,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -20100,7 +22116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 360,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 34
     }
   },
   {
@@ -20110,7 +22127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 362,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -20120,7 +22138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 363,
       "fiber_coverage": 54,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -20130,7 +22149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 355,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -20140,7 +22160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 39,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 25
     }
   },
   {
@@ -20150,7 +22171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 25
     }
   },
   {
@@ -20160,7 +22182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -20170,7 +22193,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 304,
       "fiber_coverage": 33,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 88
     }
   },
   {
@@ -20180,7 +22204,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 326,
       "fiber_coverage": 55,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -20190,7 +22215,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 316,
       "fiber_coverage": 51,
-      "crime_rate": 328
+      "crime_rate": 328,
+      "four_seasons": 81
     }
   },
   {
@@ -20200,7 +22226,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 309,
       "fiber_coverage": 45,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 96
     }
   },
   {
@@ -20210,7 +22237,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 313,
       "fiber_coverage": 59,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 94
     }
   },
   {
@@ -20220,7 +22248,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 318,
       "fiber_coverage": 55,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 94
     }
   },
   {
@@ -20230,7 +22259,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 303,
       "fiber_coverage": 57,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 98
     }
   },
   {
@@ -20240,7 +22270,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 283,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 88
     }
   },
   {
@@ -20250,7 +22281,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 288,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 94
     }
   },
   {
@@ -20260,7 +22292,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 304,
       "fiber_coverage": 46,
-      "crime_rate": 196
+      "crime_rate": 196,
+      "four_seasons": 88
     }
   },
   {
@@ -20270,7 +22303,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 357,
       "fiber_coverage": 48,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 62
     }
   },
   {
@@ -20280,7 +22314,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 32
     }
   },
   {
@@ -20290,7 +22325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 349,
       "fiber_coverage": 44,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 62
     }
   },
   {
@@ -20300,7 +22336,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 327,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 64
     }
   },
   {
@@ -20310,7 +22347,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 323,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -20320,7 +22358,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 328,
       "fiber_coverage": 64,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -20330,7 +22369,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 326,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -20340,7 +22380,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 315,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -20350,7 +22391,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 323,
       "fiber_coverage": 74,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -20360,7 +22402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 318,
       "fiber_coverage": 74,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -20370,7 +22413,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 324,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -20380,7 +22424,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 330,
       "fiber_coverage": 66,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -20390,7 +22435,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 333,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -20400,7 +22446,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 276,
       "growing_season": 339,
       "fiber_coverage": 91,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 46
     }
   },
   {
@@ -20410,7 +22457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 343,
       "fiber_coverage": 79,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 62
     }
   },
   {
@@ -20420,7 +22468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 259,
       "growing_season": 334,
       "fiber_coverage": 68,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 60
     }
   },
   {
@@ -20430,7 +22479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 291,
       "growing_season": 304,
       "fiber_coverage": 100,
-      "crime_rate": 649
+      "crime_rate": 649,
+      "four_seasons": 0
     }
   },
   {
@@ -20440,7 +22490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 355,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -20450,7 +22501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -20460,7 +22512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 352,
       "fiber_coverage": 54,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -20470,7 +22523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 281,
       "fiber_coverage": 75,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 99
     }
   },
   {
@@ -20480,7 +22534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 277,
       "fiber_coverage": 77,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -20490,7 +22545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 285,
       "fiber_coverage": 100,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -20500,7 +22556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 250,
       "growing_season": 294,
       "fiber_coverage": 69,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -20510,7 +22567,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 285,
       "fiber_coverage": 79,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -20520,7 +22578,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 280,
       "fiber_coverage": 72,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 97
     }
   },
   {
@@ -20530,7 +22589,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 270,
       "fiber_coverage": 60,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -20540,7 +22600,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 321,
       "fiber_coverage": 51,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 89
     }
   },
   {
@@ -20550,7 +22611,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20560,7 +22622,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20570,7 +22633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20580,7 +22644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -20590,7 +22655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 288,
       "fiber_coverage": 58,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -20600,7 +22666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 298,
       "fiber_coverage": 52,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 91
     }
   },
   {
@@ -20610,7 +22677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 280,
       "fiber_coverage": 51,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -20620,7 +22688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 290,
       "fiber_coverage": 53,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 86
     }
   },
   {
@@ -20630,7 +22699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 287,
       "fiber_coverage": 44,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 89
     }
   },
   {
@@ -20640,7 +22710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 279,
       "fiber_coverage": 43,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 86
     }
   },
   {
@@ -20650,7 +22721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 293,
       "fiber_coverage": 42,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 99
     }
   },
   {
@@ -20660,7 +22732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 281,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 81
     }
   },
   {
@@ -20670,7 +22743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 284,
       "fiber_coverage": 46,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 92
     }
   },
   {
@@ -20680,7 +22754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 276,
       "fiber_coverage": 44,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 89
     }
   },
   {
@@ -20690,7 +22765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 280,
       "fiber_coverage": 47,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -20700,7 +22776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 292,
       "fiber_coverage": 56,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 94
     }
   },
   {
@@ -20710,7 +22787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 275,
       "fiber_coverage": 53,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 79
     }
   },
   {
@@ -20720,7 +22798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 308,
       "fiber_coverage": 65,
-      "crime_rate": 760
+      "crime_rate": 760,
+      "four_seasons": 75
     }
   },
   {
@@ -20730,7 +22809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 315,
       "fiber_coverage": 67,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -20740,7 +22820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 328,
       "fiber_coverage": 65,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -20750,7 +22831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 322,
       "fiber_coverage": 69,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -20760,7 +22842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 322,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -20770,7 +22853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 347,
       "fiber_coverage": 49,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -20780,7 +22864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -20790,7 +22875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 359,
       "fiber_coverage": 48,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 32
     }
   },
   {
@@ -20800,7 +22886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -20810,7 +22897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 349,
       "fiber_coverage": 49,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -20820,7 +22908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 282,
       "fiber_coverage": 38,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -20830,7 +22919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 290,
       "fiber_coverage": 38,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 72
     }
   },
   {
@@ -20840,7 +22930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 291,
       "fiber_coverage": 44,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 70
     }
   },
   {
@@ -20850,7 +22941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 278,
       "fiber_coverage": 42,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -20860,7 +22952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 290,
       "fiber_coverage": 41,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 72
     }
   },
   {
@@ -20870,7 +22963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 298,
       "fiber_coverage": 28,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -20880,7 +22974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 289,
       "fiber_coverage": 26,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 74
     }
   },
   {
@@ -20890,7 +22985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 322,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -20900,7 +22996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 320,
       "fiber_coverage": 61,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -20910,7 +23007,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -20920,7 +23018,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 35,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -20930,7 +23029,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 32
     }
   },
   {
@@ -20940,7 +23040,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 0
     }
   },
   {
@@ -20950,7 +23051,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 25
     }
   },
   {
@@ -20960,7 +23062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 634
+      "crime_rate": 634,
+      "four_seasons": 0
     }
   },
   {
@@ -20970,7 +23073,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 34,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -20980,7 +23084,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 364,
       "fiber_coverage": 47,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 34
     }
   },
   {
@@ -20990,7 +23095,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -21000,7 +23106,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -21010,7 +23117,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -21020,7 +23128,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 296,
       "growing_season": 357,
       "fiber_coverage": 51,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 39
     }
   },
   {
@@ -21030,7 +23139,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 310,
       "growing_season": 358,
       "fiber_coverage": 64,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 32
     }
   },
   {
@@ -21040,7 +23150,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 308,
       "growing_season": 362,
       "fiber_coverage": 49,
-      "crime_rate": 441
+      "crime_rate": 441,
+      "four_seasons": 25
     }
   },
   {
@@ -21050,7 +23161,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 329,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 28
     }
   },
   {
@@ -21060,7 +23172,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 324,
       "fiber_coverage": 37,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 51
     }
   },
   {
@@ -21070,7 +23183,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 321,
       "fiber_coverage": 43,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -21080,7 +23194,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 338,
       "fiber_coverage": 63,
-      "crime_rate": 941
+      "crime_rate": 941,
+      "four_seasons": 30
     }
   },
   {
@@ -21090,7 +23205,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 320,
       "fiber_coverage": 48,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -21100,7 +23216,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 318,
       "fiber_coverage": 34,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -21110,7 +23227,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 333,
       "fiber_coverage": 39,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 30
     }
   },
   {
@@ -21120,7 +23238,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 303,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 62
     }
   },
   {
@@ -21130,7 +23249,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 299,
       "fiber_coverage": 38,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -21140,7 +23260,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 297,
       "fiber_coverage": 41,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -21150,7 +23271,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 301,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -21160,7 +23282,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 327,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 52
     }
   },
   {
@@ -21170,7 +23293,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 317,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 66
     }
   },
   {
@@ -21180,7 +23304,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 298,
       "fiber_coverage": 54,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 67
     }
   },
   {
@@ -21190,7 +23315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 318,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 61
     }
   },
   {
@@ -21200,7 +23326,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 317,
       "fiber_coverage": 53,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -21210,7 +23337,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 315,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 58
     }
   },
   {
@@ -21220,7 +23348,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 316,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 57
     }
   },
   {
@@ -21230,7 +23359,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 259,
       "fiber_coverage": 28,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 66
     }
   },
   {
@@ -21240,7 +23370,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 250,
       "fiber_coverage": 26,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 82
     }
   },
   {
@@ -21250,7 +23381,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 262,
       "fiber_coverage": 42,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 70
     }
   },
   {
@@ -21260,7 +23392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 273,
       "fiber_coverage": 26,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 67
     }
   },
   {
@@ -21270,7 +23403,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 294,
       "fiber_coverage": 32,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 71
     }
   },
   {
@@ -21280,7 +23414,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 287,
       "fiber_coverage": 26,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 72
     }
   },
   {
@@ -21290,7 +23425,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 288,
       "fiber_coverage": 26,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 69
     }
   },
   {
@@ -21300,7 +23436,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 322,
       "fiber_coverage": 48,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 33
     }
   },
   {
@@ -21310,7 +23447,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 315,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -21320,7 +23458,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 318,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 31
     }
   },
   {
@@ -21330,7 +23469,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 316,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 34
     }
   },
   {
@@ -21340,7 +23480,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 316,
       "fiber_coverage": 43,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 49
     }
   },
   {
@@ -21350,7 +23491,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 321,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 49
     }
   },
   {
@@ -21360,7 +23502,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 319,
       "fiber_coverage": 35,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -21370,7 +23513,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 324,
       "fiber_coverage": 45,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -21380,7 +23524,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 336,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 31
     }
   },
   {
@@ -21390,7 +23535,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 299,
       "fiber_coverage": 66,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 52
     }
   },
   {
@@ -21400,7 +23546,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 265,
       "growing_season": 331,
       "fiber_coverage": 99,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -21410,7 +23557,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 278,
       "growing_season": 340,
       "fiber_coverage": 66,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 38
     }
   },
   {
@@ -21420,7 +23568,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 280,
       "growing_season": 303,
       "fiber_coverage": 60,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -21430,7 +23579,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 273,
       "fiber_coverage": 72,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -21440,7 +23590,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 328,
       "fiber_coverage": 47,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -21450,7 +23601,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 332,
       "fiber_coverage": 45,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -21460,7 +23612,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 310,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 54
     }
   },
   {
@@ -21470,7 +23623,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 22
     }
   },
   {
@@ -21480,7 +23634,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 348,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -21490,7 +23645,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -21499,7 +23655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 266,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 0
     }
   },
   {
@@ -21509,7 +23666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 299,
       "fiber_coverage": 45,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -21519,7 +23677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 285,
       "fiber_coverage": 53,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 74
     }
   },
   {
@@ -21529,7 +23688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 291,
       "fiber_coverage": 39,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 75
     }
   },
   {
@@ -21539,7 +23699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 290,
       "fiber_coverage": 53,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 77
     }
   },
   {
@@ -21549,7 +23710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 282,
       "fiber_coverage": 41,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 73
     }
   },
   {
@@ -21559,7 +23721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 305,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -21569,7 +23732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 305,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -21579,7 +23743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 241,
       "fiber_coverage": 65,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 61
     }
   },
   {
@@ -21589,7 +23754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 293,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 94
     }
   },
   {
@@ -21599,7 +23765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 303,
       "fiber_coverage": 42,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 88
     }
   },
   {
@@ -21609,7 +23776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 295,
       "fiber_coverage": 32,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -21619,7 +23787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 299,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -21629,7 +23798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 298,
       "fiber_coverage": 43,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -21639,7 +23809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 290,
       "fiber_coverage": 33,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -21649,7 +23820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 305,
       "fiber_coverage": 77,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -21659,7 +23831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 283,
       "growing_season": 275,
       "fiber_coverage": 58,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 59
     }
   },
   {
@@ -21669,7 +23842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 287,
       "growing_season": 283,
       "fiber_coverage": 53,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 61
     }
   },
   {
@@ -21679,7 +23853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 305,
       "fiber_coverage": 39,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 96
     }
   },
   {
@@ -21689,7 +23864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 307,
       "fiber_coverage": 40,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 95
     }
   },
   {
@@ -21699,7 +23875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 308,
       "fiber_coverage": 64,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 87
     }
   },
   {
@@ -21709,7 +23886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 319,
       "fiber_coverage": 62,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 89
     }
   },
   {
@@ -21719,7 +23897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 295,
       "fiber_coverage": 64,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 63
     }
   },
   {
@@ -21729,7 +23908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 310,
       "fiber_coverage": 68,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 56
     }
   },
   {
@@ -21739,7 +23919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 288,
       "fiber_coverage": 63,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 60
     }
   },
   {
@@ -21749,7 +23930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 321,
       "fiber_coverage": 52,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -21759,7 +23941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21769,7 +23952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -21779,7 +23963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21789,7 +23974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21799,7 +23985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21809,7 +23996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21819,7 +24007,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 355,
       "fiber_coverage": 57,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 50
     }
   },
   {
@@ -21829,7 +24018,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -21839,7 +24029,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21849,7 +24040,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -21859,7 +24051,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 351,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -21869,7 +24062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 352,
       "fiber_coverage": 61,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -21879,7 +24073,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -21889,7 +24084,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 31
     }
   },
   {
@@ -21899,7 +24095,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 33
     }
   },
   {
@@ -21909,7 +24106,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 355,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -21919,7 +24117,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 285,
       "fiber_coverage": 80,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -21929,7 +24128,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 279,
       "fiber_coverage": 79,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 93
     }
   },
   {
@@ -21939,7 +24139,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 331,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -21949,7 +24150,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 301,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 64
     }
   },
   {
@@ -21959,7 +24161,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 304,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 87
     }
   },
   {
@@ -21969,7 +24172,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 303,
       "fiber_coverage": 52,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -21979,7 +24183,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 302,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 66
     }
   },
   {
@@ -21989,7 +24194,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 317,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 59
     }
   },
   {
@@ -21999,7 +24205,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 292,
       "fiber_coverage": 47,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -22009,7 +24216,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 300,
       "fiber_coverage": 53,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -22019,7 +24227,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 313,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -22029,7 +24238,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 303,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -22039,7 +24249,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 314,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 65
     }
   },
   {
@@ -22049,7 +24260,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 295,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -22059,7 +24271,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 307,
       "fiber_coverage": 55,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -22069,7 +24282,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 313,
       "fiber_coverage": 44,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -22079,7 +24293,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 298,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -22089,7 +24304,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 300,
       "fiber_coverage": 42,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -22099,7 +24315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -22109,7 +24326,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 288,
       "growing_season": 329,
       "fiber_coverage": 44,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 34
     }
   },
   {
@@ -22119,7 +24337,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 252,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 63
     }
   },
   {
@@ -22129,7 +24348,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 242,
       "fiber_coverage": 32,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 57
     }
   },
   {
@@ -22139,7 +24359,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 247,
       "fiber_coverage": 45,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 90
     }
   },
   {
@@ -22149,7 +24370,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 239,
       "fiber_coverage": 44,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 78
     }
   },
   {
@@ -22159,7 +24381,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 295,
       "fiber_coverage": 38,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -22169,7 +24392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 300,
       "fiber_coverage": 45,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -22179,7 +24403,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 296,
       "fiber_coverage": 38,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -22189,7 +24414,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 294,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 80
     }
   },
   {
@@ -22199,7 +24425,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 308,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -22209,7 +24436,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 295,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -22219,7 +24447,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 298,
       "fiber_coverage": 48,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 95
     }
   },
   {
@@ -22229,7 +24458,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 300,
       "fiber_coverage": 45,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -22239,7 +24469,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 303,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 81
     }
   },
   {
@@ -22249,7 +24480,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22259,7 +24491,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22269,7 +24502,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -22279,7 +24513,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 289,
       "fiber_coverage": 84,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 74
     }
   },
   {
@@ -22289,7 +24524,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 309,
       "fiber_coverage": 90,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 48
     }
   },
   {
@@ -22299,7 +24535,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 314,
       "fiber_coverage": 59,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -22309,7 +24546,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 330,
       "fiber_coverage": 74,
-      "crime_rate": 471
+      "crime_rate": 471,
+      "four_seasons": 53
     }
   },
   {
@@ -22319,7 +24557,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 10
     }
   },
   {
@@ -22329,7 +24568,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22339,7 +24579,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22349,7 +24590,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22359,7 +24601,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -22369,7 +24612,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 357,
       "fiber_coverage": 65,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 32
     }
   },
   {
@@ -22379,7 +24623,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -22389,7 +24634,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 89,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22398,7 +24644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 134,
       "fiber_coverage": 34,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -22407,7 +24654,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 121,
       "fiber_coverage": 22,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -22417,7 +24665,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 270,
       "growing_season": 354,
       "fiber_coverage": 67,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 50
     }
   },
   {
@@ -22427,7 +24676,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 24
     }
   },
   {
@@ -22437,7 +24687,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 27
     }
   },
   {
@@ -22447,7 +24698,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 362,
       "fiber_coverage": 41,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 23
     }
   },
   {
@@ -22457,7 +24709,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 30,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 25
     }
   },
   {
@@ -22467,7 +24720,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 297,
       "fiber_coverage": 38,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 69
     }
   },
   {
@@ -22477,7 +24731,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 301,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -22487,7 +24742,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 289,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -22497,7 +24753,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 288,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -22507,7 +24764,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 289,
       "fiber_coverage": 36,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 88
     }
   },
   {
@@ -22517,7 +24775,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 307,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -22527,7 +24786,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 295,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -22537,7 +24797,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 308,
       "fiber_coverage": 49,
-      "crime_rate": 298
+      "crime_rate": 298,
+      "four_seasons": 59
     }
   },
   {
@@ -22547,7 +24808,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 297,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 90
     }
   },
   {
@@ -22557,7 +24819,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 305,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -22567,7 +24830,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 303,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -22577,7 +24841,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 315,
       "fiber_coverage": 40,
-      "crime_rate": 298
+      "crime_rate": 298,
+      "four_seasons": 66
     }
   },
   {
@@ -22587,7 +24852,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 310,
       "fiber_coverage": 45,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 58
     }
   },
   {
@@ -22597,7 +24863,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 302,
       "fiber_coverage": 59,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 63
     }
   },
   {
@@ -22607,7 +24874,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 301,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -22617,7 +24885,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 317,
       "fiber_coverage": 46,
-      "crime_rate": 298
+      "crime_rate": 298,
+      "four_seasons": 60
     }
   },
   {
@@ -22627,7 +24896,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 288,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 80
     }
   },
   {
@@ -22637,7 +24907,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 365,
       "fiber_coverage": 39,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -22647,7 +24918,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 357,
       "fiber_coverage": 43,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -22657,7 +24929,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 27,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -22667,7 +24940,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 362,
       "fiber_coverage": 37,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -22677,7 +24951,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 42,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -22687,7 +24962,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 363,
       "fiber_coverage": 30,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 24
     }
   },
   {
@@ -22697,7 +24973,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 364,
       "fiber_coverage": 44,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -22707,7 +24984,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 357,
       "fiber_coverage": 40,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 32
     }
   },
   {
@@ -22717,7 +24995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 27
     }
   },
   {
@@ -22727,7 +25006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 305,
       "fiber_coverage": 51,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 79
     }
   },
   {
@@ -22737,7 +25017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 304,
       "fiber_coverage": 47,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 62
     }
   },
   {
@@ -22747,7 +25028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 304,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 64
     }
   },
   {
@@ -22757,7 +25039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 312,
       "fiber_coverage": 40,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 60
     }
   },
   {
@@ -22767,7 +25050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 310,
       "fiber_coverage": 37,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 77
     }
   },
   {
@@ -22777,7 +25061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 318,
       "fiber_coverage": 66,
-      "crime_rate": 760
+      "crime_rate": 760,
+      "four_seasons": 59
     }
   },
   {
@@ -22787,7 +25072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 312,
       "fiber_coverage": 41,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -22797,7 +25083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 361,
       "fiber_coverage": 61,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -22807,7 +25094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 28
     }
   },
   {
@@ -22817,7 +25105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22827,7 +25116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -22837,7 +25127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 31
     }
   },
   {
@@ -22847,7 +25138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22857,7 +25149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22867,7 +25160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -22877,7 +25171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22887,7 +25182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 9
     }
   },
   {
@@ -22897,7 +25193,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22907,7 +25204,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 353,
       "fiber_coverage": 60,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 25
     }
   },
   {
@@ -22917,7 +25215,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22927,7 +25226,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 16
     }
   },
   {
@@ -22937,7 +25237,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 26
     }
   },
   {
@@ -22947,7 +25248,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22957,7 +25259,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22967,7 +25270,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -22977,7 +25281,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 360,
       "fiber_coverage": 69,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 18
     }
   },
   {
@@ -22987,7 +25292,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -22997,7 +25303,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 309,
       "fiber_coverage": 74,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 95
     }
   },
   {
@@ -23007,7 +25314,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 283,
       "fiber_coverage": 77,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -23017,7 +25325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 276,
       "fiber_coverage": 69,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -23027,7 +25336,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 344,
       "fiber_coverage": 63,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 40
     }
   },
   {
@@ -23037,7 +25347,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 258,
       "growing_season": 328,
       "fiber_coverage": 70,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 64
     }
   },
   {
@@ -23047,7 +25358,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 263,
       "growing_season": 347,
       "fiber_coverage": 66,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 53
     }
   },
   {
@@ -23057,7 +25369,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 268,
       "growing_season": 336,
       "fiber_coverage": 67,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 62
     }
   },
   {
@@ -23067,7 +25380,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 339,
       "fiber_coverage": 79,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 54
     }
   },
   {
@@ -23077,7 +25391,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 309,
       "fiber_coverage": 42,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -23087,7 +25402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 302,
       "fiber_coverage": 38,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 89
     }
   },
   {
@@ -23097,7 +25413,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 318,
       "fiber_coverage": 39,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -23107,7 +25424,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 312,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -23117,7 +25435,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 311,
       "fiber_coverage": 51,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 62
     }
   },
   {
@@ -23127,7 +25446,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -23137,7 +25457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 362,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -23147,7 +25468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 361,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -23157,7 +25479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 356,
       "fiber_coverage": 93,
-      "crime_rate": 561
+      "crime_rate": 561,
+      "four_seasons": 24
     }
   },
   {
@@ -23167,7 +25490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 360,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -23177,7 +25501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 363,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -23187,7 +25512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -23197,7 +25523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 26
     }
   },
   {
@@ -23207,7 +25534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 70,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -23217,7 +25545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 349,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 32
     }
   },
   {
@@ -23227,7 +25556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -23237,7 +25567,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 361,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 23
     }
   },
   {
@@ -23247,7 +25578,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 301,
       "fiber_coverage": 35,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 63
     }
   },
   {
@@ -23257,7 +25589,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 324,
       "fiber_coverage": 41,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -23267,7 +25600,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 324,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -23277,7 +25611,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 318,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -23287,7 +25622,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 321,
       "fiber_coverage": 58,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -23297,7 +25633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 334,
       "fiber_coverage": 60,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -23307,7 +25644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 322,
       "fiber_coverage": 90,
-      "crime_rate": 521
+      "crime_rate": 521,
+      "four_seasons": 63
     }
   },
   {
@@ -23317,7 +25655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 332,
       "fiber_coverage": 75,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -23327,7 +25666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 332,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -23337,7 +25677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 339,
       "fiber_coverage": 73,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -23347,7 +25688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 319,
       "fiber_coverage": 61,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -23357,7 +25699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 329,
       "fiber_coverage": 59,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -23367,7 +25710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 329,
       "fiber_coverage": 68,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 63
     }
   },
   {
@@ -23377,7 +25721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 347,
       "fiber_coverage": 57,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 33
     }
   },
   {
@@ -23387,7 +25732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 333,
       "fiber_coverage": 65,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -23397,7 +25743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -23407,7 +25754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -23417,7 +25765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -23427,7 +25776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -23437,7 +25787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 11
     }
   },
   {
@@ -23447,7 +25798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 326,
       "fiber_coverage": 62,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 72
     }
   },
   {
@@ -23457,7 +25809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 325,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -23467,7 +25820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 315,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -23477,7 +25831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 337,
       "fiber_coverage": 75,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -23486,7 +25841,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 322,
       "fiber_coverage": 70,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -23495,7 +25851,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 341,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -23504,7 +25861,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 325,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -23513,7 +25871,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 324,
       "fiber_coverage": 72,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -23522,7 +25881,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 316,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -23531,7 +25891,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 329,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -23540,7 +25901,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 323,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -23550,7 +25912,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 83,
-      "crime_rate": 536
+      "crime_rate": 536,
+      "four_seasons": 0
     }
   },
   {
@@ -23560,7 +25923,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 349,
       "fiber_coverage": 53,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -23570,7 +25934,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -23580,7 +25945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 22
     }
   },
   {
@@ -23590,7 +25956,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 2
     }
   },
   {
@@ -23600,7 +25967,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 358,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 24
     }
   },
   {
@@ -23610,7 +25978,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 354,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 29
     }
   },
   {
@@ -23620,7 +25989,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 309,
       "fiber_coverage": 31,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -23630,7 +26000,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 322,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -23640,7 +26011,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 307,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -23650,7 +26022,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 309,
       "fiber_coverage": 33,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -23660,7 +26033,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 303,
       "fiber_coverage": 47,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -23670,7 +26044,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 321,
       "fiber_coverage": 39,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -23680,7 +26055,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 310,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -23690,7 +26066,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 304,
       "fiber_coverage": 47,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -23700,7 +26077,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 306,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -23710,7 +26088,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 307,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -23720,7 +26099,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 315,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 77
     }
   },
   {
@@ -23730,7 +26110,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 311,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -23740,7 +26121,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 310,
       "fiber_coverage": 38,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 74
     }
   },
   {
@@ -23750,7 +26132,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 312,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -23760,7 +26143,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 308,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -23770,7 +26154,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 307,
       "fiber_coverage": 33,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 74
     }
   },
   {
@@ -23780,7 +26165,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 344,
       "fiber_coverage": 59,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -23790,7 +26176,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 320,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -23800,7 +26187,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 333,
       "fiber_coverage": 60,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -23810,7 +26198,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 307,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 87
     }
   },
   {
@@ -23820,7 +26209,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 306,
       "fiber_coverage": 53,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -23830,7 +26220,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 311,
       "fiber_coverage": 43,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -23840,7 +26231,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 304,
       "fiber_coverage": 55,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -23850,7 +26242,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 303,
       "fiber_coverage": 42,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -23860,7 +26253,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 310,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -23870,7 +26264,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 298,
       "fiber_coverage": 46,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 81
     }
   },
   {
@@ -23880,7 +26275,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 292,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -23890,7 +26286,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 293,
       "fiber_coverage": 54,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -23900,7 +26297,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 310,
       "fiber_coverage": 41,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 67
     }
   },
   {
@@ -23910,7 +26308,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 333,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 32
     }
   },
   {
@@ -23920,7 +26319,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 328,
       "fiber_coverage": 44,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -23930,7 +26330,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 332,
       "fiber_coverage": 72,
-      "crime_rate": 641
+      "crime_rate": 641,
+      "four_seasons": 45
     }
   },
   {
@@ -23940,7 +26341,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 129,
       "growing_season": 287,
       "fiber_coverage": 76,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 53
     }
   },
   {
@@ -23950,7 +26352,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 132,
       "growing_season": 296,
       "fiber_coverage": 85,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 45
     }
   },
   {
@@ -23960,7 +26363,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 281,
       "fiber_coverage": 79,
-      "crime_rate": 413
+      "crime_rate": 413,
+      "four_seasons": 91
     }
   },
   {
@@ -23970,7 +26374,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 275,
       "fiber_coverage": 44,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 88
     }
   },
   {
@@ -23980,7 +26385,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 290,
       "fiber_coverage": 41,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 88
     }
   },
   {
@@ -23990,7 +26396,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 278,
       "fiber_coverage": 44,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 91
     }
   },
   {
@@ -24000,7 +26407,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 292,
       "fiber_coverage": 48,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 86
     }
   },
   {
@@ -24010,7 +26418,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 280,
       "fiber_coverage": 41,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 88
     }
   },
   {
@@ -24020,7 +26429,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 298,
       "fiber_coverage": 55,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -24030,7 +26440,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 282,
       "fiber_coverage": 37,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 91
     }
   },
   {
@@ -24040,7 +26451,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 263,
       "fiber_coverage": 40,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 95
     }
   },
   {
@@ -24050,7 +26462,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 262,
       "fiber_coverage": 34,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -24060,7 +26473,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 274,
       "fiber_coverage": 29,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -24070,7 +26484,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 362,
       "fiber_coverage": 33,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 29
     }
   },
   {
@@ -24080,7 +26495,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 360,
       "fiber_coverage": 43,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 31
     }
   },
   {
@@ -24089,7 +26505,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 112,
       "growing_season": 170,
       "fiber_coverage": 33,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 0
     }
   },
   {
@@ -24098,7 +26515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 124,
       "fiber_coverage": 33,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -24107,7 +26525,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 354,
       "fiber_coverage": 36,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24116,7 +26535,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 360,
       "fiber_coverage": 41,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24125,7 +26545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 344,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24134,7 +26555,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 359,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24143,7 +26565,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 359,
       "fiber_coverage": 44,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24152,7 +26575,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 356,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24161,7 +26585,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 359,
       "fiber_coverage": 44,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24170,7 +26595,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 351,
       "fiber_coverage": 49,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24179,7 +26605,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 362,
       "fiber_coverage": 37,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24188,7 +26615,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 354,
       "fiber_coverage": 37,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24197,7 +26625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 345,
       "fiber_coverage": 53,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24206,7 +26635,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 347,
       "fiber_coverage": 40,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24216,7 +26646,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 312,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 77
     }
   },
   {
@@ -24226,7 +26657,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 321,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -24236,7 +26668,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 315,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -24246,7 +26679,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 308,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -24256,7 +26690,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 308,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -24266,7 +26701,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 321,
       "fiber_coverage": 36,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -24276,7 +26712,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 304,
       "fiber_coverage": 44,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -24286,7 +26723,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 323,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 57
     }
   },
   {
@@ -24296,7 +26734,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 311,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -24306,7 +26745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -24316,7 +26756,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 22
     }
   },
   {
@@ -24326,7 +26767,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -24336,7 +26778,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -24346,7 +26789,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -24356,7 +26800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 25
     }
   },
   {
@@ -24366,7 +26811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 24
     }
   },
   {
@@ -24376,7 +26822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 31
     }
   },
   {
@@ -24386,7 +26833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24396,7 +26844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 3
     }
   },
   {
@@ -24406,7 +26855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 358,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -24416,7 +26866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 95,
-      "crime_rate": 654
+      "crime_rate": 654,
+      "four_seasons": 26
     }
   },
   {
@@ -24426,7 +26877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 364,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -24436,7 +26888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 362,
       "fiber_coverage": 53,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -24446,7 +26899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -24456,7 +26910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 24
     }
   },
   {
@@ -24466,7 +26921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24476,7 +26932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 363,
       "fiber_coverage": 56,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -24486,7 +26943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -24496,7 +26954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24506,7 +26965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -24516,7 +26976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 365,
       "fiber_coverage": 56,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 31
     }
   },
   {
@@ -24526,7 +26987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -24536,7 +26998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 31
     }
   },
   {
@@ -24546,7 +27009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24556,7 +27020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24566,7 +27031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 334,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -24576,7 +27042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 323,
       "fiber_coverage": 70,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -24586,7 +27053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 319,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -24596,7 +27064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 330,
       "fiber_coverage": 76,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -24606,7 +27075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 328,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -24616,7 +27086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 323,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -24626,7 +27097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 316,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -24636,7 +27108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 329,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 80
     }
   },
   {
@@ -24646,7 +27119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 338,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -24656,7 +27130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 323,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -24666,7 +27141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 281,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -24676,7 +27152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 279,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 90
     }
   },
   {
@@ -24686,7 +27163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 291,
       "fiber_coverage": 51,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 85
     }
   },
   {
@@ -24696,7 +27174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 278,
       "fiber_coverage": 40,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 85
     }
   },
   {
@@ -24706,7 +27185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 304,
       "fiber_coverage": 46,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -24716,7 +27196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 285,
       "fiber_coverage": 38,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -24726,7 +27207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 294,
       "fiber_coverage": 45,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 96
     }
   },
   {
@@ -24736,7 +27218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 292,
       "fiber_coverage": 47,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 97
     }
   },
   {
@@ -24746,7 +27229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 286,
       "fiber_coverage": 38,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -24756,7 +27240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 285,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -24766,7 +27251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 268,
       "fiber_coverage": 42,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -24776,7 +27262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 258,
       "fiber_coverage": 31,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 95
     }
   },
   {
@@ -24786,7 +27273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 263,
       "fiber_coverage": 42,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -24796,7 +27284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 270,
       "fiber_coverage": 38,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -24806,7 +27295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 262,
       "fiber_coverage": 36,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 98
     }
   },
   {
@@ -24815,7 +27305,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 352,
       "fiber_coverage": 43,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24824,7 +27315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 360,
       "fiber_coverage": 43,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24833,7 +27325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 350,
       "fiber_coverage": 48,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -24843,7 +27336,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 279,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 50
     }
   },
   {
@@ -24853,7 +27347,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 269,
       "fiber_coverage": 73,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -24863,7 +27358,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 283,
       "fiber_coverage": 79,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -24873,7 +27369,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 32
     }
   },
   {
@@ -24883,7 +27380,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24893,7 +27391,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24903,7 +27402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 9
     }
   },
   {
@@ -24913,7 +27413,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 48
     }
   },
   {
@@ -24923,7 +27424,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 23
     }
   },
   {
@@ -24933,7 +27435,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24943,7 +27446,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -24953,7 +27457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 242,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24963,7 +27468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 80,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -24973,7 +27479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 94,
-      "crime_rate": 654
+      "crime_rate": 654,
+      "four_seasons": 0
     }
   },
   {
@@ -24983,7 +27490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -24993,7 +27501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -25003,7 +27512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 241,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -25013,7 +27523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -25023,7 +27534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 322,
       "fiber_coverage": 69,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -25033,7 +27545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 311,
       "fiber_coverage": 77,
-      "crime_rate": 291
+      "crime_rate": 291,
+      "four_seasons": 68
     }
   },
   {
@@ -25043,7 +27556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 312,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -25052,7 +27566,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 312,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -25062,7 +27577,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 335,
       "fiber_coverage": 80,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -25071,7 +27587,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 323,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -25080,7 +27597,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 332,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 80
     }
   },
   {
@@ -25089,7 +27607,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 327,
       "fiber_coverage": 70,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -25098,7 +27617,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 322,
       "fiber_coverage": 75,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -25107,7 +27627,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 323,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -25116,7 +27637,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 328,
       "fiber_coverage": 72,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 79
     }
   },
   {
@@ -25125,7 +27647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 329,
       "fiber_coverage": 74,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -25134,7 +27657,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 326,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -25143,7 +27667,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 309,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -25152,7 +27677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 325,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -25162,7 +27688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 303,
       "fiber_coverage": 40,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -25172,7 +27699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 276,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 0
     }
   },
   {
@@ -25182,7 +27710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 300,
       "fiber_coverage": 45,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 93
     }
   },
   {
@@ -25192,7 +27721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 277,
       "fiber_coverage": 40,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 89
     }
   },
   {
@@ -25202,7 +27732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 277,
       "fiber_coverage": 45,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 86
     }
   },
   {
@@ -25212,7 +27743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 283,
       "fiber_coverage": 43,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 90
     }
   },
   {
@@ -25222,7 +27754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 290,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 90
     }
   },
   {
@@ -25232,7 +27765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 280,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 91
     }
   },
   {
@@ -25242,7 +27776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 139,
       "growing_season": 281,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 50
     }
   },
   {
@@ -25252,7 +27787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 295,
       "fiber_coverage": 79,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 48
     }
   },
   {
@@ -25262,7 +27798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 127,
       "growing_season": 286,
       "fiber_coverage": 73,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 51
     }
   },
   {
@@ -25272,7 +27809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 271,
       "fiber_coverage": 77,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 49
     }
   },
   {
@@ -25282,7 +27820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 313,
       "fiber_coverage": 34,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 82
     }
   },
   {
@@ -25292,7 +27831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 313,
       "fiber_coverage": 30,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 73
     }
   },
   {
@@ -25302,7 +27842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 308,
       "fiber_coverage": 33,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 88
     }
   },
   {
@@ -25312,7 +27853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 312,
       "fiber_coverage": 40,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 75
     }
   },
   {
@@ -25322,7 +27864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 306,
       "fiber_coverage": 27,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 75
     }
   },
   {
@@ -25332,7 +27875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 307,
       "fiber_coverage": 28,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 74
     }
   },
   {
@@ -25342,7 +27886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 259,
       "growing_season": 342,
       "fiber_coverage": 51,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -25352,7 +27897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -25362,7 +27908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -25372,7 +27919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 276,
       "fiber_coverage": 71,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -25382,7 +27930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 280,
       "fiber_coverage": 75,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -25392,7 +27941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 278,
       "fiber_coverage": 68,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -25402,7 +27952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 251,
       "growing_season": 318,
       "fiber_coverage": 67,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 96
     }
   },
   {
@@ -25412,7 +27963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 269,
       "fiber_coverage": 69,
-      "crime_rate": 360
+      "crime_rate": 360,
+      "four_seasons": 100
     }
   },
   {
@@ -25422,7 +27974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 335,
       "fiber_coverage": 40,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -25432,7 +27985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 325,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 45
     }
   },
   {
@@ -25442,7 +27996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 336,
       "fiber_coverage": 41,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 26
     }
   },
   {
@@ -25451,7 +28006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 98,
       "fiber_coverage": 30,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -25461,7 +28017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 307,
       "fiber_coverage": 36,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -25471,7 +28028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 304,
       "fiber_coverage": 53,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 68
     }
   },
   {
@@ -25481,7 +28039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -25491,7 +28050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 308,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 60
     }
   },
   {
@@ -25501,7 +28061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 299,
       "fiber_coverage": 57,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 88
     }
   },
   {
@@ -25511,7 +28072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 311,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -25521,7 +28083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 309,
       "fiber_coverage": 36,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -25531,7 +28094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 300,
       "fiber_coverage": 39,
-      "crime_rate": 267
+      "crime_rate": 267,
+      "four_seasons": 67
     }
   },
   {
@@ -25541,7 +28105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 315,
       "fiber_coverage": 54,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -25551,7 +28116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 308,
       "fiber_coverage": 80,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -25561,7 +28127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 300,
       "fiber_coverage": 36,
-      "crime_rate": 267
+      "crime_rate": 267,
+      "four_seasons": 87
     }
   },
   {
@@ -25571,7 +28138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 310,
       "fiber_coverage": 63,
-      "crime_rate": 595
+      "crime_rate": 595,
+      "four_seasons": 73
     }
   },
   {
@@ -25581,7 +28149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 313,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -25591,7 +28160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 300,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -25601,7 +28171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 313,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -25611,7 +28182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 303,
       "fiber_coverage": 38,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -25621,7 +28193,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 307,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -25631,7 +28204,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 310,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -25641,7 +28215,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 24
     }
   },
   {
@@ -25651,7 +28226,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 306,
       "fiber_coverage": 50,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 89
     }
   },
   {
@@ -25661,7 +28237,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 328,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 55
     }
   },
   {
@@ -25671,7 +28248,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 324,
       "fiber_coverage": 44,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 71
     }
   },
   {
@@ -25681,7 +28259,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 303,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -25691,7 +28270,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 317,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 70
     }
   },
   {
@@ -25701,7 +28281,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 318,
       "fiber_coverage": 41,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -25711,7 +28292,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 317,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -25721,7 +28303,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 311,
       "fiber_coverage": 46,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -25731,7 +28314,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 306,
       "growing_season": 342,
       "fiber_coverage": 47,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 42
     }
   },
   {
@@ -25741,7 +28325,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 304,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -25751,7 +28336,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 310,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -25761,7 +28347,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 308,
       "fiber_coverage": 36,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -25771,7 +28358,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 295,
       "fiber_coverage": 32,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 87
     }
   },
   {
@@ -25781,7 +28369,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 307,
       "fiber_coverage": 40,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -25791,7 +28380,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 298,
       "fiber_coverage": 41,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -25801,7 +28391,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 291,
       "fiber_coverage": 43,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -25811,7 +28402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 292,
       "fiber_coverage": 74,
-      "crime_rate": 372
+      "crime_rate": 372,
+      "four_seasons": 90
     }
   },
   {
@@ -25821,7 +28413,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 298,
       "fiber_coverage": 35,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -25831,7 +28424,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 297,
       "fiber_coverage": 43,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 91
     }
   },
   {
@@ -25841,7 +28435,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 295,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -25851,7 +28446,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 300,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 90
     }
   },
   {
@@ -25861,7 +28457,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 295,
       "fiber_coverage": 45,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -25871,7 +28468,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 293,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -25881,7 +28479,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 295,
       "fiber_coverage": 34,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -25891,7 +28490,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 296,
       "fiber_coverage": 31,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 89
     }
   },
   {
@@ -25901,7 +28501,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 281,
       "fiber_coverage": 39,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 85
     }
   },
   {
@@ -25911,7 +28512,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 315,
       "fiber_coverage": 40,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -25921,7 +28523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 313,
       "fiber_coverage": 35,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -25931,7 +28534,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 315,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 70
     }
   },
   {
@@ -25941,7 +28545,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -25951,7 +28556,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 278,
       "fiber_coverage": 84,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 78
     }
   },
   {
@@ -25961,7 +28567,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 303,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 76
     }
   },
   {
@@ -25971,7 +28578,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 282,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 89
     }
   },
   {
@@ -25981,7 +28589,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 277,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 73
     }
   },
   {
@@ -25991,7 +28600,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 287,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 87
     }
   },
   {
@@ -26001,7 +28611,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 275,
       "fiber_coverage": 43,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 85
     }
   },
   {
@@ -26011,7 +28622,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 282,
       "fiber_coverage": 42,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 93
     }
   },
   {
@@ -26021,7 +28633,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 280,
       "fiber_coverage": 43,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 84
     }
   },
   {
@@ -26031,7 +28644,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 293,
       "fiber_coverage": 55,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 90
     }
   },
   {
@@ -26041,7 +28655,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 25,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26051,7 +28666,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 364,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 27
     }
   },
   {
@@ -26061,7 +28677,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 365,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 29
     }
   },
   {
@@ -26071,7 +28688,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 363,
       "fiber_coverage": 33,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -26081,7 +28699,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 303,
       "fiber_coverage": 33,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 91
     }
   },
   {
@@ -26091,7 +28710,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 336,
       "fiber_coverage": 61,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -26101,7 +28721,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 330,
       "fiber_coverage": 61,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -26111,7 +28732,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 330,
       "fiber_coverage": 66,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -26121,7 +28743,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 321,
       "fiber_coverage": 50,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -26131,7 +28754,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 314,
       "fiber_coverage": 58,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 93
     }
   },
   {
@@ -26141,7 +28765,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 316,
       "fiber_coverage": 34,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 67
     }
   },
   {
@@ -26151,7 +28776,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 362,
       "fiber_coverage": 42,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 25
     }
   },
   {
@@ -26161,7 +28787,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 364,
       "fiber_coverage": 41,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 1
     }
   },
   {
@@ -26171,7 +28798,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 31
     }
   },
   {
@@ -26181,7 +28809,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 295,
       "fiber_coverage": 37,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 89
     }
   },
   {
@@ -26191,7 +28820,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 300,
       "fiber_coverage": 44,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 79
     }
   },
   {
@@ -26201,7 +28831,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 315,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -26211,7 +28842,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 269,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -26221,7 +28853,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 271,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 67
     }
   },
   {
@@ -26231,7 +28864,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 265,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -26241,7 +28875,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 283,
       "fiber_coverage": 37,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 73
     }
   },
   {
@@ -26251,7 +28886,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 269,
       "fiber_coverage": 26,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -26261,7 +28897,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 319,
       "fiber_coverage": 32,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26271,7 +28908,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 364,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 28
     }
   },
   {
@@ -26281,7 +28919,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 37,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26291,7 +28930,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26301,7 +28941,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 28,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 26
     }
   },
   {
@@ -26311,7 +28952,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 365,
       "fiber_coverage": 32,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26321,7 +28963,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 274,
       "growing_season": 323,
       "fiber_coverage": 47,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 38
     }
   },
   {
@@ -26331,7 +28974,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 287,
       "growing_season": 325,
       "fiber_coverage": 49,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 29
     }
   },
   {
@@ -26341,7 +28985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 276,
       "growing_season": 326,
       "fiber_coverage": 46,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 43
     }
   },
   {
@@ -26351,7 +28996,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 172,
       "growing_season": 314,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -26361,7 +29007,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 282,
       "fiber_coverage": 64,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 0
     }
   },
   {
@@ -26371,7 +29018,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 312,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -26381,7 +29029,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 312,
       "fiber_coverage": 48,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 89
     }
   },
   {
@@ -26391,7 +29040,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 312,
       "fiber_coverage": 55,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -26401,7 +29051,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 312,
       "fiber_coverage": 46,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 92
     }
   },
   {
@@ -26411,7 +29062,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 314,
       "fiber_coverage": 51,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -26421,7 +29073,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 314,
       "fiber_coverage": 57,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -26431,7 +29084,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 141,
       "growing_season": 291,
       "fiber_coverage": 62,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 66
     }
   },
   {
@@ -26441,7 +29095,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 278,
       "fiber_coverage": 45,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 0
     }
   },
   {
@@ -26451,7 +29106,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 362,
       "fiber_coverage": 39,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 25
     }
   },
   {
@@ -26461,7 +29117,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 362,
       "fiber_coverage": 53,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -26471,7 +29128,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 28
     }
   },
   {
@@ -26481,7 +29139,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 320,
       "fiber_coverage": 69,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -26491,7 +29150,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 282,
       "fiber_coverage": 29,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 67
     }
   },
   {
@@ -26501,7 +29161,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 277,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -26511,7 +29172,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 323,
       "fiber_coverage": 34,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 30
     }
   },
   {
@@ -26521,7 +29183,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 335,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 34
     }
   },
   {
@@ -26531,7 +29194,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 315,
       "fiber_coverage": 44,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 44
     }
   },
   {
@@ -26541,7 +29205,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 336,
       "fiber_coverage": 35,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 15
     }
   },
   {
@@ -26551,7 +29216,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 338,
       "fiber_coverage": 34,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 30
     }
   },
   {
@@ -26561,7 +29227,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 310,
       "fiber_coverage": 48,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 52
     }
   },
   {
@@ -26571,7 +29238,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 325,
       "fiber_coverage": 39,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 51
     }
   },
   {
@@ -26581,7 +29249,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 317,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 96
     }
   },
   {
@@ -26591,7 +29260,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 300,
       "fiber_coverage": 59,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -26601,7 +29271,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 312,
       "fiber_coverage": 52,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -26611,7 +29282,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 307,
       "fiber_coverage": 49,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 93
     }
   },
   {
@@ -26621,7 +29293,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 314,
       "fiber_coverage": 46,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 51
     }
   },
   {
@@ -26631,7 +29304,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 325,
       "fiber_coverage": 37,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 51
     }
   },
   {
@@ -26641,7 +29315,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 290,
       "fiber_coverage": 55,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 62
     }
   },
   {
@@ -26651,7 +29326,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 137,
       "growing_season": 302,
       "fiber_coverage": 52,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 51
     }
   },
   {
@@ -26661,7 +29337,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 295,
       "fiber_coverage": 64,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -26671,7 +29348,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 302,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 82
     }
   },
   {
@@ -26681,7 +29359,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 302,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -26691,7 +29370,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 297,
       "fiber_coverage": 42,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -26701,7 +29381,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 291,
       "fiber_coverage": 41,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 86
     }
   },
   {
@@ -26711,7 +29392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 301,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -26721,7 +29403,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 302,
       "fiber_coverage": 53,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -26731,7 +29414,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 298,
       "fiber_coverage": 74,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -26741,7 +29425,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 314,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -26751,7 +29436,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 309,
       "fiber_coverage": 43,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 64
     }
   },
   {
@@ -26761,7 +29447,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 314,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -26771,7 +29458,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 276,
       "fiber_coverage": 67,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 0
     }
   },
   {
@@ -26781,7 +29469,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 318,
       "fiber_coverage": 64,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 53
     }
   },
   {
@@ -26791,7 +29480,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 326,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -26801,7 +29491,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 276,
       "fiber_coverage": 45,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 0
     }
   },
   {
@@ -26811,7 +29502,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 300,
       "fiber_coverage": 31,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 85
     }
   },
   {
@@ -26821,7 +29513,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 303,
       "fiber_coverage": 30,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 84
     }
   },
   {
@@ -26831,7 +29524,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 320,
       "fiber_coverage": 75,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 34
     }
   },
   {
@@ -26841,7 +29535,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 312,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 47
     }
   },
   {
@@ -26851,7 +29546,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 334,
       "fiber_coverage": 47,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 78
     }
   },
   {
@@ -26861,7 +29557,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 315,
       "fiber_coverage": 51,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 94
     }
   },
   {
@@ -26871,7 +29568,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 133,
       "growing_season": 295,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 88
     }
   },
   {
@@ -26881,7 +29579,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 302,
       "fiber_coverage": 54,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 66
     }
   },
   {
@@ -26891,7 +29590,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 294,
       "fiber_coverage": 59,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 69
     }
   },
   {
@@ -26901,7 +29601,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 289,
       "fiber_coverage": 54,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -26911,7 +29612,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 286,
       "fiber_coverage": 40,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 91
     }
   },
   {
@@ -26921,7 +29623,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 0
     }
   },
   {
@@ -26931,7 +29634,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 309,
       "fiber_coverage": 54,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 94
     }
   },
   {
@@ -26941,7 +29645,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 307,
       "fiber_coverage": 49,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -26951,7 +29656,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 323,
       "fiber_coverage": 58,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 93
     }
   },
   {
@@ -26961,7 +29667,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 300,
       "fiber_coverage": 86,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 85
     }
   },
   {
@@ -26971,7 +29678,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 320,
       "fiber_coverage": 81,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 47
     }
   },
   {
@@ -26981,7 +29689,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 324,
       "fiber_coverage": 94,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 45
     }
   },
   {
@@ -26991,7 +29700,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 325,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 65
     }
   },
   {
@@ -27001,7 +29711,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 289,
       "fiber_coverage": 42,
-      "crime_rate": 93
+      "crime_rate": 93,
+      "four_seasons": 0
     }
   },
   {
@@ -27011,7 +29722,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 295,
       "fiber_coverage": 38,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 93
     }
   },
   {
@@ -27021,7 +29733,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 287,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -27031,7 +29744,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 305,
       "fiber_coverage": 36,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -27041,7 +29755,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 305,
       "fiber_coverage": 31,
-      "crime_rate": 468
+      "crime_rate": 468,
+      "four_seasons": 92
     }
   },
   {
@@ -27051,7 +29766,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 285,
       "growing_season": 268,
       "fiber_coverage": 59,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 57
     }
   },
   {
@@ -27061,7 +29777,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 299,
       "growing_season": 327,
       "fiber_coverage": 53,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 42
     }
   },
   {
@@ -27071,7 +29788,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 144,
       "growing_season": 291,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 90
     }
   },
   {
@@ -27081,7 +29799,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 245,
       "fiber_coverage": 28,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 90
     }
   },
   {
@@ -27091,7 +29810,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 184,
       "growing_season": 236,
       "fiber_coverage": 37,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 58
     }
   },
   {
@@ -27101,7 +29821,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 244,
       "fiber_coverage": 38,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 84
     }
   },
   {
@@ -27111,7 +29832,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 250,
       "fiber_coverage": 42,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 67
     }
   },
   {
@@ -27121,7 +29843,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 245,
       "fiber_coverage": 29,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 60
     }
   },
   {
@@ -27131,7 +29854,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 247,
       "fiber_coverage": 31,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 89
     }
   },
   {
@@ -27141,7 +29865,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 281,
       "fiber_coverage": 41,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 85
     }
   },
   {
@@ -27151,7 +29876,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 30,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 23
     }
   },
   {
@@ -27161,7 +29887,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 27,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 30
     }
   },
   {
@@ -27171,7 +29898,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 296,
       "fiber_coverage": 55,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -27181,7 +29909,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 324,
       "fiber_coverage": 38,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 69
     }
   },
   {
@@ -27191,7 +29920,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 306,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 65
     }
   },
   {
@@ -27201,7 +29931,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 310,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 78
     }
   },
   {
@@ -27211,7 +29942,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 308,
       "fiber_coverage": 90,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -27221,7 +29953,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 297,
       "fiber_coverage": 41,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -27231,7 +29964,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 287,
       "fiber_coverage": 60,
-      "crime_rate": 322
+      "crime_rate": 322,
+      "four_seasons": 0
     }
   },
   {
@@ -27241,7 +29975,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 350,
       "fiber_coverage": 43,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 27
     }
   },
   {
@@ -27251,7 +29986,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 352,
       "fiber_coverage": 37,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 23
     }
   },
   {
@@ -27261,7 +29997,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 294,
       "growing_season": 283,
       "fiber_coverage": 65,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 59
     }
   },
   {
@@ -27271,7 +30008,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 294,
       "growing_season": 278,
       "fiber_coverage": 67,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 55
     }
   },
   {
@@ -27281,7 +30019,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 296,
       "growing_season": 277,
       "fiber_coverage": 62,
-      "crime_rate": 391
+      "crime_rate": 391,
+      "four_seasons": 57
     }
   },
   {
@@ -27291,7 +30030,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 170,
       "growing_season": 306,
       "fiber_coverage": 53,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -27301,7 +30041,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 303,
       "fiber_coverage": 50,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 68
     }
   },
   {
@@ -27311,7 +30052,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 278,
       "fiber_coverage": 40,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 0
     }
   },
   {
@@ -27321,7 +30063,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 312,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 76
     }
   },
   {
@@ -27331,7 +30074,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 305,
       "fiber_coverage": 49,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -27341,7 +30085,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 244,
       "fiber_coverage": 40,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 86
     }
   },
   {
@@ -27351,7 +30096,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 241,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 77
     }
   },
   {
@@ -27361,7 +30107,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 285,
       "fiber_coverage": 39,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 74
     }
   },
   {
@@ -27371,7 +30118,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 279,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 67
     }
   },
   {
@@ -27381,7 +30129,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 276,
       "fiber_coverage": 28,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -27391,7 +30140,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 262,
       "fiber_coverage": 35,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 68
     }
   },
   {
@@ -27401,7 +30151,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 311,
       "fiber_coverage": 37,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -27411,7 +30162,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 315,
       "fiber_coverage": 42,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 74
     }
   },
   {
@@ -27421,7 +30173,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 323,
       "fiber_coverage": 49,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -27431,7 +30184,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 317,
       "fiber_coverage": 63,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -27441,7 +30195,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 280,
       "fiber_coverage": 77,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 0
     }
   },
   {
@@ -27451,7 +30206,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 302,
       "fiber_coverage": 59,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 92
     }
   },
   {
@@ -27461,7 +30217,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 282,
       "fiber_coverage": 68,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 66
     }
   },
   {
@@ -27471,7 +30228,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 147,
       "growing_season": 274,
       "fiber_coverage": 66,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 54
     }
   },
   {
@@ -27481,7 +30239,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 303,
       "fiber_coverage": 62,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 54
     }
   },
   {
@@ -27491,7 +30250,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 277,
       "fiber_coverage": 61,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 58
     }
   },
   {
@@ -27501,7 +30261,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 289,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 54
     }
   },
   {
@@ -27511,7 +30272,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 309,
       "fiber_coverage": 42,
-      "crime_rate": 380
+      "crime_rate": 380,
+      "four_seasons": 64
     }
   },
   {
@@ -27521,7 +30283,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 312,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 65
     }
   },
   {
@@ -27531,7 +30294,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 305,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 65
     }
   },
   {
@@ -27541,7 +30305,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 318,
       "fiber_coverage": 49,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 59
     }
   },
   {
@@ -27551,7 +30316,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 307,
       "fiber_coverage": 46,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 68
     }
   },
   {
@@ -27561,7 +30327,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 302,
       "fiber_coverage": 55,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 79
     }
   },
   {
@@ -27571,7 +30338,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 316,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 67
     }
   },
   {
@@ -27581,7 +30349,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 310,
       "fiber_coverage": 56,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -27591,7 +30360,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 323,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -27601,7 +30371,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 326,
       "fiber_coverage": 66,
-      "crime_rate": 471
+      "crime_rate": 471,
+      "four_seasons": 67
     }
   },
   {
@@ -27611,7 +30382,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 328,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -27621,7 +30393,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 324,
       "fiber_coverage": 62,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 49
     }
   },
   {
@@ -27631,7 +30404,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 322,
       "fiber_coverage": 70,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -27641,7 +30415,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 332,
       "fiber_coverage": 75,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -27651,7 +30426,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 321,
       "fiber_coverage": 61,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -27661,7 +30437,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 310,
       "fiber_coverage": 57,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 55
     }
   },
   {
@@ -27671,7 +30448,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 140,
       "growing_season": 306,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 91
     }
   },
   {
@@ -27681,7 +30459,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27691,7 +30470,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27701,7 +30481,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27711,7 +30492,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 7
     }
   },
   {
@@ -27721,7 +30503,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27731,7 +30514,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27741,7 +30525,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 313,
       "fiber_coverage": 59,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 98
     }
   },
   {
@@ -27751,7 +30536,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27761,7 +30547,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27771,7 +30558,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27781,7 +30569,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27791,7 +30580,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27801,7 +30591,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 361,
       "fiber_coverage": 50,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 31
     }
   },
   {
@@ -27811,7 +30602,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27821,7 +30613,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 14
     }
   },
   {
@@ -27831,7 +30624,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 232,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27841,7 +30635,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 236,
       "growing_season": 307,
       "fiber_coverage": 93,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 74
     }
   },
   {
@@ -27851,7 +30646,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 244,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27861,7 +30657,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 256,
       "growing_season": 325,
       "fiber_coverage": 68,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27871,7 +30668,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 240,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 13
     }
   },
   {
@@ -27881,7 +30679,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 53,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -27891,7 +30690,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 318,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 64
     }
   },
   {
@@ -27901,7 +30701,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 313,
       "fiber_coverage": 84,
-      "crime_rate": 760
+      "crime_rate": 760,
+      "four_seasons": 64
     }
   },
   {
@@ -27911,7 +30712,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 311,
       "fiber_coverage": 43,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -27921,7 +30723,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 325,
       "fiber_coverage": 91,
-      "crime_rate": 655
+      "crime_rate": 655,
+      "four_seasons": 81
     }
   },
   {
@@ -27931,7 +30734,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 317,
       "fiber_coverage": 65,
-      "crime_rate": 398
+      "crime_rate": 398,
+      "four_seasons": 82
     }
   },
   {
@@ -27941,7 +30745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 277,
       "fiber_coverage": 60,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 79
     }
   },
   {
@@ -27951,7 +30756,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 179,
       "growing_season": 283,
       "fiber_coverage": 54,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 0
     }
   },
   {
@@ -27961,7 +30767,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 242,
       "fiber_coverage": 34,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 87
     }
   },
   {
@@ -27971,7 +30778,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 291,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -27981,7 +30789,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 307,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 91
     }
   },
   {
@@ -27991,7 +30800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 149,
       "growing_season": 295,
       "fiber_coverage": 58,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -28001,7 +30811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 136,
       "growing_season": 283,
       "fiber_coverage": 51,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 92
     }
   },
   {
@@ -28011,7 +30822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 135,
       "growing_season": 295,
       "fiber_coverage": 50,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 95
     }
   },
   {
@@ -28021,7 +30833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 276,
       "fiber_coverage": 60,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 85
     }
   },
   {
@@ -28031,7 +30844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 291,
       "fiber_coverage": 58,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 93
     }
   },
   {
@@ -28041,7 +30855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 290,
       "fiber_coverage": 50,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 83
     }
   },
   {
@@ -28051,7 +30866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 25
     }
   },
   {
@@ -28061,7 +30877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 285,
       "fiber_coverage": 74,
-      "crime_rate": 713
+      "crime_rate": 713,
+      "four_seasons": 76
     }
   },
   {
@@ -28071,7 +30888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 295,
       "fiber_coverage": 38,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 84
     }
   },
   {
@@ -28081,7 +30899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 282,
       "fiber_coverage": 34,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 85
     }
   },
   {
@@ -28091,7 +30910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 281,
       "fiber_coverage": 42,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 67
     }
   },
   {
@@ -28101,7 +30921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 284,
       "fiber_coverage": 34,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 84
     }
   },
   {
@@ -28111,7 +30932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 288,
       "fiber_coverage": 35,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -28121,7 +30943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 285,
       "fiber_coverage": 38,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 76
     }
   },
   {
@@ -28131,7 +30954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 300,
       "fiber_coverage": 50,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 94
     }
   },
   {
@@ -28141,7 +30965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 308,
       "fiber_coverage": 45,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 89
     }
   },
   {
@@ -28151,7 +30976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 299,
       "fiber_coverage": 51,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 96
     }
   },
   {
@@ -28161,7 +30987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 316,
       "fiber_coverage": 45,
-      "crime_rate": 124
+      "crime_rate": 124,
+      "four_seasons": 94
     }
   },
   {
@@ -28171,7 +30998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 327,
       "fiber_coverage": 46,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 82
     }
   },
   {
@@ -28181,7 +31009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 328,
       "fiber_coverage": 63,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 84
     }
   },
   {
@@ -28191,7 +31020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 325,
       "fiber_coverage": 47,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 81
     }
   },
   {
@@ -28201,7 +31031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 292,
       "fiber_coverage": 31,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 80
     }
   },
   {
@@ -28211,7 +31042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 299,
       "fiber_coverage": 37,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 89
     }
   },
   {
@@ -28221,7 +31053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 306,
       "fiber_coverage": 39,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 93
     }
   },
   {
@@ -28231,7 +31064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 306,
       "fiber_coverage": 46,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 92
     }
   },
   {
@@ -28241,7 +31075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 298,
       "fiber_coverage": 39,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -28251,7 +31086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 302,
       "fiber_coverage": 32,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 87
     }
   },
   {
@@ -28261,7 +31097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 304,
       "fiber_coverage": 54,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -28271,7 +31108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 302,
       "fiber_coverage": 41,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 92
     }
   },
   {
@@ -28281,7 +31119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 314,
       "fiber_coverage": 41,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 76
     }
   },
   {
@@ -28291,7 +31130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 315,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 78
     }
   },
   {
@@ -28301,7 +31141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 318,
       "fiber_coverage": 36,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 54
     }
   },
   {
@@ -28311,7 +31152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 305,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -28321,7 +31163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 306,
       "fiber_coverage": 40,
-      "crime_rate": 380
+      "crime_rate": 380,
+      "four_seasons": 66
     }
   },
   {
@@ -28331,7 +31174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 324,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -28341,7 +31185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 343,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 66
     }
   },
   {
@@ -28351,7 +31196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 332,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 64
     }
   },
   {
@@ -28361,7 +31207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 343,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -28371,7 +31218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 338,
       "fiber_coverage": 71,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -28381,7 +31229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 319,
       "fiber_coverage": 44,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 56
     }
   },
   {
@@ -28391,7 +31240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 313,
       "fiber_coverage": 39,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -28401,7 +31251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 322,
       "fiber_coverage": 35,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 55
     }
   },
   {
@@ -28411,7 +31262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 313,
       "fiber_coverage": 41,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 54
     }
   },
   {
@@ -28421,7 +31273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 304,
       "fiber_coverage": 45,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 76
     }
   },
   {
@@ -28431,7 +31284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 333,
       "fiber_coverage": 68,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -28441,7 +31295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 341,
       "fiber_coverage": 61,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -28451,7 +31306,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 318,
       "fiber_coverage": 62,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -28461,7 +31317,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 319,
       "fiber_coverage": 63,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -28471,7 +31328,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 332,
       "fiber_coverage": 75,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -28481,7 +31339,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 327,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -28491,7 +31350,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 316,
       "fiber_coverage": 40,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 51
     }
   },
   {
@@ -28501,7 +31361,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 331,
       "fiber_coverage": 41,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 48
     }
   },
   {
@@ -28511,7 +31372,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 331,
       "fiber_coverage": 33,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 30
     }
   },
   {
@@ -28521,7 +31383,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 320,
       "fiber_coverage": 42,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 31
     }
   },
   {
@@ -28531,7 +31394,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 325,
       "fiber_coverage": 43,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 50
     }
   },
   {
@@ -28541,7 +31405,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 333,
       "fiber_coverage": 47,
-      "crime_rate": 389
+      "crime_rate": 389,
+      "four_seasons": 45
     }
   },
   {
@@ -28551,7 +31416,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 327,
       "fiber_coverage": 57,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -28561,7 +31427,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -28571,7 +31438,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 283,
       "growing_season": 332,
       "fiber_coverage": 35,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 25
     }
   },
   {
@@ -28581,7 +31449,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 288,
       "growing_season": 333,
       "fiber_coverage": 46,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 25
     }
   },
   {
@@ -28591,7 +31460,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 279,
       "growing_season": 324,
       "fiber_coverage": 44,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 39
     }
   },
   {
@@ -28601,7 +31471,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 291,
       "growing_season": 335,
       "fiber_coverage": 38,
-      "crime_rate": 694
+      "crime_rate": 694,
+      "four_seasons": 26
     }
   },
   {
@@ -28611,7 +31482,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 328,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 51
     }
   },
   {
@@ -28621,7 +31493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 317,
       "fiber_coverage": 64,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -28631,7 +31504,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 326,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 68
     }
   },
   {
@@ -28641,7 +31515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 326,
       "fiber_coverage": 73,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 66
     }
   },
   {
@@ -28651,7 +31526,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 324,
       "fiber_coverage": 65,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 50
     }
   },
   {
@@ -28661,7 +31537,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 231,
       "growing_season": 344,
       "fiber_coverage": 38,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 33
     }
   },
   {
@@ -28671,7 +31548,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 308,
       "fiber_coverage": 60,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -28681,7 +31559,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 310,
       "fiber_coverage": 59,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 94
     }
   },
   {
@@ -28691,7 +31570,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 315,
       "fiber_coverage": 62,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 97
     }
   },
   {
@@ -28701,7 +31581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 310,
       "fiber_coverage": 52,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 97
     }
   },
   {
@@ -28711,7 +31592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 302,
       "fiber_coverage": 48,
-      "crime_rate": 508
+      "crime_rate": 508,
+      "four_seasons": 90
     }
   },
   {
@@ -28721,7 +31603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 275,
       "fiber_coverage": 48,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 0
     }
   },
   {
@@ -28731,7 +31614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 349,
       "fiber_coverage": 78,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 62
     }
   },
   {
@@ -28741,7 +31625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 292,
       "fiber_coverage": 43,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 80
     }
   },
   {
@@ -28751,7 +31636,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 275,
       "fiber_coverage": 33,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 68
     }
   },
   {
@@ -28761,7 +31647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 273,
       "fiber_coverage": 42,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 67
     }
   },
   {
@@ -28771,7 +31658,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 318,
       "fiber_coverage": 50,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 56
     }
   },
   {
@@ -28781,7 +31669,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 309,
       "fiber_coverage": 37,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 70
     }
   },
   {
@@ -28791,7 +31680,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 305,
       "fiber_coverage": 65,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 89
     }
   },
   {
@@ -28801,7 +31691,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 256,
       "fiber_coverage": 27,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 71
     }
   },
   {
@@ -28811,7 +31702,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 329,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -28821,7 +31713,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 338,
       "fiber_coverage": 66,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 65
     }
   },
   {
@@ -28831,7 +31724,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 300,
       "fiber_coverage": 50,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 88
     }
   },
   {
@@ -28841,7 +31735,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 300,
       "fiber_coverage": 46,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -28851,7 +31746,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 319,
       "fiber_coverage": 75,
-      "crime_rate": 431
+      "crime_rate": 431,
+      "four_seasons": 78
     }
   },
   {
@@ -28861,7 +31757,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 327,
       "fiber_coverage": 66,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -28871,7 +31768,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -28881,7 +31779,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 2
     }
   },
   {
@@ -28891,7 +31790,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -28900,7 +31800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 327,
       "fiber_coverage": 94,
-      "crime_rate": 655
+      "crime_rate": 655,
+      "four_seasons": 81
     }
   },
   {
@@ -28910,7 +31811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 364,
       "fiber_coverage": 36,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 30
     }
   },
   {
@@ -28920,7 +31822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 365,
       "fiber_coverage": 36,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 29
     }
   },
   {
@@ -28930,7 +31833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 360,
       "fiber_coverage": 39,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 34
     }
   },
   {
@@ -28940,7 +31844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 134,
       "growing_season": 282,
       "fiber_coverage": 40,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 81
     }
   },
   {
@@ -28950,7 +31855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 200,
       "growing_season": 302,
       "fiber_coverage": 32,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 87
     }
   },
   {
@@ -28960,7 +31866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 282,
       "fiber_coverage": 40,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 67
     }
   },
   {
@@ -28970,7 +31877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 294,
       "fiber_coverage": 39,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 88
     }
   },
   {
@@ -28980,7 +31888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 290,
       "fiber_coverage": 26,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 79
     }
   },
   {
@@ -28990,7 +31899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 266,
       "fiber_coverage": 51,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 77
     }
   },
   {
@@ -29000,7 +31910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 296,
       "fiber_coverage": 47,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 91
     }
   },
   {
@@ -29010,7 +31921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 276,
       "fiber_coverage": 52,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 81
     }
   },
   {
@@ -29020,7 +31932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 272,
       "fiber_coverage": 40,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 81
     }
   },
   {
@@ -29030,7 +31943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 291,
       "fiber_coverage": 43,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 78
     }
   },
   {
@@ -29040,7 +31954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 287,
       "fiber_coverage": 36,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 79
     }
   },
   {
@@ -29050,7 +31965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 261,
       "fiber_coverage": 26,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 89
     }
   },
   {
@@ -29060,7 +31976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 248,
       "fiber_coverage": 27,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 85
     }
   },
   {
@@ -29070,7 +31987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 241,
       "fiber_coverage": 30,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 86
     }
   },
   {
@@ -29080,7 +31998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 245,
       "fiber_coverage": 40,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 82
     }
   },
   {
@@ -29090,7 +32009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 193,
       "growing_season": 249,
       "fiber_coverage": 41,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 81
     }
   },
   {
@@ -29100,7 +32020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 249,
       "fiber_coverage": 41,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 65
     }
   },
   {
@@ -29110,7 +32031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 242,
       "fiber_coverage": 32,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 83
     }
   },
   {
@@ -29120,7 +32042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 296,
       "fiber_coverage": 34,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 89
     }
   },
   {
@@ -29130,7 +32053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 278,
       "fiber_coverage": 58,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 0
     }
   },
   {
@@ -29140,7 +32064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 300,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 93
     }
   },
   {
@@ -29150,7 +32075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 309,
       "fiber_coverage": 56,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 96
     }
   },
   {
@@ -29160,7 +32086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 322,
       "fiber_coverage": 54,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 86
     }
   },
   {
@@ -29170,7 +32097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 287,
       "fiber_coverage": 47,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 87
     }
   },
   {
@@ -29180,7 +32108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 298,
       "fiber_coverage": 40,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 84
     }
   },
   {
@@ -29190,7 +32119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 312,
       "fiber_coverage": 49,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -29200,7 +32130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 290,
       "fiber_coverage": 46,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -29210,7 +32141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 310,
       "fiber_coverage": 41,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 83
     }
   },
   {
@@ -29220,7 +32152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 362,
       "fiber_coverage": 26,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 24
     }
   },
   {
@@ -29230,7 +32163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 359,
       "fiber_coverage": 44,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 33
     }
   },
   {
@@ -29240,7 +32174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 266,
       "fiber_coverage": 44,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 77
     }
   },
   {
@@ -29250,7 +32185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 176,
       "growing_season": 286,
       "fiber_coverage": 45,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 90
     }
   },
   {
@@ -29260,7 +32196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 281,
       "fiber_coverage": 83,
-      "crime_rate": 388
+      "crime_rate": 388,
+      "four_seasons": 94
     }
   },
   {
@@ -29270,7 +32207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 347,
       "fiber_coverage": 63,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -29280,7 +32218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 348,
       "fiber_coverage": 60,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 34
     }
   },
   {
@@ -29290,7 +32229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 342,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -29300,7 +32240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 343,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -29310,7 +32251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 224,
       "growing_season": 328,
       "fiber_coverage": 67,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -29320,7 +32262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 332,
       "fiber_coverage": 57,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 32
     }
   },
   {
@@ -29330,7 +32273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 313,
       "fiber_coverage": 41,
-      "crime_rate": 214
+      "crime_rate": 214,
+      "four_seasons": 93
     }
   },
   {
@@ -29340,7 +32284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 316,
       "fiber_coverage": 54,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 95
     }
   },
   {
@@ -29350,7 +32295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 310,
       "fiber_coverage": 47,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 97
     }
   },
   {
@@ -29360,7 +32306,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 319,
       "fiber_coverage": 56,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 86
     }
   },
   {
@@ -29370,7 +32317,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 320,
       "fiber_coverage": 59,
-      "crime_rate": 166
+      "crime_rate": 166,
+      "four_seasons": 87
     }
   },
   {
@@ -29380,7 +32328,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 274,
       "growing_season": 324,
       "fiber_coverage": 41,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 31
     }
   },
   {
@@ -29390,7 +32339,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 292,
       "growing_season": 326,
       "fiber_coverage": 35,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 30
     }
   },
   {
@@ -29400,7 +32350,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 275,
       "growing_season": 319,
       "fiber_coverage": 45,
-      "crime_rate": 664
+      "crime_rate": 664,
+      "four_seasons": 20
     }
   },
   {
@@ -29410,7 +32361,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 242,
       "fiber_coverage": 40,
-      "crime_rate": 399
+      "crime_rate": 399,
+      "four_seasons": 63
     }
   },
   {
@@ -29420,7 +32372,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 291,
       "fiber_coverage": 31,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 77
     }
   },
   {
@@ -29430,7 +32383,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 306,
       "fiber_coverage": 60,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 90
     }
   },
   {
@@ -29440,7 +32394,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 327,
       "fiber_coverage": 50,
-      "crime_rate": 366
+      "crime_rate": 366,
+      "four_seasons": 81
     }
   },
   {
@@ -29450,7 +32405,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 282,
       "fiber_coverage": 55,
-      "crime_rate": 366
+      "crime_rate": 366,
+      "four_seasons": 0
     }
   },
   {
@@ -29460,7 +32416,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -29470,7 +32427,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 58,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -29480,7 +32438,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 319,
       "fiber_coverage": 35,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -29490,7 +32449,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 318,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 50
     }
   },
   {
@@ -29500,7 +32460,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 331,
       "fiber_coverage": 49,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 29
     }
   },
   {
@@ -29510,7 +32471,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 339,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 28
     }
   },
   {
@@ -29520,7 +32482,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 316,
       "fiber_coverage": 42,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 52
     }
   },
   {
@@ -29530,7 +32493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 334,
       "fiber_coverage": 43,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -29540,7 +32504,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 318,
       "fiber_coverage": 46,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 53
     }
   },
   {
@@ -29550,7 +32515,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 334,
       "fiber_coverage": 35,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -29560,7 +32526,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 302,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 411
+      "crime_rate": 411,
+      "four_seasons": 35
     }
   },
   {
@@ -29570,7 +32537,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 320,
       "fiber_coverage": 31,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 54
     }
   },
   {
@@ -29580,7 +32548,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 322,
       "fiber_coverage": 45,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 49
     }
   },
   {
@@ -29590,7 +32559,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 274,
       "fiber_coverage": 51,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 78
     }
   },
   {
@@ -29600,7 +32570,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 282,
       "fiber_coverage": 50,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 70
     }
   },
   {
@@ -29610,7 +32581,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 287,
       "fiber_coverage": 54,
-      "crime_rate": 339
+      "crime_rate": 339,
+      "four_seasons": 71
     }
   },
   {
@@ -29620,7 +32592,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 309,
       "fiber_coverage": 51,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 65
     }
   },
   {
@@ -29630,7 +32603,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 303,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -29640,7 +32614,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 315,
       "fiber_coverage": 55,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 63
     }
   },
   {
@@ -29650,7 +32625,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 287,
       "fiber_coverage": 36,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 80
     }
   },
   {
@@ -29660,7 +32636,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 284,
       "fiber_coverage": 51,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 62
     }
   },
   {
@@ -29670,7 +32647,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 281,
       "fiber_coverage": 54,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 72
     }
   },
   {
@@ -29680,7 +32658,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 286,
       "fiber_coverage": 38,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 65
     }
   },
   {
@@ -29690,7 +32669,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 284,
       "fiber_coverage": 39,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 69
     }
   },
   {
@@ -29700,7 +32680,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 164,
       "growing_season": 301,
       "fiber_coverage": 37,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 88
     }
   },
   {
@@ -29709,7 +32690,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 100,
       "growing_season": 131,
       "fiber_coverage": 25,
-      "crime_rate": 712
+      "crime_rate": 712,
+      "four_seasons": 20
     }
   },
   {
@@ -29719,7 +32701,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -29729,7 +32712,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 254,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 326
+      "crime_rate": 326,
+      "four_seasons": 0
     }
   },
   {
@@ -29739,7 +32723,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 272,
       "growing_season": 365,
       "fiber_coverage": 46,
-      "crime_rate": 216
+      "crime_rate": 216,
+      "four_seasons": 0
     }
   },
   {
@@ -29749,7 +32734,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 289,
       "fiber_coverage": 44,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 80
     }
   },
   {
@@ -29759,7 +32745,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 300,
       "fiber_coverage": 38,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 76
     }
   },
   {
@@ -29769,7 +32756,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 287,
       "fiber_coverage": 38,
-      "crime_rate": 206
+      "crime_rate": 206,
+      "four_seasons": 75
     }
   },
   {
@@ -29779,7 +32767,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 318,
       "fiber_coverage": 38,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 34
     }
   },
   {
@@ -29789,7 +32778,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 222,
       "growing_season": 320,
       "fiber_coverage": 32,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 31
     }
   },
   {
@@ -29799,7 +32789,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 323,
       "fiber_coverage": 40,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 33
     }
   },
   {
@@ -29809,7 +32800,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 157,
       "growing_season": 289,
       "fiber_coverage": 53,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 91
     }
   },
   {
@@ -29819,7 +32811,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 304,
       "fiber_coverage": 49,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -29829,7 +32822,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 322,
       "fiber_coverage": 52,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -29839,7 +32833,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 174,
       "growing_season": 313,
       "fiber_coverage": 42,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -29849,7 +32844,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 323,
       "fiber_coverage": 39,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -29859,7 +32855,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 303,
       "fiber_coverage": 39,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 64
     }
   },
   {
@@ -29869,7 +32866,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 175,
       "growing_season": 316,
       "fiber_coverage": 39,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 61
     }
   },
   {
@@ -29879,7 +32877,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 310,
       "fiber_coverage": 47,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 66
     }
   },
   {
@@ -29889,7 +32888,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 307,
       "fiber_coverage": 51,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 62
     }
   },
   {
@@ -29899,7 +32899,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 306,
       "fiber_coverage": 36,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 92
     }
   },
   {
@@ -29909,7 +32910,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 353,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 30
     }
   },
   {
@@ -29919,7 +32921,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -29929,7 +32932,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 57,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -29939,7 +32943,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -29949,7 +32954,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 281
+      "crime_rate": 281,
+      "four_seasons": 25
     }
   },
   {
@@ -29959,7 +32965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 365,
       "fiber_coverage": 64,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -29969,7 +32976,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 358,
       "fiber_coverage": 63,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -29979,7 +32987,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 305,
       "fiber_coverage": 46,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 72
     }
   },
   {
@@ -29989,7 +32998,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 311,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -29999,7 +33009,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 171,
       "growing_season": 297,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -30009,7 +33020,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 314,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 61
     }
   },
   {
@@ -30019,7 +33031,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 305,
       "fiber_coverage": 56,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 92
     }
   },
   {
@@ -30029,7 +33042,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 310,
       "fiber_coverage": 42,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 68
     }
   },
   {
@@ -30039,7 +33053,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 182,
       "growing_season": 305,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 66
     }
   },
   {
@@ -30049,7 +33064,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 312,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 59
     }
   },
   {
@@ -30059,7 +33075,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 180,
       "growing_season": 318,
       "fiber_coverage": 58,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 63
     }
   },
   {
@@ -30069,7 +33086,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 309,
       "fiber_coverage": 44,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 61
     }
   },
   {
@@ -30079,7 +33097,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 288,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 89
     }
   },
   {
@@ -30089,7 +33108,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 220,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -30099,7 +33119,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 358,
       "fiber_coverage": 65,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 34
     }
   },
   {
@@ -30109,7 +33130,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -30119,7 +33141,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 189,
       "growing_season": 311,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -30129,7 +33152,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 262,
       "growing_season": 310,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30139,7 +33163,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30149,7 +33174,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 10
     }
   },
   {
@@ -30159,7 +33185,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30169,7 +33196,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 247,
       "growing_season": 365,
       "fiber_coverage": 54,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 29
     }
   },
   {
@@ -30179,7 +33207,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 311,
       "fiber_coverage": 24,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 71
     }
   },
   {
@@ -30189,7 +33218,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 322,
       "fiber_coverage": 24,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 82
     }
   },
   {
@@ -30199,7 +33229,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 320,
       "fiber_coverage": 33,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 72
     }
   },
   {
@@ -30209,7 +33240,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 332,
       "fiber_coverage": 39,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 78
     }
   },
   {
@@ -30219,7 +33251,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 150,
       "growing_season": 317,
       "fiber_coverage": 25,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 82
     }
   },
   {
@@ -30229,7 +33262,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 321,
       "fiber_coverage": 80,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 79
     }
   },
   {
@@ -30239,7 +33273,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 321,
       "fiber_coverage": 76,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -30249,7 +33284,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 320,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30259,7 +33295,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 330,
       "fiber_coverage": 72,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30269,7 +33306,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 329,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30279,7 +33317,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 333,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 69
     }
   },
   {
@@ -30289,7 +33328,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 328,
       "fiber_coverage": 66,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -30299,7 +33339,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 322,
       "fiber_coverage": 75,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30309,7 +33350,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 190,
       "growing_season": 319,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 58
     }
   },
   {
@@ -30319,7 +33361,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 205,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 0
     }
   },
   {
@@ -30329,7 +33372,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 339,
       "fiber_coverage": 75,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30338,7 +33382,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 346,
       "fiber_coverage": 49,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30347,7 +33392,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 358,
       "fiber_coverage": 50,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30356,7 +33402,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 285,
       "fiber_coverage": 45,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30365,7 +33412,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 349,
       "fiber_coverage": 35,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30374,7 +33422,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 226,
       "growing_season": 271,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30383,7 +33432,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 353,
       "fiber_coverage": 39,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30392,7 +33442,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 357,
       "fiber_coverage": 55,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30402,7 +33453,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 270,
       "fiber_coverage": 81,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 44
     }
   },
   {
@@ -30411,7 +33463,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 350,
       "fiber_coverage": 50,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30420,7 +33473,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 353,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30429,7 +33483,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 285,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30438,7 +33493,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 204,
       "growing_season": 346,
       "fiber_coverage": 55,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30447,7 +33503,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 285,
       "fiber_coverage": 51,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30456,7 +33513,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 350,
       "fiber_coverage": 51,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30465,7 +33523,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 358,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30474,7 +33533,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 356,
       "fiber_coverage": 38,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30483,7 +33543,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 362,
       "fiber_coverage": 41,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30493,7 +33554,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 243,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 22
     }
   },
   {
@@ -30503,7 +33565,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 259,
       "growing_season": 325,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30513,7 +33576,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 62,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30523,7 +33587,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 245,
       "growing_season": 365,
       "fiber_coverage": 65,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 4
     }
   },
   {
@@ -30533,7 +33598,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 50,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 30
     }
   },
   {
@@ -30543,7 +33609,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 235,
       "growing_season": 365,
       "fiber_coverage": 69,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 1
     }
   },
   {
@@ -30553,7 +33620,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 13
     }
   },
   {
@@ -30563,7 +33631,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 314,
       "fiber_coverage": 72,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 81
     }
   },
   {
@@ -30573,7 +33642,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 325,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -30583,7 +33653,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 323,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -30593,7 +33664,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 330,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30603,7 +33675,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 330,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 73
     }
   },
   {
@@ -30613,7 +33686,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 313,
       "fiber_coverage": 72,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -30623,7 +33697,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 330,
       "fiber_coverage": 73,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 78
     }
   },
   {
@@ -30633,7 +33708,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 333,
       "fiber_coverage": 67,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -30643,7 +33719,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 322,
       "fiber_coverage": 68,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -30652,7 +33729,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 354,
       "fiber_coverage": 40,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30662,7 +33740,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 280,
       "fiber_coverage": 39,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 90
     }
   },
   {
@@ -30672,7 +33751,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 263,
       "fiber_coverage": 26,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 97
     }
   },
   {
@@ -30681,7 +33761,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 346,
       "fiber_coverage": 54,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30690,7 +33771,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 354,
       "fiber_coverage": 47,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30699,7 +33781,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 355,
       "fiber_coverage": 52,
-      "crime_rate": 340
+      "crime_rate": 340,
+      "four_seasons": 0
     }
   },
   {
@@ -30709,7 +33792,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 142,
       "growing_season": 276,
       "fiber_coverage": 65,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 47
     }
   },
   {
@@ -30719,7 +33803,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 238,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 34
     }
   },
   {
@@ -30729,7 +33814,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 253,
       "growing_season": 325,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30739,7 +33825,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 60,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 24
     }
   },
   {
@@ -30749,7 +33836,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 365,
       "fiber_coverage": 93,
-      "crime_rate": 654
+      "crime_rate": 654,
+      "four_seasons": 0
     }
   },
   {
@@ -30759,7 +33847,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 365,
       "fiber_coverage": 67,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 2
     }
   },
   {
@@ -30769,7 +33858,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 237,
       "growing_season": 365,
       "fiber_coverage": 63,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 0
     }
   },
   {
@@ -30779,7 +33869,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 249,
       "growing_season": 365,
       "fiber_coverage": 61,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 25
     }
   },
   {
@@ -30789,7 +33880,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 333,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -30799,7 +33891,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 324,
       "fiber_coverage": 94,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30809,7 +33902,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 128,
       "growing_season": 282,
       "fiber_coverage": 75,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 44
     }
   },
   {
@@ -30819,7 +33913,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 169,
       "growing_season": 269,
       "fiber_coverage": 41,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 82
     }
   },
   {
@@ -30829,7 +33924,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 272,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 83
     }
   },
   {
@@ -30839,7 +33935,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 132,
       "growing_season": 293,
       "fiber_coverage": 66,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 50
     }
   },
   {
@@ -30848,7 +33945,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 340,
       "fiber_coverage": 61,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30857,7 +33955,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 325,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 77
     }
   },
   {
@@ -30866,7 +33965,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 209,
       "growing_season": 340,
       "fiber_coverage": 63,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30875,7 +33975,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 329,
       "fiber_coverage": 78,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30884,7 +33985,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 340,
       "fiber_coverage": 65,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -30893,7 +33995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 322,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -30903,7 +34006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 293,
       "fiber_coverage": 42,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -30913,7 +34017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 289,
       "fiber_coverage": 78,
-      "crime_rate": 413
+      "crime_rate": 413,
+      "four_seasons": 96
     }
   },
   {
@@ -30923,7 +34028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 154,
       "growing_season": 293,
       "fiber_coverage": 37,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 95
     }
   },
   {
@@ -30933,7 +34039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 274,
       "fiber_coverage": 76,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -30943,7 +34050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 178,
       "growing_season": 282,
       "fiber_coverage": 69,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -30953,7 +34061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 146,
       "growing_season": 285,
       "fiber_coverage": 71,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 56
     }
   },
   {
@@ -30963,7 +34072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 168,
       "growing_season": 275,
       "fiber_coverage": 71,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -30973,7 +34083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -30983,7 +34094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 286,
       "fiber_coverage": 48,
-      "crime_rate": 235
+      "crime_rate": 235,
+      "four_seasons": 90
     }
   },
   {
@@ -30993,7 +34105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 307,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 85
     }
   },
   {
@@ -31003,7 +34116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 321,
       "fiber_coverage": 74,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -31013,7 +34127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 167,
       "growing_season": 300,
       "fiber_coverage": 57,
-      "crime_rate": 262
+      "crime_rate": 262,
+      "four_seasons": 80
     }
   },
   {
@@ -31023,7 +34138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 173,
       "growing_season": 303,
       "fiber_coverage": 55,
-      "crime_rate": 309
+      "crime_rate": 309,
+      "four_seasons": 95
     }
   },
   {
@@ -31033,7 +34149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 324,
       "fiber_coverage": 75,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 54
     }
   },
   {
@@ -31043,7 +34160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 280,
       "fiber_coverage": 27,
-      "crime_rate": 433
+      "crime_rate": 433,
+      "four_seasons": 75
     }
   },
   {
@@ -31053,7 +34171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 246,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 409
+      "crime_rate": 409,
+      "four_seasons": 8
     }
   },
   {
@@ -31063,7 +34182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 248,
       "growing_season": 365,
       "fiber_coverage": 68,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 27
     }
   },
   {
@@ -31072,7 +34192,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 333,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 68
     }
   },
   {
@@ -31082,7 +34203,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 290,
       "fiber_coverage": 51,
-      "crime_rate": 413
+      "crime_rate": 413,
+      "four_seasons": 95
     }
   },
   {
@@ -31092,7 +34214,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 163,
       "growing_season": 319,
       "fiber_coverage": 39,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 75
     }
   },
   {
@@ -31102,7 +34225,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 338,
       "fiber_coverage": 64,
-      "crime_rate": 146
+      "crime_rate": 146,
+      "four_seasons": 72
     }
   },
   {
@@ -31112,7 +34236,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 30
     }
   },
   {
@@ -31122,7 +34247,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 363,
       "fiber_coverage": 31,
-      "crime_rate": 385
+      "crime_rate": 385,
+      "four_seasons": 1
     }
   },
   {
@@ -31132,7 +34258,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 307,
       "fiber_coverage": 53,
-      "crime_rate": 154
+      "crime_rate": 154,
+      "four_seasons": 89
     }
   },
   {
@@ -31142,7 +34269,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 329,
       "fiber_coverage": 45,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 55
     }
   },
   {
@@ -31152,7 +34280,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 208,
       "growing_season": 319,
       "fiber_coverage": 38,
-      "crime_rate": 571
+      "crime_rate": 571,
+      "four_seasons": 18
     }
   },
   {
@@ -31162,7 +34291,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 312,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 65
     }
   },
   {
@@ -31172,7 +34302,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 192,
       "growing_season": 302,
       "fiber_coverage": 37,
-      "crime_rate": 226
+      "crime_rate": 226,
+      "four_seasons": 92
     }
   },
   {
@@ -31182,7 +34313,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 207,
       "growing_season": 313,
       "fiber_coverage": 58,
-      "crime_rate": 572
+      "crime_rate": 572,
+      "four_seasons": 52
     }
   },
   {
@@ -31192,7 +34324,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 282,
       "fiber_coverage": 38,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 77
     }
   },
   {
@@ -31202,7 +34335,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 177,
       "growing_season": 279,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 61
     }
   },
   {
@@ -31212,7 +34346,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 239,
       "growing_season": 363,
       "fiber_coverage": 53,
-      "crime_rate": 379
+      "crime_rate": 379,
+      "four_seasons": 45
     }
   },
   {
@@ -31222,7 +34357,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 202,
       "growing_season": 315,
       "fiber_coverage": 35,
-      "crime_rate": 284
+      "crime_rate": 284,
+      "four_seasons": 79
     }
   },
   {
@@ -31232,7 +34368,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 33,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 30
     }
   },
   {
@@ -31242,7 +34379,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 148,
       "growing_season": 310,
       "fiber_coverage": 57,
-      "crime_rate": 248
+      "crime_rate": 248,
+      "four_seasons": 63
     }
   },
   {
@@ -31252,7 +34390,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 318,
       "fiber_coverage": 48,
-      "crime_rate": 462
+      "crime_rate": 462,
+      "four_seasons": 72
     }
   },
   {
@@ -31262,7 +34401,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 158,
       "growing_season": 298,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -31272,7 +34412,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 166,
       "growing_season": 288,
       "fiber_coverage": 73,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 0
     }
   },
   {
@@ -31282,7 +34423,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 252,
       "growing_season": 339,
       "fiber_coverage": 79,
-      "crime_rate": 376
+      "crime_rate": 376,
+      "four_seasons": 48
     }
   },
   {
@@ -31292,7 +34434,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 359,
       "fiber_coverage": 62,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -31302,7 +34445,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 310,
       "fiber_coverage": 51,
-      "crime_rate": 325
+      "crime_rate": 325,
+      "four_seasons": 67
     }
   },
   {
@@ -31312,7 +34456,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 26
     }
   },
   {
@@ -31322,7 +34467,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 138,
       "growing_season": 288,
       "fiber_coverage": 44,
-      "crime_rate": 406
+      "crime_rate": 406,
+      "four_seasons": 95
     }
   },
   {
@@ -31332,7 +34478,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 343,
       "fiber_coverage": 70,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 67
     }
   },
   {
@@ -31342,7 +34489,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 365,
       "fiber_coverage": 49,
-      "crime_rate": 451
+      "crime_rate": 451,
+      "four_seasons": 27
     }
   },
   {
@@ -31352,7 +34500,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 359,
       "fiber_coverage": 60,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 28
     }
   },
   {
@@ -31362,7 +34511,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 335,
       "fiber_coverage": 56,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 62
     }
   },
   {
@@ -31372,7 +34522,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 306,
       "fiber_coverage": 30,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -31382,7 +34533,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 199,
       "growing_season": 357,
       "fiber_coverage": 31,
-      "crime_rate": 247
+      "crime_rate": 247,
+      "four_seasons": 34
     }
   },
   {
@@ -31392,7 +34544,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 323,
       "fiber_coverage": 41,
-      "crime_rate": 260
+      "crime_rate": 260,
+      "four_seasons": 91
     }
   },
   {
@@ -31402,7 +34555,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 218,
       "growing_season": 327,
       "fiber_coverage": 69,
-      "crime_rate": 316
+      "crime_rate": 316,
+      "four_seasons": 63
     }
   },
   {
@@ -31412,7 +34566,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 181,
       "growing_season": 323,
       "fiber_coverage": 44,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 70
     }
   },
   {
@@ -31422,7 +34577,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 365,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 27
     }
   },
   {
@@ -31432,7 +34588,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -31442,7 +34599,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 364,
       "fiber_coverage": 59,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 22
     }
   },
   {
@@ -31452,7 +34610,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 364,
       "fiber_coverage": 58,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 25
     }
   },
   {
@@ -31462,7 +34621,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 363,
       "fiber_coverage": 56,
-      "crime_rate": 341
+      "crime_rate": 341,
+      "four_seasons": 1
     }
   },
   {
@@ -31472,7 +34632,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 219,
       "growing_season": 299,
       "fiber_coverage": 37,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 76
     }
   },
   {
@@ -31482,7 +34643,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 300,
       "fiber_coverage": 48,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 74
     }
   },
   {
@@ -31492,7 +34654,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 312,
       "fiber_coverage": 31,
-      "crime_rate": 595
+      "crime_rate": 595,
+      "four_seasons": 79
     }
   },
   {
@@ -31502,7 +34665,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 194,
       "growing_season": 315,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 71
     }
   },
   {
@@ -31512,7 +34676,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 185,
       "growing_season": 307,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -31522,7 +34687,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 325,
       "fiber_coverage": 34,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -31532,7 +34698,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 186,
       "growing_season": 320,
       "fiber_coverage": 47,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 63
     }
   },
   {
@@ -31542,7 +34709,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 196,
       "growing_season": 310,
       "fiber_coverage": 43,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -31552,7 +34720,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 318,
       "fiber_coverage": 41,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -31562,7 +34731,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 315,
       "fiber_coverage": 50,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 78
     }
   },
   {
@@ -31572,7 +34742,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 307,
       "fiber_coverage": 36,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 75
     }
   },
   {
@@ -31582,7 +34753,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 318,
       "fiber_coverage": 39,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 69
     }
   },
   {
@@ -31592,7 +34764,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 228,
       "growing_season": 319,
       "fiber_coverage": 39,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 73
     }
   },
   {
@@ -31602,7 +34775,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 229,
       "growing_season": 316,
       "fiber_coverage": 47,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 71
     }
   },
   {
@@ -31612,7 +34786,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 216,
       "growing_season": 297,
       "fiber_coverage": 49,
-      "crime_rate": 361
+      "crime_rate": 361,
+      "four_seasons": 79
     }
   },
   {
@@ -31622,7 +34797,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 365,
       "fiber_coverage": 52,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31632,7 +34808,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 26
     }
   },
   {
@@ -31642,7 +34819,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31652,7 +34830,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 197,
       "growing_season": 365,
       "fiber_coverage": 47,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31662,7 +34841,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 286,
       "fiber_coverage": 72,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 43
     }
   },
   {
@@ -31672,7 +34852,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 143,
       "growing_season": 301,
       "fiber_coverage": 82,
-      "crime_rate": 250
+      "crime_rate": 250,
+      "four_seasons": 48
     }
   },
   {
@@ -31682,7 +34863,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 159,
       "growing_season": 301,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -31692,7 +34874,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 151,
       "growing_season": 285,
       "fiber_coverage": 54,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 94
     }
   },
   {
@@ -31702,7 +34885,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 152,
       "growing_season": 292,
       "fiber_coverage": 43,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 98
     }
   },
   {
@@ -31712,7 +34896,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 292,
       "fiber_coverage": 46,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 90
     }
   },
   {
@@ -31722,7 +34907,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 233,
       "growing_season": 313,
       "fiber_coverage": 79,
-      "crime_rate": 221
+      "crime_rate": 221,
+      "four_seasons": 90
     }
   },
   {
@@ -31732,7 +34918,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 230,
       "growing_season": 319,
       "fiber_coverage": 82,
-      "crime_rate": 364
+      "crime_rate": 364,
+      "four_seasons": 46
     }
   },
   {
@@ -31742,7 +34929,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 153,
       "growing_season": 309,
       "fiber_coverage": 34,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 92
     }
   },
   {
@@ -31752,7 +34940,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 297,
       "fiber_coverage": 47,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 89
     }
   },
   {
@@ -31762,7 +34951,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 160,
       "growing_season": 309,
       "fiber_coverage": 46,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 92
     }
   },
   {
@@ -31772,7 +34962,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 145,
       "growing_season": 310,
       "fiber_coverage": 38,
-      "crime_rate": 242
+      "crime_rate": 242,
+      "four_seasons": 91
     }
   },
   {
@@ -31782,7 +34973,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 211,
       "growing_season": 365,
       "fiber_coverage": 55,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31792,7 +34984,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 203,
       "growing_season": 365,
       "fiber_coverage": 38,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31802,7 +34995,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 365,
       "fiber_coverage": 48,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31812,7 +35006,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 212,
       "growing_season": 365,
       "fiber_coverage": 45,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 22
     }
   },
   {
@@ -31822,7 +35017,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 206,
       "growing_season": 365,
       "fiber_coverage": 51,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31832,7 +35028,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 187,
       "growing_season": 324,
       "fiber_coverage": 49,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -31842,7 +35039,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 308,
       "fiber_coverage": 40,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 64
     }
   },
   {
@@ -31852,7 +35050,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 215,
       "growing_season": 326,
       "fiber_coverage": 44,
-      "crime_rate": 543
+      "crime_rate": 543,
+      "four_seasons": 0
     }
   },
   {
@@ -31862,7 +35061,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 188,
       "growing_season": 321,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 56
     }
   },
   {
@@ -31872,7 +35072,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 195,
       "growing_season": 319,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 59
     }
   },
   {
@@ -31882,7 +35083,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 183,
       "growing_season": 323,
       "fiber_coverage": 45,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 60
     }
   },
   {
@@ -31892,7 +35094,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 198,
       "growing_season": 307,
       "fiber_coverage": 32,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 62
     }
   },
   {
@@ -31902,7 +35105,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 217,
       "growing_season": 289,
       "fiber_coverage": 48,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 0
     }
   },
   {
@@ -31912,7 +35116,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 191,
       "growing_season": 320,
       "fiber_coverage": 44,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 76
     }
   },
   {
@@ -31922,7 +35127,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 318,
       "fiber_coverage": 42,
-      "crime_rate": 238
+      "crime_rate": 238,
+      "four_seasons": 69
     }
   },
   {
@@ -31932,7 +35138,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 161,
       "growing_season": 285,
       "fiber_coverage": 53,
-      "crime_rate": 251
+      "crime_rate": 251,
+      "four_seasons": 92
     }
   },
   {
@@ -31942,7 +35149,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 258,
       "fiber_coverage": 41,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -31952,7 +35160,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 221,
       "growing_season": 273,
       "fiber_coverage": 33,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -31962,7 +35171,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 225,
       "growing_season": 256,
       "fiber_coverage": 40,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 94
     }
   },
   {
@@ -31972,7 +35182,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 223,
       "growing_season": 267,
       "fiber_coverage": 28,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -31982,7 +35193,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 227,
       "growing_season": 277,
       "fiber_coverage": 39,
-      "crime_rate": 199
+      "crime_rate": 199,
+      "four_seasons": 100
     }
   },
   {
@@ -31992,7 +35204,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 162,
       "growing_season": 333,
       "fiber_coverage": 26,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 80
     }
   },
   {
@@ -32002,7 +35215,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 165,
       "growing_season": 317,
       "fiber_coverage": 64,
-      "crime_rate": 497
+      "crime_rate": 497,
+      "four_seasons": 77
     }
   },
   {
@@ -32012,7 +35226,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 155,
       "growing_season": 318,
       "fiber_coverage": 30,
-      "crime_rate": 302
+      "crime_rate": 302,
+      "four_seasons": 77
     }
   },
   {
@@ -32022,7 +35237,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 156,
       "growing_season": 306,
       "fiber_coverage": 39,
-      "crime_rate": 147
+      "crime_rate": 147,
+      "four_seasons": 94
     }
   },
   {
@@ -32032,7 +35248,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 234,
       "growing_season": 275,
       "fiber_coverage": 64,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 0
     }
   },
   {
@@ -32042,7 +35259,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 210,
       "growing_season": 320,
       "fiber_coverage": 79,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -32052,7 +35270,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 214,
       "growing_season": 321,
       "fiber_coverage": 71,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   },
   {
@@ -32062,7 +35281,8 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 213,
       "growing_season": 331,
       "fiber_coverage": 100,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 70
     }
   },
   {
@@ -32072,14 +35292,15 @@ export const realCountyData: CountyData[] = [
       "sunny_days": 201,
       "growing_season": 331,
       "fiber_coverage": 80,
-      "crime_rate": 177
+      "crime_rate": 177,
+      "four_seasons": 71
     }
   }
 ];
 
 export const dataStats = {
   totalCounties: 3221,
-  dimensions: 5,
-  dimensionNames: ['land_value', 'sunny_days', 'growing_season', 'fiber_coverage', 'crime_rate'],
-  generated: '2025-10-31T00:48:18.393Z',
+  dimensions: 6,
+  dimensionNames: ['land_value', 'sunny_days', 'growing_season', 'fiber_coverage', 'crime_rate', 'four_seasons'],
+  generated: '2025-10-31T18:16:15.009Z',
 };

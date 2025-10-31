@@ -20,18 +20,52 @@
   let searchResults = $state<any[]>([]);
   let showSearchResults = $state(false);
 
+  // Performance: Create lookup Maps for O(1) access instead of O(n) array.find()
+  const countyDataMap = new Map(realCountyData.map(c => [c.fipsCode, c]));
+  const countyInfoMap = new Map(countyDatabase.map(c => [c.fipsCode, c]));
+
+  // Derived: county scores as a Map for fast lookups
+  let countyScoresMap = $derived(new Map($countyScores.map(s => [s.fipsCode, s])));
+
   // Real US counties GeoJSON URL
   const COUNTIES_URL = 'https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json';
 
-  // Search functionality
+  // Search functionality with smart state parsing
   $effect(() => {
     if (searchQuery.length >= 2) {
-      const query = searchQuery.toLowerCase();
-      searchResults = realCountyData
-        .filter(county =>
-          county.name.toLowerCase().includes(query) ||
-          county.state.toLowerCase().includes(query)
-        )
+      const query = searchQuery.toLowerCase().trim();
+
+      // Smart parsing: detect "county, state" or "county state" format
+      let countyNameQuery = query;
+      let stateQuery = '';
+
+      // Check for comma separator (e.g., "lancaster, pa")
+      if (query.includes(',')) {
+        const parts = query.split(',').map(p => p.trim());
+        countyNameQuery = parts[0];
+        stateQuery = parts[1] || '';
+      }
+      // Check for space-separated state abbreviation (e.g., "lancaster pa")
+      else {
+        const words = query.split(/\s+/);
+        if (words.length >= 2) {
+          const lastWord = words[words.length - 1];
+          // If last word is 2 chars (likely state abbrev), treat it as state
+          if (lastWord.length === 2) {
+            stateQuery = lastWord;
+            countyNameQuery = words.slice(0, -1).join(' ');
+          }
+        }
+      }
+
+      searchResults = countyDatabase
+        .filter(county => {
+          const nameMatch = county.name.toLowerCase().includes(countyNameQuery);
+          const stateMatch = !stateQuery ||
+            county.stateAbbrev.toLowerCase() === stateQuery ||
+            county.state.toLowerCase().includes(stateQuery);
+          return nameMatch && stateMatch;
+        })
         .slice(0, 10);
       showSearchResults = true;
     } else {
@@ -45,8 +79,18 @@
       map.flyTo({
         center: [county.lng, county.lat],
         zoom: 8,
-        duration: 1500
+        duration: 2000,
+        easing: (t) => t * (2 - t) // Smooth easeOutQuad
       });
+      searchQuery = '';
+      showSearchResults = false;
+    }
+  }
+
+  function handleSearchKeydown(e: KeyboardEvent) {
+    if (e.key === 'Enter' && searchResults.length > 0) {
+      selectCounty(searchResults[0]); // Select first result on Enter
+    } else if (e.key === 'Escape') {
       searchQuery = '';
       showSearchResults = false;
     }
@@ -160,6 +204,51 @@
           },
         });
 
+        // Create diagonal stripe pattern for incomplete data
+        const stripeCanvas = document.createElement('canvas');
+        const stripeSize = 20;
+        stripeCanvas.width = stripeSize;
+        stripeCanvas.height = stripeSize;
+        const ctx = stripeCanvas.getContext('2d');
+        if (ctx) {
+          // Draw diagonal lines
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.15)'; // Subtle white stripes
+          ctx.fillRect(0, 0, stripeSize, stripeSize);
+          ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)'; // Dark diagonal lines
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(0, stripeSize);
+          ctx.lineTo(stripeSize, 0);
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(-stripeSize/2, stripeSize/2);
+          ctx.lineTo(stripeSize/2, -stripeSize/2);
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(stripeSize/2, stripeSize * 1.5);
+          ctx.lineTo(stripeSize * 1.5, stripeSize/2);
+          ctx.stroke();
+
+          // Convert to ImageData for MapLibre
+          const imageData = ctx.getImageData(0, 0, stripeSize, stripeSize);
+          map.addImage('stripe-pattern', {
+            width: stripeSize,
+            height: stripeSize,
+            data: new Uint8Array(imageData.data)
+          });
+        }
+
+        // Incomplete data overlay - diagonal stripes for counties missing dimensions
+        map.addLayer({
+          id: 'incomplete-data-pattern',
+          type: 'fill',
+          source: 'counties',
+          paint: {
+            'fill-pattern': 'stripe-pattern',
+            'fill-opacity': 0, // Will be set per county
+          },
+        });
+
         // County name labels - fade in at mid zoom, fade out at extreme zooms
         // CK3-inspired bold all-caps style with modern font
         try {
@@ -203,19 +292,20 @@
           console.warn('Could not add county labels (font not available):', error);
         }
 
-        // Hover interactions
+        // Hover interactions with optimized tooltip updates
         map.on('mousemove', 'county-fills', (e) => {
           if (e.features && e.features.length > 0) {
             const feature = e.features[0];
             const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
 
+            // Only update tooltip data when entering a new county
             if (hoveredCountyId !== fipsCode) {
               hoveredCountyId = fipsCode;
 
-              // Find county data
-              const countyData = realCountyData.find(c => c.fipsCode === fipsCode);
-              const scoreData = $countyScores.find(s => s.fipsCode === fipsCode);
-              const countyInfo = countyDatabase.find(c => c.fipsCode === fipsCode);
+              // Fast O(1) Map lookups instead of O(n) array.find()
+              const countyData = countyDataMap.get(fipsCode);
+              const scoreData = countyScoresMap.get(fipsCode);
+              const countyInfo = countyInfoMap.get(fipsCode);
 
               if (countyData && feature.properties && countyInfo) {
                 tooltip = {
@@ -231,6 +321,9 @@
                   }
                 };
               }
+            } else if (tooltip) {
+              // Just update position for smoother following (lightweight operation)
+              tooltip = { ...tooltip, x: e.point.x, y: e.point.y };
             }
           }
           map.getCanvas().style.cursor = 'pointer';
@@ -255,6 +348,9 @@
         if ($topCounties && $topCounties.length > 0) {
           updateTopCountiesHighlight($topCounties);
         }
+
+        // Apply incomplete data pattern
+        updateIncompleteDataPattern();
       } catch (error) {
         console.error('Failed to load counties:', error);
       }
@@ -273,9 +369,10 @@
     }
   });
 
-  // Reactively update top counties highlight
+  // Reactively update top counties highlight whenever scores or count changes
   $effect(() => {
-    if (mapLoaded && $topCounties) {
+    if (mapLoaded && $topCounties && $topCounties.length > 0) {
+      console.log('⭐ Reactively updating top', $topCounties.length, 'counties');
       updateTopCountiesHighlight($topCounties);
     }
   });
@@ -379,6 +476,52 @@
             });
           }
 
+          // Recreate stripe pattern if needed
+          if (!map.hasImage('stripe-pattern')) {
+            const stripeCanvas = document.createElement('canvas');
+            const stripeSize = 20;
+            stripeCanvas.width = stripeSize;
+            stripeCanvas.height = stripeSize;
+            const ctx = stripeCanvas.getContext('2d');
+            if (ctx) {
+              ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+              ctx.fillRect(0, 0, stripeSize, stripeSize);
+              ctx.strokeStyle = 'rgba(0, 0, 0, 0.3)';
+              ctx.lineWidth = 2;
+              ctx.beginPath();
+              ctx.moveTo(0, stripeSize);
+              ctx.lineTo(stripeSize, 0);
+              ctx.stroke();
+              ctx.beginPath();
+              ctx.moveTo(-stripeSize/2, stripeSize/2);
+              ctx.lineTo(stripeSize/2, -stripeSize/2);
+              ctx.stroke();
+              ctx.beginPath();
+              ctx.moveTo(stripeSize/2, stripeSize * 1.5);
+              ctx.lineTo(stripeSize * 1.5, stripeSize/2);
+              ctx.stroke();
+
+              const imageData = ctx.getImageData(0, 0, stripeSize, stripeSize);
+              map.addImage('stripe-pattern', {
+                width: stripeSize,
+                height: stripeSize,
+                data: new Uint8Array(imageData.data)
+              });
+            }
+          }
+
+          if (!map.getLayer('incomplete-data-pattern')) {
+            map.addLayer({
+              id: 'incomplete-data-pattern',
+              type: 'fill',
+              source: 'counties',
+              paint: {
+                'fill-pattern': 'stripe-pattern',
+                'fill-opacity': 0,
+              },
+            });
+          }
+
           try {
             if (!map.getLayer('county-labels')) {
               map.addLayer({
@@ -426,34 +569,46 @@
           if ($topCounties) {
             updateTopCountiesHighlight($topCounties);
           }
+          updateIncompleteDataPattern();
 
-          // Add hover interactions
+          // Add hover interactions (optimized)
           map.on('mousemove', 'county-fills', (e) => {
             if (e.features && e.features.length > 0) {
               const feature = e.features[0];
               const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
-              const countyData = realCountyData.find(c => c.fipsCode === fipsCode);
-              const scoreData = $countyScores.find(s => s.fipsCode === fipsCode);
-              const countyInfo = countyDatabase.find(c => c.fipsCode === fipsCode);
 
-              if (countyData && scoreData && feature.properties && countyInfo) {
-                tooltip = {
-                  x: e.point.x,
-                  y: e.point.y,
-                  data: {
-                    name: countyInfo.name,
-                    state: countyInfo.state,
-                    stateAbbrev: countyInfo.stateAbbrev,
-                    fipsCode: fipsCode,
-                    score: scoreData.score,
-                    dimensions: countyData.values
-                  }
-                };
+              // Only update tooltip data when entering a new county
+              if (hoveredCountyId !== fipsCode) {
+                hoveredCountyId = fipsCode;
+
+                // Fast O(1) Map lookups
+                const countyData = countyDataMap.get(fipsCode);
+                const scoreData = countyScoresMap.get(fipsCode);
+                const countyInfo = countyInfoMap.get(fipsCode);
+
+                if (countyData && scoreData && feature.properties && countyInfo) {
+                  tooltip = {
+                    x: e.point.x,
+                    y: e.point.y,
+                    data: {
+                      name: countyInfo.name,
+                      state: countyInfo.state,
+                      stateAbbrev: countyInfo.stateAbbrev,
+                      fipsCode: fipsCode,
+                      score: scoreData.score,
+                      dimensions: countyData.values
+                    }
+                  };
+                }
+              } else if (tooltip) {
+                // Just update position for smoother following
+                tooltip = { ...tooltip, x: e.point.x, y: e.point.y };
               }
             }
           });
 
           map.on('mouseleave', 'county-fills', () => {
+            hoveredCountyId = null;
             tooltip = null;
           });
 
@@ -534,7 +689,37 @@
     map.setPaintProperty('top-counties-highlight', 'fill-opacity', fillExpression);
     map.setPaintProperty('top-counties-border', 'line-opacity', borderExpression);
 
-    console.log('✅ Highlight updated successfully with theme:', $theme);
+    // Force MapLibre to re-render by triggering a style update
+    map.triggerRepaint();
+
+    console.log('✅ Highlight updated successfully. Top counties:', topFipsCodes.slice(0, 3));
+  }
+
+  function updateIncompleteDataPattern() {
+    if (!map || !map.getLayer('incomplete-data-pattern')) {
+      return;
+    }
+
+    // Find all counties with incomplete dimension data
+    const incompleteCounties = realCountyData.filter(county => {
+      // Check if any dimension is missing
+      return dimensions.some(dim => {
+        const value = county.values[dim.id];
+        return value === undefined;
+      });
+    });
+
+    console.log('🔍 Counties with incomplete data:', incompleteCounties.length);
+
+    // Build opacity expression - show pattern for incomplete counties
+    const patternExpression: any = ['match', ['concat', ['get', 'STATE'], ['get', 'COUNTY']]];
+    incompleteCounties.forEach((county) => {
+      patternExpression.push(county.fipsCode, 0.7); // Visible pattern
+    });
+    patternExpression.push(0); // Default: no pattern
+
+    // Apply pattern opacity
+    map.setPaintProperty('incomplete-data-pattern', 'fill-opacity', patternExpression);
   }
 </script>
 
@@ -545,6 +730,7 @@
       type="text"
       value={searchQuery}
       oninput={(e) => searchQuery = e.currentTarget.value}
+      onkeydown={handleSearchKeydown}
       placeholder="Search for a county..."
       class="search-input"
     />
@@ -597,7 +783,7 @@
       const thisValue = tooltip.data.dimensions[dim.id];
       if (thisValue === undefined) return false;
       const allValues = $countyScores.map(c => {
-        const cd = realCountyData.find(d => d.fipsCode === c.fipsCode);
+        const cd = countyDataMap.get(c.fipsCode);
         return cd?.values[dim.id] || 0;
       });
       const bestValue = dim.higherIsBetter ? Math.max(...allValues) : Math.min(...allValues);
@@ -646,13 +832,16 @@
       <div class="dims-grid">
         {#each dimensions as dim}
           {@const value = tooltip.data.dimensions[dim.id]}
-          {#if value !== undefined}
-            <div class="dim-item" title={dim.name}>
-              <span class="dim-icon">{dim.icon}</span>
-              <span class="dim-label">{dim.name.split(' ')[0]}</span>
+          {@const hasMissingData = value === undefined}
+          <div class="dim-item {hasMissingData ? 'missing-data' : ''}" title={hasMissingData ? `${dim.name} - No data available (not counted in score)` : dim.name}>
+            <span class="dim-icon">{dim.icon ?? '📊'}</span>
+            <span class="dim-label">{dim.name.split(' ')[0]}</span>
+            {#if hasMissingData}
+              <span class="dim-val missing">N/A</span>
+            {:else}
               <span class="dim-val">{value.toFixed(0)}</span>
-            </div>
-          {/if}
+            {/if}
+          </div>
         {/each}
       </div>
     </div>
@@ -692,11 +881,14 @@
     background: var(--bg-primary);
     color: var(--text-primary);
     box-shadow: var(--shadow-md);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .search-input:focus {
     outline: none;
-    border-color: var(--border-active);
+    border-color: var(--accent-primary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15), 0 0 0 3px rgba(102, 187, 106, 0.1);
+    transform: translateY(-1px);
   }
 
   .search-results {
@@ -711,6 +903,18 @@
     box-shadow: var(--shadow-md);
     max-height: 300px;
     overflow-y: auto;
+    animation: slideDown 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .search-result-item {
@@ -721,12 +925,19 @@
     background: var(--bg-primary);
     color: var(--text-primary);
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 14px;
+    border-left: 3px solid transparent;
   }
 
   .search-result-item:hover {
     background: var(--bg-secondary);
+    border-left-color: var(--accent-primary);
+    padding-left: 18px;
+  }
+
+  .search-result-item:active {
+    transform: scale(0.98);
   }
 
   /* Legend */
@@ -787,6 +998,7 @@
     max-width: 240px;
     font-size: 13px;
     animation: tooltipIn 0.15s ease-out;
+    will-change: transform, opacity;
   }
 
   @keyframes tooltipIn {
@@ -960,5 +1172,23 @@
     font-weight: 700;
     color: var(--text-primary);
     white-space: nowrap;
+  }
+
+  /* Missing data styles */
+  .dim-item.missing-data {
+    opacity: 0.5;
+    background: var(--bg-secondary);
+    border: 1px dashed rgba(255, 68, 68, 0.3);
+  }
+
+  .dim-item.missing-data .dim-icon {
+    opacity: 0.4;
+    filter: grayscale(1);
+  }
+
+  .dim-val.missing {
+    color: #ff4444;
+    font-size: 10px;
+    font-weight: 600;
   }
 </style>

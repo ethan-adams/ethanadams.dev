@@ -32,10 +32,10 @@ export function calculateCountyScore(
   weights: DimensionWeight[]
 ): CountyScore {
   const normalizedValues: Record<string, number> = {};
-  let weightedSum = 0;
-  let totalWeight = 0;
 
-  // Calculate normalized values and weighted sum
+  // First pass: identify available dimensions and their weights
+  const availableDimensions: { dimension: Dimension; weight: number; normalized: number }[] = [];
+
   for (const dimension of dimensions) {
     const weight = weights.find((w) => w.dimensionId === dimension.id)?.weight ?? 0;
     const rawValue = countyData.values[dimension.id];
@@ -43,14 +43,24 @@ export function calculateCountyScore(
     if (rawValue !== undefined && weight > 0) {
       const normalized = normalizeValue(rawValue, dimension);
       normalizedValues[dimension.id] = normalized;
-
-      weightedSum += normalized * weight;
-      totalWeight += weight;
+      availableDimensions.push({ dimension, weight, normalized });
     }
   }
 
-  // Calculate final score (average of weighted values)
-  const score = totalWeight > 0 ? weightedSum / totalWeight : 0;
+  // Calculate total weight of available dimensions
+  const totalAvailableWeight = availableDimensions.reduce((sum, d) => sum + d.weight, 0);
+
+  // Renormalize weights so they sum to 1.0 among available dimensions
+  let weightedSum = 0;
+  if (totalAvailableWeight > 0) {
+    for (const { weight, normalized } of availableDimensions) {
+      const renormalizedWeight = weight / totalAvailableWeight;
+      weightedSum += normalized * renormalizedWeight;
+    }
+  }
+
+  // Score is now the weighted average with renormalized weights
+  const score = weightedSum;
 
   return {
     fipsCode: countyData.fipsCode,

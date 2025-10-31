@@ -44,6 +44,10 @@
   --overlay-bg: rgba(13, 27, 18, 0.95);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;

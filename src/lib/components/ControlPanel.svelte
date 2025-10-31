@@ -222,11 +222,11 @@
     height: 100%;
     background: var(--bg-secondary);
     border-right: 1px solid var(--border-primary);
-    padding: 1.5rem;
+    padding: 1.25rem;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.875rem;
   }
 
   .panel-header {
@@ -374,10 +374,10 @@
     background: var(--bg-primary);
     border: 2px solid var(--border-primary);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 0.75rem;
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.625rem;
     cursor: grab;
     transition: all 0.2s;
     position: relative;
