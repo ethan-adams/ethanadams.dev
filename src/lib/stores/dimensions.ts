@@ -20,7 +20,7 @@ export const biasCurve = writable<number>(2.0);
 
 /**
  * Derived store: convert rank order to weights
- * Top rank gets highest weight, exponentially decreasing
+ * Uses a more balanced formula that ensures all dimensions matter
  */
 export const dimensionWeights = derived(
   [dimensionRankOrder, biasCurve],
@@ -28,14 +28,16 @@ export const dimensionWeights = derived(
     const weights: DimensionWeight[] = [];
     const n = $rankOrder.length;
 
-    // Convert rank to weight using exponential decay
-    // Rank 1 (top) gets much more weight than rank 4 (bottom)
+    // NEW FORMULA: Ensures bottom dimensions still get ~3-5% weight
+    // Uses inverse rank with exponential bias
     $rankOrder.forEach((dimensionId, index) => {
-      const rank = index + 1; // 1-indexed rank
-      // Weight formula: base^(n - rank) where base is controlled by biasCurve
-      // Lower biasCurve = more even distribution (closer to 1)
-      // Higher biasCurve = more extreme splits (top dimensions dominate)
-      const rawWeight = Math.pow($biasCurve, n - rank);
+      const rank = index + 1; // 1-indexed rank (1 = best, n = worst)
+
+      // Inverse rank score: 1/rank gives more weight to top, but not too extreme
+      // Then apply bias curve to control how much top matters
+      const inverseRank = 1 / rank;
+      const rawWeight = Math.pow(inverseRank, $biasCurve / 2); // Divide by 2 to soften the curve
+
       weights.push({ dimensionId, weight: rawWeight });
     });
 

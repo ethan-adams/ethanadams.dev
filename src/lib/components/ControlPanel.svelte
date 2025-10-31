@@ -3,6 +3,10 @@
   import { dimensionRankOrder, dimensionWeights, biasCurve, setDimensionRankOrder } from '../stores/dimensions';
   import { theme } from '../stores/theme';
   import { topCountiesCount } from '../stores/topCounties';
+  import { presets } from '../stores/presets';
+  import type { DimensionPreset } from '../stores/presets';
+  import DimensionIcons from './icons/DimensionIcons.svelte';
+  import PresetIcons from './icons/PresetIcons.svelte';
 
   // Get ordered dimensions based on rank
   const orderedDimensions = $derived($dimensionRankOrder.map((id: string) => dimensions.find((d) => d.id === id)!));
@@ -10,6 +14,15 @@
   let draggedIndex = $state<number | null>(null);
   let showInfoPanel = $state(false);
   let hoveredDimension = $state<string | null>(null);
+  let showPresets = $state(false);
+
+  function applyPreset(preset: DimensionPreset) {
+    setDimensionRankOrder(preset.dimensionOrder);
+    if (preset.biasCurve) {
+      biasCurve.set(preset.biasCurve);
+    }
+    showPresets = false;
+  }
 
   function handleDragStart(event: DragEvent, index: number) {
     draggedIndex = index;
@@ -49,20 +62,45 @@
 
 <div class="control-panel">
   <div class="panel-header">
-    <div class="header-row">
-      <h2>Priority Ranking</h2>
-      <!-- Compact Round Theme Toggle -->
+    <h1 class="app-title">Homesteader</h1>
+
+    <!-- 3 Button Bar -->
+    <div class="button-bar">
       <button
-        class="theme-toggle-round"
+        class="bar-button"
+        class:active={showPresets}
+        onclick={() => showPresets = !showPresets}
+        title="Quick presets"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+        </svg>
+        Presets
+      </button>
+      <button
+        class="bar-button"
+        class:active={showInfoPanel}
+        onclick={() => showInfoPanel = !showInfoPanel}
+        title="Data sources"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        Sources
+      </button>
+      <button
+        class="bar-button"
         onclick={() => theme.toggle()}
-        title={$theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+        title={$theme === 'light' ? 'Dark mode' : 'Light mode'}
       >
         {#if $theme === 'light'}
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         {:else}
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -74,33 +112,46 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
         {/if}
+        Theme
       </button>
     </div>
-    <p class="subtitle">Drag to reorder by importance</p>
 
-    <button
-      class="info-toggle"
-      class:active={showInfoPanel}
-      onclick={() => showInfoPanel = !showInfoPanel}
-      title="View data sources and methodology"
-    >
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-      </svg>
-      {showInfoPanel ? 'Hide Sources & Info' : 'Data Sources & Info'}
-    </button>
+    <p class="subtitle">Drag dimensions to reorder priority</p>
   </div>
 
+  <!-- Slide-out Presets Drawer -->
+  {#if showPresets}
+    <div class="drawer presets-drawer">
+      <div class="presets-grid">
+        {#each presets as preset}
+          <button
+            class="preset-card"
+            onclick={() => applyPreset(preset)}
+            title={preset.description}
+          >
+            <span class="preset-icon">
+              <PresetIcons name={preset.icon} size={20} />
+            </span>
+            <span class="preset-name">{preset.name}</span>
+          </button>
+        {/each}
+      </div>
+    </div>
+  {/if}
+
+  <!-- Slide-out Info Drawer -->
   {#if showInfoPanel}
-    <div class="info-panel">
-      <h3>Data Sources & Methodology</h3>
+    <div class="drawer info-drawer">
+      <h3>Data Sources</h3>
       <div class="info-content">
         {#each orderedDimensions as dimension}
           <div class="info-item">
             <div class="info-item-header">
               <strong>
                 {#if dimension.icon}
-                  <span class="dim-icon">{dimension.icon}</span>
+                  <span class="dim-icon">
+                    <DimensionIcons name={dimension.icon} size={16} />
+                  </span>
                 {/if}
                 {dimension.name}
               </strong>
@@ -142,7 +193,9 @@
           <div class="rank-header">
             <span class="rank-name">
               {#if dimension.icon}
-                <span class="dim-icon-inline">{dimension.icon}</span>
+                <span class="dim-icon-inline">
+                  <DimensionIcons name={dimension.icon} size={18} />
+                </span>
               {/if}
               {dimension.name}
             </span>
@@ -150,13 +203,13 @@
           </div>
         </div>
         <div class="drag-handle">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <circle cx="6" cy="4" r="1.5" fill="#999"/>
-            <circle cx="10" cy="4" r="1.5" fill="#999"/>
-            <circle cx="6" cy="8" r="1.5" fill="#999"/>
-            <circle cx="10" cy="8" r="1.5" fill="#999"/>
-            <circle cx="6" cy="12" r="1.5" fill="#999"/>
-            <circle cx="10" cy="12" r="1.5" fill="#999"/>
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <circle cx="6" cy="4" r="1.2" fill="currentColor"/>
+            <circle cx="10" cy="4" r="1.2" fill="currentColor"/>
+            <circle cx="6" cy="8" r="1.2" fill="currentColor"/>
+            <circle cx="10" cy="8" r="1.2" fill="currentColor"/>
+            <circle cx="6" cy="12" r="1.2" fill="currentColor"/>
+            <circle cx="10" cy="12" r="1.2" fill="currentColor"/>
           </svg>
         </div>
         {#if hoveredDimension === dimension.id}
@@ -190,11 +243,24 @@
   <!-- Bias Curve Control -->
   <div class="bias-control">
     <div class="control-header">
-      <span class="control-title">Priority Distribution</span>
+      <span
+        class="control-title with-tooltip"
+        title="Top priority: ~{(($dimensionWeights[0]?.weight ?? 0) * 100).toFixed(0)}% · Lowest: ~{(($dimensionWeights[$dimensionWeights.length - 1]?.weight ?? 0) * 100).toFixed(0)}%"
+      >
+        Priority Distribution
+      </span>
       <span class="control-value">{$biasCurve.toFixed(1)}x</span>
     </div>
     <div class="slider-container">
-      <span class="slider-icon" title="Even distribution">⚖️</span>
+      <span class="slider-icon" title="Even distribution">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 3h12"/>
+          <path d="M12 3v18"/>
+          <path d="M5 9l7-6 7 6"/>
+          <path d="M5 9v6a2 2 0 0 0 2 2h3"/>
+          <path d="M19 9v6a2 2 0 0 1-2 2h-3"/>
+        </svg>
+      </span>
       <input
         type="range"
         min="1.0"
@@ -204,15 +270,12 @@
         oninput={(e) => biasCurve.set(parseFloat(e.currentTarget.value))}
         class="bias-slider"
       />
-      <span class="slider-icon" title="Extreme bias">🔥</span>
+      <span class="slider-icon" title="Extreme bias">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+        </svg>
+      </span>
     </div>
-  </div>
-
-  <div class="weight-info">
-    <p class="info-text">
-      Top priority: ~{(($dimensionWeights[0]?.weight ?? 0) * 100).toFixed(0)}% ·
-      Lowest: ~{(($dimensionWeights[$dimensionWeights.length - 1]?.weight ?? 0) * 100).toFixed(0)}%
-    </p>
   </div>
 </div>
 
@@ -222,11 +285,11 @@
     height: 100%;
     background: var(--bg-secondary);
     border-right: 1px solid var(--border-primary);
-    padding: 1.25rem;
+    padding: 1rem;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 0.875rem;
+    gap: 0.75rem;
   }
 
   .panel-header {
@@ -234,101 +297,121 @@
     position: relative;
   }
 
-  .header-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-    gap: 0.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
+  .app-title {
+    font-size: 1.75rem;
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 0.75rem 0;
     color: var(--text-primary);
+    text-align: center;
+    letter-spacing: -0.02em;
   }
 
-  .subtitle {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
+  .button-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
     margin-bottom: 0.75rem;
   }
 
-  /* Compact Round Theme Toggle */
-  .theme-toggle-round {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
+  .bar-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 0.25rem;
     border: 2px solid var(--border-primary);
     background: var(--bg-primary);
-    color: var(--text-secondary);
+    border-radius: 6px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: all 0.2s;
-    flex-shrink: 0;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 600;
   }
 
-  .theme-toggle-round:hover {
+  .bar-button:hover {
     background: var(--bg-tertiary);
     border-color: var(--accent-primary);
     color: var(--accent-primary);
-    transform: scale(1.05);
   }
 
-  .theme-toggle-round:active {
-    transform: scale(0.95);
+  .bar-button.active {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: white;
   }
 
-  .info-toggle {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--border-secondary);
-    background: var(--bg-primary);
-    border-radius: 6px;
-    font-size: 0.875rem;
+  .bar-button svg {
+    flex-shrink: 0;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
     color: var(--text-secondary);
-    cursor: pointer;
-    transition: all 0.2s;
-    width: 100%;
-    justify-content: center;
+    margin-bottom: 0.75rem;
+    text-align: center;
   }
 
-  .info-toggle:hover {
-    background: var(--bg-secondary);
-    border-color: var(--border-active);
-    color: var(--accent-primary);
-  }
-
-  .info-toggle.active {
+  /* Unified Drawer Style */
+  .drawer {
     background: var(--bg-tertiary);
-    border-color: var(--border-active);
-    color: var(--accent-primary);
-  }
-
-  .info-panel {
-    background: var(--bg-primary);
-    border: 2px solid var(--border-active);
+    border: 2px solid var(--accent-primary);
     border-radius: 8px;
-    padding: 1rem;
-    margin-top: -0.5rem;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
-  .info-panel h3 {
-    font-size: 1rem;
+  .drawer h3 {
+    font-size: 0.9rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.75rem 0;
+    text-align: center;
+  }
+
+  .presets-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .preset-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.75rem 0.5rem;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-primary);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .preset-card:hover {
+    border-color: var(--accent-primary);
+    background: var(--bg-tertiary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .preset-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .preset-name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: center;
+    line-height: 1.2;
   }
 
   .info-content {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.625rem;
   }
 
   .info-item {
@@ -365,27 +448,35 @@
   }
 
   .rank-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  .rank-item {
     background: var(--bg-primary);
     border: 2px solid var(--border-primary);
     border-radius: 8px;
-    padding: 0.75rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .rank-item {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-secondary);
+    border-radius: 0;
+    padding: 0.5rem 0.375rem;
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 0.5rem;
     cursor: grab;
-    transition: all 0.2s;
+    transition: all 0.15s;
     position: relative;
   }
 
+  .rank-item:last-child {
+    border-bottom: none;
+  }
+
   .rank-item:hover {
-    border-color: var(--border-active);
-    box-shadow: var(--shadow-md);
+    background: var(--bg-secondary);
   }
 
   .rank-item:active {
@@ -393,21 +484,21 @@
   }
 
   .rank-item.dragging {
-    opacity: 0.5;
-    transform: scale(0.98);
+    opacity: 0.4;
+    background: var(--bg-tertiary);
   }
 
   .rank-badge {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
     background: var(--accent-primary);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     flex-shrink: 0;
   }
 
@@ -420,37 +511,43 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.25rem;
   }
 
   .rank-name {
-    font-weight: 600;
-    font-size: 0.95rem;
+    font-weight: 500;
+    font-size: 0.875rem;
     color: var(--text-primary);
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.375rem;
   }
 
   .dim-icon-inline {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1;
   }
 
   .dim-icon {
-    font-size: 1.1rem;
-    margin-right: 0.35rem;
+    font-size: 0.95rem;
+    margin-right: 0.25rem;
   }
 
   .rank-weight {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: var(--accent-primary);
     font-weight: 600;
+    white-space: nowrap;
   }
 
   .drag-handle {
     flex-shrink: 0;
     cursor: grab;
+    opacity: 0.4;
+    transition: opacity 0.2s;
+  }
+
+  .rank-item:hover .drag-handle {
+    opacity: 0.8;
   }
 
   .quick-tooltip {
@@ -488,7 +585,7 @@
     background: var(--bg-primary);
     border: 2px solid var(--border-primary);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 0.75rem;
     flex-shrink: 0;
   }
 
@@ -545,7 +642,7 @@
     background: var(--bg-primary);
     border: 2px solid var(--border-primary);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 0.75rem;
     flex-shrink: 0;
   }
 
@@ -610,19 +707,11 @@
     transform: scale(1.1);
   }
 
-  .weight-info {
-    background: var(--bg-tertiary);
-    border: 1px solid var(--border-active);
-    border-radius: 6px;
-    padding: 0.625rem;
-    flex-shrink: 0;
-    text-align: center;
-  }
-
-  .info-text {
-    font-size: 0.8rem;
-    color: var(--accent-primary);
-    line-height: 1.6;
-    margin: 0;
+  /* Tooltip styling for weight info */
+  .with-tooltip {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--text-secondary);
+    text-underline-offset: 3px;
   }
 </style>

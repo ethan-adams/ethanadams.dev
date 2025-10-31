@@ -9,6 +9,7 @@
   import { realCountyData } from '../data/realCountyData';
   import { dimensions } from '../data/dimensions';
   import { countyDatabase } from '../data/countyDatabase';
+  import DimensionIcons from './icons/DimensionIcons.svelte';
 
   let mapContainer: HTMLDivElement;
   let map: maplibregl.Map;
@@ -16,6 +17,8 @@
   let currentMapStyle = $state<string | null>(null); // Track which theme is currently applied to map
   let hoveredCountyId: string | null = null;
   let tooltip = $state<{ x: number; y: number; data: any } | null>(null);
+  let tooltipHovered = $state(false); // Track if user is hovering over tooltip itself
+  let hideTooltipTimeout: number | null = null;
   let searchQuery = $state('');
   let searchResults = $state<any[]>([]);
   let showSearchResults = $state(false);
@@ -316,22 +319,27 @@
                     state: countyInfo.state,
                     stateAbbrev: countyInfo.stateAbbrev,
                     fipsCode: fipsCode,
+                    lat: countyInfo.lat,
+                    lng: countyInfo.lng,
                     score: scoreData?.score || 0,
                     dimensions: countyData.values
                   }
                 };
               }
-            } else if (tooltip) {
-              // Just update position for smoother following (lightweight operation)
-              tooltip = { ...tooltip, x: e.point.x, y: e.point.y };
             }
+            // REMOVED: Don't update position on mousemove - keeps tooltip fixed so links are clickable
           }
           map.getCanvas().style.cursor = 'pointer';
         });
 
         map.on('mouseleave', 'county-fills', () => {
           hoveredCountyId = null;
-          tooltip = null;
+          // Delay hiding tooltip to allow user to hover over it
+          hideTooltipTimeout = window.setTimeout(() => {
+            if (!tooltipHovered) {
+              tooltip = null;
+            }
+          }, 300); // 300ms grace period
           map.getCanvas().style.cursor = '';
         });
 
@@ -658,18 +666,14 @@
   function updateTopCountiesHighlight(topFipsCodes: string[]) {
     console.log('⭐ Updating top counties highlight:', topFipsCodes.length, 'counties');
 
-    if (!map || !map.getLayer('top-counties-highlight')) {
-      console.warn('⚠️ Cannot update highlights - map or layer not ready');
+    if (!map || !map.getSource('counties')) {
+      console.warn('⚠️ Cannot update highlights - map or source not ready');
       return;
     }
 
     // Use brighter/more visible colors in dark mode
     const fillColor = $theme === 'dark' ? '#FFD700' : '#FFD700'; // Bright gold in both
     const borderColor = $theme === 'dark' ? '#FFA500' : '#B8860B'; // Brighter in dark mode
-
-    // Update colors for current theme
-    map.setPaintProperty('top-counties-highlight', 'fill-color', fillColor);
-    map.setPaintProperty('top-counties-border', 'line-color', borderColor);
 
     // Build fill opacity expression - VERY VISIBLE in both themes
     const fillExpression: any = ['match', ['concat', ['get', 'STATE'], ['get', 'COUNTY']]];
@@ -685,12 +689,36 @@
     });
     borderExpression.push(0); // Default: not highlighted
 
-    // Apply expressions
-    map.setPaintProperty('top-counties-highlight', 'fill-opacity', fillExpression);
-    map.setPaintProperty('top-counties-border', 'line-opacity', borderExpression);
+    // Remove existing layers if they exist (we'll re-add them to force update)
+    if (map.getLayer('top-counties-highlight')) {
+      map.removeLayer('top-counties-highlight');
+    }
+    if (map.getLayer('top-counties-border')) {
+      map.removeLayer('top-counties-border');
+    }
 
-    // Force MapLibre to re-render by triggering a style update
-    map.triggerRepaint();
+    // Re-add highlight layer
+    map.addLayer({
+      id: 'top-counties-highlight',
+      type: 'fill',
+      source: 'counties',
+      paint: {
+        'fill-color': fillColor,
+        'fill-opacity': fillExpression
+      }
+    });
+
+    // Re-add border layer
+    map.addLayer({
+      id: 'top-counties-border',
+      type: 'line',
+      source: 'counties',
+      paint: {
+        'line-color': borderColor,
+        'line-width': 2,
+        'line-opacity': borderExpression
+      }
+    });
 
     console.log('✅ Highlight updated successfully. Top counties:', topFipsCodes.slice(0, 3));
   }
@@ -792,6 +820,14 @@
     <div
       class="tooltip"
       style="left: {tooltip.x + 15}px; top: {tooltip.y + 15}px;"
+      onmouseenter={() => {
+        if (hideTooltipTimeout) clearTimeout(hideTooltipTimeout);
+        tooltipHovered = true;
+      }}
+      onmouseleave={() => {
+        tooltipHovered = false;
+        tooltip = null;
+      }}
     >
       <!-- County Name with Badges -->
       <div class="tooltip-title">
@@ -800,13 +836,63 @@
           <span class="state">{tooltip.data.stateAbbrev}</span>
         </div>
         {#if rank === 1}
-          <div class="badge gold">🏆 #1</div>
+          <div class="badge gold">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            #1
+          </div>
         {:else if rank && rank <= 3}
           <div class="badge silver">#{rank}</div>
         {:else if rank}
           <div class="badge">#{rank}</div>
         {/if}
       </div>
+
+      <!-- Zillow Link for Land Search -->
+      {#if tooltip.data.name && tooltip.data.stateAbbrev && tooltip.data.lat && tooltip.data.lng}
+        {@const searchState = JSON.stringify({
+          pagination: {},
+          isMapVisible: true,
+          filterState: {
+            sort: { value: "days" },
+            land: { value: true },
+            apa: { value: false },
+            mf: { value: false },
+            con: { value: false },
+            sf: { value: false },
+            tow: { value: false },
+            manu: { value: false }
+          },
+          isListVisible: true,
+          mapBounds: {
+            west: tooltip.data.lng - 0.5,
+            east: tooltip.data.lng + 0.5,
+            south: tooltip.data.lat - 0.5,
+            north: tooltip.data.lat + 0.5
+          },
+          regionSelection: [
+            {
+              regionId: null,
+              regionType: 4
+            }
+          ],
+          mapZoom: 10
+        })}
+        <a
+          href="https://www.zillow.com/homes/for_sale/?searchQueryState={encodeURIComponent(searchState)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="zillow-link"
+          title="Search for land in {tooltip.data.name} County, {tooltip.data.stateAbbrev} on Zillow"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          View Land on Zillow
+        </a>
+      {/if}
 
       <!-- Score -->
       <div class="score-bar">
@@ -823,7 +909,10 @@
       {#if bestDimensions.length > 0}
         <div class="best-badges">
           {#each bestDimensions as dim}
-            <span class="best-badge">{dim.icon} Best</span>
+            <span class="best-badge">
+              <DimensionIcons name={dim.icon} size={14} />
+              Best
+            </span>
           {/each}
         </div>
       {/if}
@@ -834,7 +923,9 @@
           {@const value = tooltip.data.dimensions[dim.id]}
           {@const hasMissingData = value === undefined}
           <div class="dim-item {hasMissingData ? 'missing-data' : ''}" title={hasMissingData ? `${dim.name} - No data available (not counted in score)` : dim.name}>
-            <span class="dim-icon">{dim.icon ?? '📊'}</span>
+            <span class="dim-icon">
+              <DimensionIcons name={dim.icon ?? 'land_value'} size={14} />
+            </span>
             <span class="dim-label">{dim.name.split(' ')[0]}</span>
             {#if hasMissingData}
               <span class="dim-val missing">N/A</span>
@@ -993,12 +1084,37 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(20px);
     z-index: 100;
-    pointer-events: none;
+    pointer-events: auto;
     min-width: 200px;
     max-width: 240px;
     font-size: 13px;
     animation: tooltipIn 0.15s ease-out;
     will-change: transform, opacity;
+  }
+
+  .zillow-link {
+    display: block;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 8px 0;
+    background: linear-gradient(135deg, #006AFF 0%, #0051CC 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 106, 255, 0.3);
+  }
+
+  .zillow-link:hover {
+    background: linear-gradient(135deg, #0051CC 0%, #003D99 100%);
+    box-shadow: 0 4px 8px rgba(0, 106, 255, 0.4);
+    transform: translateY(-1px);
+  }
+
+  .zillow-link:active {
+    transform: translateY(0);
   }
 
   @keyframes tooltipIn {

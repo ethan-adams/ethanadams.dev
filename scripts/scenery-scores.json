@@ -1,0 +1,12886 @@
+[
+  {
+    "fipsCode": "01001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02050",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02105",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02122",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02150",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02164",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02180",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02188",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02198",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06043",
+    "scenery": 67
+  },
+  {
+    "fipsCode": "06055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06089",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06099",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06115",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08013",
+    "scenery": 60
+  },
+  {
+    "fipsCode": "08014",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "08025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08031",
+    "scenery": 61
+  },
+  {
+    "fipsCode": "08035",
+    "scenery": 60
+  },
+  {
+    "fipsCode": "08047",
+    "scenery": 70
+  },
+  {
+    "fipsCode": "12083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13123",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "08053",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08057",
+    "scenery": 51
+  },
+  {
+    "fipsCode": "08059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08073",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08083",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08095",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08105",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08111",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08123",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "09015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02261",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02270",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13309",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13313",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13319",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "15009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16015",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "16021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16067",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16081",
+    "scenery": 71
+  },
+  {
+    "fipsCode": "17005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17203",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13139",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "13157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13187",
+    "scenery": 18
+  },
+  {
+    "fipsCode": "13197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13217",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13225",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13233",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13243",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13253",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13265",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13277",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13285",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13293",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13303",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20203",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20205",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21209",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21219",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21229",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21025",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "21031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21121",
+    "scenery": 13
+  },
+  {
+    "fipsCode": "21137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25011",
+    "scenery": 4
+  },
+  {
+    "fipsCode": "26009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29205",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29211",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29221",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29229",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30037",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30043",
+    "scenery": 42
+  },
+  {
+    "fipsCode": "31121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32021",
+    "scenery": 47
+  },
+  {
+    "fipsCode": "32033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "34007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35006",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30069",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30093",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "30099",
+    "scenery": 46
+  },
+  {
+    "fipsCode": "30107",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37005",
+    "scenery": 31
+  },
+  {
+    "fipsCode": "37017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37021",
+    "scenery": 44
+  },
+  {
+    "fipsCode": "37027",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "37055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37057",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "37067",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "37081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37167",
+    "scenery": 5
+  },
+  {
+    "fipsCode": "39055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37197",
+    "scenery": 19
+  },
+  {
+    "fipsCode": "38007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35028",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35053",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "36003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36043",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "36057",
+    "scenery": 16
+  },
+  {
+    "fipsCode": "36069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36083",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "36095",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "36109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45039",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "47005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47013",
+    "scenery": 29
+  },
+  {
+    "fipsCode": "47027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47057",
+    "scenery": 53
+  },
+  {
+    "fipsCode": "47069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47093",
+    "scenery": 53
+  },
+  {
+    "fipsCode": "47105",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "47117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47129",
+    "scenery": 14
+  },
+  {
+    "fipsCode": "47139",
+    "scenery": 19
+  },
+  {
+    "fipsCode": "47151",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "47173",
+    "scenery": 44
+  },
+  {
+    "fipsCode": "47179",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "45049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41017",
+    "scenery": 44
+  },
+  {
+    "fipsCode": "41031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41037",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41053",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "41069",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "42005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48357",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48359",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48367",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48379",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48381",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48393",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48397",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48411",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48425",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48429",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48433",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48445",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48449",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48459",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48463",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48475",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48491",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48497",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48507",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48217",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48227",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48233",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48247",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48251",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48263",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48265",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48275",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48283",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48297",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48303",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48309",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48319",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48329",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48339",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48349",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48353",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51121",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "51125",
+    "scenery": 38
+  },
+  {
+    "fipsCode": "51141",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "51145",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "51155",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "51157",
+    "scenery": 31
+  },
+  {
+    "fipsCode": "51173",
+    "scenery": 34
+  },
+  {
+    "fipsCode": "51187",
+    "scenery": 26
+  },
+  {
+    "fipsCode": "51197",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "51510",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51530",
+    "scenery": 20
+  },
+  {
+    "fipsCode": "51540",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "51595",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51660",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "51670",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51760",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51775",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51820",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "53013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "55029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "72013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53041",
+    "scenery": 56
+  },
+  {
+    "fipsCode": "53045",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "53065",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "54001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "50005",
+    "scenery": 15
+  },
+  {
+    "fipsCode": "50019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51029",
+    "scenery": 33
+  },
+  {
+    "fipsCode": "51043",
+    "scenery": 9
+  },
+  {
+    "fipsCode": "51047",
+    "scenery": 22
+  },
+  {
+    "fipsCode": "51063",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "51075",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "51101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51113",
+    "scenery": 50
+  },
+  {
+    "fipsCode": "01023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02070",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02110",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02130",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02185",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02195",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02220",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02230",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06003",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "06007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "01093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02020",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02068",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "72019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72054",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06051",
+    "scenery": 67
+  },
+  {
+    "fipsCode": "06057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06065",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06069",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06073",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06075",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06113",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08001",
+    "scenery": 49
+  },
+  {
+    "fipsCode": "08007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08015",
+    "scenery": 69
+  },
+  {
+    "fipsCode": "08017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08037",
+    "scenery": 73
+  },
+  {
+    "fipsCode": "08043",
+    "scenery": 56
+  },
+  {
+    "fipsCode": "06081",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06083",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06087",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06095",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06101",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06103",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06109",
+    "scenery": 78
+  },
+  {
+    "fipsCode": "06009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "13149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06039",
+    "scenery": 63
+  },
+  {
+    "fipsCode": "13067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13119",
+    "scenery": 11
+  },
+  {
+    "fipsCode": "08061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08063",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08069",
+    "scenery": 66
+  },
+  {
+    "fipsCode": "12089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "09013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "10005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "11001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02275",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08085",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "12017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "08075",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08077",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08081",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08087",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08091",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08097",
+    "scenery": 61
+  },
+  {
+    "fipsCode": "08103",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08109",
+    "scenery": 46
+  },
+  {
+    "fipsCode": "08119",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "08121",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08125",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "09003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "09007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "15001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "15007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16019",
+    "scenery": 44
+  },
+  {
+    "fipsCode": "05089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13317",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13321",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "04005",
+    "scenery": 76
+  },
+  {
+    "fipsCode": "04009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04012",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16077",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16079",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16083",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "17003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16025",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "16029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16043",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "16047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16053",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16065",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16069",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "18007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13137",
+    "scenery": 30
+  },
+  {
+    "fipsCode": "13141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13147",
+    "scenery": 9
+  },
+  {
+    "fipsCode": "13155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21153",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "21159",
+    "scenery": 3
+  },
+  {
+    "fipsCode": "21167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13211",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13215",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13239",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47011",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "47017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47025",
+    "scenery": 35
+  },
+  {
+    "fipsCode": "47033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23023",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "23031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "23011",
+    "scenery": 11
+  },
+  {
+    "fipsCode": "39105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47067",
+    "scenery": 30
+  },
+  {
+    "fipsCode": "47071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47107",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "47109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32510",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "33003",
+    "scenery": 41
+  },
+  {
+    "fipsCode": "33009",
+    "scenery": 19
+  },
+  {
+    "fipsCode": "33015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "33019",
+    "scenery": 30
+  },
+  {
+    "fipsCode": "34003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37193",
+    "scenery": 38
+  },
+  {
+    "fipsCode": "47141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "37195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37199",
+    "scenery": 53
+  },
+  {
+    "fipsCode": "38005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47001",
+    "scenery": 37
+  },
+  {
+    "fipsCode": "47003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30063",
+    "scenery": 42
+  },
+  {
+    "fipsCode": "30065",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30077",
+    "scenery": 81
+  },
+  {
+    "fipsCode": "30083",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30087",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30091",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30097",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30101",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "38065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48361",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48369",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48383",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48385",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48387",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48395",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48399",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48403",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48415",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48417",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48419",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48423",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48427",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48431",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30109",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31007",
+    "scenery": 3
+  },
+  {
+    "fipsCode": "31011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35039",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47143",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "47147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47155",
+    "scenery": 81
+  },
+  {
+    "fipsCode": "47161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45071",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "45073",
+    "scenery": 27
+  },
+  {
+    "fipsCode": "26041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31105",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "31109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35043",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "36007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36019",
+    "scenery": 31
+  },
+  {
+    "fipsCode": "36027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36033",
+    "scenery": 39
+  },
+  {
+    "fipsCode": "36035",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "36039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41003",
+    "scenery": 61
+  },
+  {
+    "fipsCode": "41005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "26075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36041",
+    "scenery": 46
+  },
+  {
+    "fipsCode": "36045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48435",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48437",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48441",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48447",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48451",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48453",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48457",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48467",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48469",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48477",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48483",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48485",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48489",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48499",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "26071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37011",
+    "scenery": 62
+  },
+  {
+    "fipsCode": "37013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37025",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "13223",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36089",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "36093",
+    "scenery": 14
+  },
+  {
+    "fipsCode": "36099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45083",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "45085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37035",
+    "scenery": 38
+  },
+  {
+    "fipsCode": "37037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37039",
+    "scenery": 41
+  },
+  {
+    "fipsCode": "37041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37059",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "37061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37071",
+    "scenery": 28
+  },
+  {
+    "fipsCode": "37075",
+    "scenery": 58
+  },
+  {
+    "fipsCode": "37077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37087",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "42027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41039",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "41043",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "41049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41065",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "27063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37095",
+    "scenery": 18
+  },
+  {
+    "fipsCode": "37099",
+    "scenery": 51
+  },
+  {
+    "fipsCode": "37105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37111",
+    "scenery": 56
+  },
+  {
+    "fipsCode": "37115",
+    "scenery": 41
+  },
+  {
+    "fipsCode": "37121",
+    "scenery": 57
+  },
+  {
+    "fipsCode": "37129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49019",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "49023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "48001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29186",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29203",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29207",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29213",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29219",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29225",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29510",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "37159",
+    "scenery": 16
+  },
+  {
+    "fipsCode": "37163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37169",
+    "scenery": 5
+  },
+  {
+    "fipsCode": "37175",
+    "scenery": 34
+  },
+  {
+    "fipsCode": "39061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "44001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "44003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "44005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45001",
+    "scenery": 3
+  },
+  {
+    "fipsCode": "45003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45007",
+    "scenery": 9
+  },
+  {
+    "fipsCode": "45017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45023",
+    "scenery": 13
+  },
+  {
+    "fipsCode": "45025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30023",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "30029",
+    "scenery": 75
+  },
+  {
+    "fipsCode": "30035",
+    "scenery": 71
+  },
+  {
+    "fipsCode": "30041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13205",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13209",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13213",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13221",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13229",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13231",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13235",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13241",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "13247",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13255",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13257",
+    "scenery": 23
+  },
+  {
+    "fipsCode": "13267",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13269",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20207",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21193",
+    "scenery": 9
+  },
+  {
+    "fipsCode": "21201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21205",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21207",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21217",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21221",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21231",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21233",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21237",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21239",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21013",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "21015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17195",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13275",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13279",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13281",
+    "scenery": 37
+  },
+  {
+    "fipsCode": "13289",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13295",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13301",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21071",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "21079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48267",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48271",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48277",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48281",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48285",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48287",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48291",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48293",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48295",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48301",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48305",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48307",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48317",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48323",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48327",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48331",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48333",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51800",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51810",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51840",
+    "scenery": 11
+  },
+  {
+    "fipsCode": "53001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "51600",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56017",
+    "scenery": 42
+  },
+  {
+    "fipsCode": "56019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "54023",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "54025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54027",
+    "scenery": 13
+  },
+  {
+    "fipsCode": "54033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54045",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "54051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54059",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "54065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48341",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49039",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49043",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "50003",
+    "scenery": 27
+  },
+  {
+    "fipsCode": "50007",
+    "scenery": 23
+  },
+  {
+    "fipsCode": "50011",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "50015",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "50021",
+    "scenery": 46
+  },
+  {
+    "fipsCode": "56023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "51005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51011",
+    "scenery": 19
+  },
+  {
+    "fipsCode": "51013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51015",
+    "scenery": 41
+  },
+  {
+    "fipsCode": "51019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51031",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "51033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51036",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51049",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "51051",
+    "scenery": 26
+  },
+  {
+    "fipsCode": "54081",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "51061",
+    "scenery": 13
+  },
+  {
+    "fipsCode": "51067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51069",
+    "scenery": 15
+  },
+  {
+    "fipsCode": "51073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51085",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "51091",
+    "scenery": 14
+  },
+  {
+    "fipsCode": "51095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49037",
+    "scenery": 42
+  },
+  {
+    "fipsCode": "51119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "50025",
+    "scenery": 30
+  },
+  {
+    "fipsCode": "72005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53037",
+    "scenery": 67
+  },
+  {
+    "fipsCode": "53039",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53075",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "54017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54055",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "54073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21131",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "72075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54109",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "55015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49055",
+    "scenery": 56
+  },
+  {
+    "fipsCode": "50013",
+    "scenery": 20
+  },
+  {
+    "fipsCode": "51003",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "51009",
+    "scenery": 23
+  },
+  {
+    "fipsCode": "51023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51035",
+    "scenery": 20
+  },
+  {
+    "fipsCode": "51053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51065",
+    "scenery": 37
+  },
+  {
+    "fipsCode": "72147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21147",
+    "scenery": 3
+  },
+  {
+    "fipsCode": "21165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35037",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "36017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36031",
+    "scenery": 50
+  },
+  {
+    "fipsCode": "36049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51079",
+    "scenery": 60
+  },
+  {
+    "fipsCode": "12129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13011",
+    "scenery": 10
+  },
+  {
+    "fipsCode": "13019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02240",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06063",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06077",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06091",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06107",
+    "scenery": 65
+  },
+  {
+    "fipsCode": "08011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08019",
+    "scenery": 78
+  },
+  {
+    "fipsCode": "08027",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "20013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36091",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "36101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36113",
+    "scenery": 49
+  },
+  {
+    "fipsCode": "42011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06053",
+    "scenery": 68
+  },
+  {
+    "fipsCode": "06061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02090",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08041",
+    "scenery": 44
+  },
+  {
+    "fipsCode": "08049",
+    "scenery": 70
+  },
+  {
+    "fipsCode": "12085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23017",
+    "scenery": 26
+  },
+  {
+    "fipsCode": "24015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "44007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45021",
+    "scenery": 31
+  },
+  {
+    "fipsCode": "45033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45045",
+    "scenery": 30
+  },
+  {
+    "fipsCode": "47009",
+    "scenery": 63
+  },
+  {
+    "fipsCode": "47019",
+    "scenery": 56
+  },
+  {
+    "fipsCode": "47037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47063",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "47075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "06019",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "06023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06037",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "13085",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "13099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "08051",
+    "scenery": 53
+  },
+  {
+    "fipsCode": "08055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08065",
+    "scenery": 78
+  },
+  {
+    "fipsCode": "08079",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08089",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08101",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08117",
+    "scenery": 85
+  },
+  {
+    "fipsCode": "09005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47145",
+    "scenery": 29
+  },
+  {
+    "fipsCode": "47159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45047",
+    "scenery": 4
+  },
+  {
+    "fipsCode": "45051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45059",
+    "scenery": 16
+  },
+  {
+    "fipsCode": "45069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45087",
+    "scenery": 19
+  },
+  {
+    "fipsCode": "46015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51109",
+    "scenery": 26
+  },
+  {
+    "fipsCode": "01035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "04001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "04019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29215",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29223",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30031",
+    "scenery": 53
+  },
+  {
+    "fipsCode": "46091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06067",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06111",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08005",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "05109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13307",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13311",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "13315",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "15005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16039",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "16063",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16075",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "17001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30047",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "31123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "33005",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "33017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "42009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48355",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48363",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48373",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48389",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48405",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48413",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48421",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48439",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48455",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48471",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13111",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "13121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "08067",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30049",
+    "scenery": 65
+  },
+  {
+    "fipsCode": "30053",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30075",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30085",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48481",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48493",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48503",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02100",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02170",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "01105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48187",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48205",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48209",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48219",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48231",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48241",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48255",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48269",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48279",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48289",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "08033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08039",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06079",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06093",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06097",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06105",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "18005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13207",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13219",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13227",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13237",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13249",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37003",
+    "scenery": 36
+  },
+  {
+    "fipsCode": "37007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37009",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "37033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37045",
+    "scenery": 36
+  },
+  {
+    "fipsCode": "37063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37097",
+    "scenery": 29
+  },
+  {
+    "fipsCode": "37109",
+    "scenery": 36
+  },
+  {
+    "fipsCode": "37123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48299",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48313",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48325",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48335",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48343",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51167",
+    "scenery": 35
+  },
+  {
+    "fipsCode": "51179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51515",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51590",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51620",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51680",
+    "scenery": 11
+  },
+  {
+    "fipsCode": "51720",
+    "scenery": 29
+  },
+  {
+    "fipsCode": "51740",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51830",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12086",
+    "scenery": 27
+  },
+  {
+    "fipsCode": "12103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13259",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13271",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13283",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13297",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37173",
+    "scenery": 79
+  },
+  {
+    "fipsCode": "37179",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "39059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "55053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55078",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56041",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "01127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02016",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "02060",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "72017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20209",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21203",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21215",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21227",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21235",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "22007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48345",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48347",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48351",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51137",
+    "scenery": 29
+  },
+  {
+    "fipsCode": "51139",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "51143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51163",
+    "scenery": 20
+  },
+  {
+    "fipsCode": "51169",
+    "scenery": 35
+  },
+  {
+    "fipsCode": "51171",
+    "scenery": 37
+  },
+  {
+    "fipsCode": "51181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "55035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56029",
+    "scenery": 64
+  },
+  {
+    "fipsCode": "56035",
+    "scenery": 72
+  },
+  {
+    "fipsCode": "56037",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56043",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "72001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53043",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53053",
+    "scenery": 51
+  },
+  {
+    "fipsCode": "48197",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48203",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48211",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48213",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48215",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48223",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48235",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48237",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48239",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48243",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48249",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48253",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48259",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51185",
+    "scenery": 22
+  },
+  {
+    "fipsCode": "51191",
+    "scenery": 43
+  },
+  {
+    "fipsCode": "51195",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "51520",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "51550",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51580",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51610",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51640",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "51678",
+    "scenery": 17
+  },
+  {
+    "fipsCode": "51683",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51685",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51710",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51730",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51750",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "51790",
+    "scenery": 49
+  },
+  {
+    "fipsCode": "55065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53063",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53067",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53069",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53077",
+    "scenery": 49
+  },
+  {
+    "fipsCode": "54003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "08093",
+    "scenery": 79
+  },
+  {
+    "fipsCode": "08099",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08107",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "08113",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "08115",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02290",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "18171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "09001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21119",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "21127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21133",
+    "scenery": 22
+  },
+  {
+    "fipsCode": "21141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "04015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "21163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19191",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37053",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "37079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37089",
+    "scenery": 37
+  },
+  {
+    "fipsCode": "42035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35051",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "36001",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "36005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "23005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41041",
+    "scenery": 80
+  },
+  {
+    "fipsCode": "31139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "23019",
+    "scenery": 13
+  },
+  {
+    "fipsCode": "23025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "26089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49021",
+    "scenery": 47
+  },
+  {
+    "fipsCode": "49025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47029",
+    "scenery": 59
+  },
+  {
+    "fipsCode": "23027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "26011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30067",
+    "scenery": 64
+  },
+  {
+    "fipsCode": "30073",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30079",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30081",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30089",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30095",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "26109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "44009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "32015",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "32029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "39111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30103",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30105",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "38077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41057",
+    "scenery": 46
+  },
+  {
+    "fipsCode": "41063",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "41067",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "29101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47073",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "47079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47089",
+    "scenery": 60
+  },
+  {
+    "fipsCode": "47091",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "47097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47115",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47121",
+    "scenery": 12
+  },
+  {
+    "fipsCode": "47123",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "47131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48371",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48377",
+    "scenery": 3
+  },
+  {
+    "fipsCode": "48391",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48401",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48407",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48409",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48443",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48461",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48465",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48473",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48479",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48487",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48495",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48501",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48505",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "48005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48043",
+    "scenery": 58
+  },
+  {
+    "fipsCode": "29183",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29189",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30111",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "33001",
+    "scenery": 15
+  },
+  {
+    "fipsCode": "33007",
+    "scenery": 33
+  },
+  {
+    "fipsCode": "33011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "33013",
+    "scenery": 2
+  },
+  {
+    "fipsCode": "34001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29081",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37023",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "37029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37113",
+    "scenery": 60
+  },
+  {
+    "fipsCode": "37119",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "37125",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "40051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37189",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "48051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35023",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35029",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "47153",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47163",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "47171",
+    "scenery": 51
+  },
+  {
+    "fipsCode": "47181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45057",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "36085",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36115",
+    "scenery": 33
+  },
+  {
+    "fipsCode": "36119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45091",
+    "scenery": 24
+  },
+  {
+    "fipsCode": "46009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29209",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29217",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "29227",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "37171",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "37177",
+    "scenery": 14
+  },
+  {
+    "fipsCode": "39067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "39079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "24510",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45077",
+    "scenery": 28
+  },
+  {
+    "fipsCode": "26053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46053",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "30011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30017",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30033",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30039",
+    "scenery": 58
+  },
+  {
+    "fipsCode": "30045",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "31131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "25019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31095",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31111",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37149",
+    "scenery": 39
+  },
+  {
+    "fipsCode": "37155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42103",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34025",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "34039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "35003",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35005",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "35009",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "30061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "38001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "09011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "10001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "10003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "12075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05069",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "04025",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05005",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05007",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16073",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16085",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16087",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "17013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16031",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16035",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16037",
+    "scenery": 55
+  },
+  {
+    "fipsCode": "16049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16059",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "18023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "02282",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "12021",
+    "scenery": 4
+  },
+  {
+    "fipsCode": "12033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "15003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "16007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "16013",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "05105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05119",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18143",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18147",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18163",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13145",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13151",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13177",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13179",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17157",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17171",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17173",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17181",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "17201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13287",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13291",
+    "scenery": 33
+  },
+  {
+    "fipsCode": "13299",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48273",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48311",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48315",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48321",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48337",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54047",
+    "scenery": 21
+  },
+  {
+    "fipsCode": "54057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54063",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54071",
+    "scenery": 33
+  },
+  {
+    "fipsCode": "54077",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51071",
+    "scenery": 6
+  },
+  {
+    "fipsCode": "51077",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "51083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51099",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51105",
+    "scenery": 23
+  },
+  {
+    "fipsCode": "21033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13305",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53007",
+    "scenery": 61
+  },
+  {
+    "fipsCode": "72087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72091",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72097",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72121",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72133",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48261",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48141",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48155",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48165",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51147",
+    "scenery": 8
+  },
+  {
+    "fipsCode": "51149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51159",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51161",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51165",
+    "scenery": 47
+  },
+  {
+    "fipsCode": "51175",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51177",
+    "scenery": 7
+  },
+  {
+    "fipsCode": "72071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56039",
+    "scenery": 90
+  },
+  {
+    "fipsCode": "72003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "72015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "48129",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48167",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48221",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48225",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48229",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48245",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48257",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53031",
+    "scenery": 64
+  },
+  {
+    "fipsCode": "55031",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53049",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "51570",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51630",
+    "scenery": 1
+  },
+  {
+    "fipsCode": "51650",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51700",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51735",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51770",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55079",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53055",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53061",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53071",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "53073",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "22039",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "27139",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31113",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37043",
+    "scenery": 48
+  },
+  {
+    "fipsCode": "39057",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "36009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47169",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "46073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48365",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48207",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51690",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55131",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51087",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "01109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "09009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05049",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "05127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "19123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "47015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38011",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "38083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "48375",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "31065",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28135",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "41019",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "29013",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53057",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "06085",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "13017",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "18047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22123",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "26067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37185",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "45015",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37093",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20149",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "28033",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "42001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "37161",
+    "scenery": 45
+  },
+  {
+    "fipsCode": "21051",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13245",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13251",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13261",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13263",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "13273",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20193",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20199",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20201",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21195",
+    "scenery": 16
+  },
+  {
+    "fipsCode": "21211",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21213",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21223",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21225",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20043",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20061",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20067",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20071",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20083",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "20089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22019",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22027",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22029",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "53009",
+    "scenery": 57
+  },
+  {
+    "fipsCode": "53027",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "55105",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55117",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55127",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "55009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "49047",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "49053",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "50001",
+    "scenery": 32
+  },
+  {
+    "fipsCode": "50009",
+    "scenery": 28
+  },
+  {
+    "fipsCode": "50017",
+    "scenery": 23
+  },
+  {
+    "fipsCode": "50023",
+    "scenery": 15
+  },
+  {
+    "fipsCode": "22003",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22009",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22101",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22107",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22109",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21021",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21023",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "22045",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21047",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21055",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21059",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21073",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21075",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21089",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "21095",
+    "scenery": 20
+  },
+  {
+    "fipsCode": "55137",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "56001",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56007",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56011",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "56013",
+    "scenery": 61
+  },
+  {
+    "fipsCode": "56021",
+    "scenery": 40
+  },
+  {
+    "fipsCode": "54031",
+    "scenery": 34
+  },
+  {
+    "fipsCode": "54035",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "54041",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "50027",
+    "scenery": 52
+  },
+  {
+    "fipsCode": "51001",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51021",
+    "scenery": 18
+  },
+  {
+    "fipsCode": "51027",
+    "scenery": 22
+  },
+  {
+    "fipsCode": "51037",
+    "scenery": 0
+  },
+  {
+    "fipsCode": "51041",
+    "scenery": 0
+  }
+]
