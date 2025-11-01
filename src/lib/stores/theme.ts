@@ -43,11 +43,9 @@ function createThemeStore() {
     toggle: () => {
       update(current => {
         const newTheme = current === 'light' ? 'dark' : 'light';
-        console.log('🎨 Theme toggle:', current, '->', newTheme);
         if (isBrowser) {
           localStorage.setItem('theme', newTheme);
           document.documentElement.setAttribute('data-theme', newTheme);
-          console.log('✅ Theme updated in localStorage and DOM');
         }
         return newTheme;
       });

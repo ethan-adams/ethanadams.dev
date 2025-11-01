@@ -62,31 +62,33 @@
     position: fixed;
     top: 10px;
     right: 10px;
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
+    background: var(--overlay-bg);
+    color: var(--text-primary);
     padding: 20px;
     border-radius: 8px;
+    border: 2px solid var(--border-primary);
     max-width: 400px;
     max-height: 80vh;
     overflow-y: auto;
     z-index: 9999;
     font-size: 14px;
+    box-shadow: var(--shadow-md);
   }
 
   .debug-overlay h3 {
     margin: 0 0 10px 0;
-    color: #4fc3f7;
+    color: var(--accent-primary);
   }
 
   .debug-overlay code {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--bg-tertiary);
     padding: 2px 6px;
     border-radius: 3px;
     font-size: 12px;
   }
 
   .debug-overlay pre {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--bg-tertiary);
     padding: 10px;
     border-radius: 4px;
     overflow-x: auto;

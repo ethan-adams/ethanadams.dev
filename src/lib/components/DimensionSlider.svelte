@@ -47,7 +47,7 @@
 
   .weight-value {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--text-secondary);
     font-weight: 500;
   }
 
@@ -55,7 +55,7 @@
     width: 100%;
     height: 6px;
     border-radius: 3px;
-    background: #ddd;
+    background: var(--bg-tertiary);
     outline: none;
     -webkit-appearance: none;
   }
@@ -66,7 +66,7 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background: #4a90e2;
+    background: var(--accent-primary);
     cursor: pointer;
   }
 
@@ -74,14 +74,14 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background: #4a90e2;
+    background: var(--accent-primary);
     cursor: pointer;
     border: none;
   }
 
   .description {
     font-size: 0.85rem;
-    color: #888;
+    color: var(--text-secondary);
     margin-top: 0.25rem;
   }
 </style>

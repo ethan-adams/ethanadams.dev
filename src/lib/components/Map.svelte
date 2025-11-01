@@ -10,17 +10,30 @@
   import { dimensions } from '../data/dimensions';
   import { countyDatabase } from '../data/countyDatabase';
   import DimensionIcons from './icons/DimensionIcons.svelte';
+  import type { County } from '../types';
 
   let mapContainer: HTMLDivElement;
   let map: maplibregl.Map;
   let mapLoaded = false;
   let currentMapStyle = $state<string | null>(null); // Track which theme is currently applied to map
   let hoveredCountyId: string | null = null;
-  let tooltip = $state<{ x: number; y: number; data: any } | null>(null);
+  interface TooltipData {
+    name: string;
+    state: string;
+    stateAbbrev: string;
+    fipsCode: string;
+    lat: number;
+    lng: number;
+    score: number;
+    dimensions: Record<string, number>;
+  }
+
+  let tooltip = $state<{ x: number; y: number; data: TooltipData } | null>(null);
   let tooltipHovered = $state(false); // Track if user is hovering over tooltip itself
+  let pinnedCountyFips = $state<string | null>(null); // The FIPS code of the pinned county (null = not pinned)
   let hideTooltipTimeout: number | null = null;
   let searchQuery = $state('');
-  let searchResults = $state<any[]>([]);
+  let searchResults = $state<County[]>([]);
   let showSearchResults = $state(false);
 
   // Performance: Create lookup Maps for O(1) access instead of O(n) array.find()
@@ -29,6 +42,21 @@
 
   // Derived: county scores as a Map for fast lookups
   let countyScoresMap = $derived(new Map($countyScores.map(s => [s.fipsCode, s])));
+
+  // Derived: pre-calculated dimension statistics (min, max, avg) for all dimensions
+  // This is calculated once when scores change, not on every tooltip hover
+  let dimensionStats = $derived(dimensions.map(dim => {
+    const allValues = $countyScores.map(c => {
+      const cd = countyDataMap.get(c.fipsCode);
+      return cd?.values[dim.id];
+    }).filter(v => v !== undefined);
+
+    const min = Math.min(...allValues);
+    const max = Math.max(...allValues);
+    const avg = allValues.reduce((sum, v) => sum + v, 0) / allValues.length;
+
+    return { id: dim.id, min, max, avg, higherIsBetter: dim.higherIsBetter };
+  }));
 
   // Real US counties GeoJSON URL
   const COUNTIES_URL = 'https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json';
@@ -77,7 +105,7 @@
     }
   });
 
-  function selectCounty(county: any) {
+  function selectCounty(county: County) {
     if (map) {
       map.flyTo({
         center: [county.lng, county.lat],
@@ -99,9 +127,185 @@
     }
   }
 
-  onMount(async () => {
-    console.log('=== MAP MOUNTING ===');
+  // Track if a county was clicked (to prevent background click handler from firing)
+  // This needs to be outside the function so it's shared across all handler registrations
+  let countyWasClicked = false;
 
+  // Store handler references so we can remove them properly
+  let mousemoveHandler: ((e: any) => void) | null = null;
+  let mouseleaveHandler: ((e: any) => void) | null = null;
+  let mouseenterHandler: ((e: any) => void) | null = null;
+  let clickCountyHandler: ((e: any) => void) | null = null;
+  let clickMapHandler: ((e: any) => void) | null = null;
+
+  // Register hover interactions - MapLibre does NOT clear handlers when style changes!
+  // So we must manually remove old handlers before adding new ones
+  function registerHoverInteractions() {
+    if (!map) return;
+
+    console.log('[registerHoverInteractions] Removing old handlers and registering new ones');
+
+    // Remove existing handlers by passing the stored function references
+    if (mousemoveHandler) {
+      map.off('mousemove', 'county-fills', mousemoveHandler);
+    }
+    if (mouseleaveHandler) {
+      map.off('mouseleave', 'county-fills', mouseleaveHandler);
+    }
+    if (mouseenterHandler) {
+      map.off('mouseenter', 'county-fills', mouseenterHandler);
+    }
+    if (clickCountyHandler) {
+      map.off('click', 'county-fills', clickCountyHandler);
+    }
+    if (clickMapHandler) {
+      map.off('click', clickMapHandler);
+    }
+
+    // Create new handler functions
+    mousemoveHandler = (e) => {
+      // If a county is pinned, don't update tooltip at all
+      if (pinnedCountyFips !== null) {
+        console.log('[mousemove] Blocked by pin:', pinnedCountyFips);
+        return;
+      }
+
+      if (e.features && e.features.length > 0) {
+        const feature = e.features[0];
+        const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
+
+        // Only update tooltip data when entering a new county
+        if (hoveredCountyId !== fipsCode) {
+          hoveredCountyId = fipsCode;
+
+          // Fast O(1) Map lookups
+          const countyData = countyDataMap.get(fipsCode);
+          const scoreData = countyScoresMap.get(fipsCode);
+          const countyInfo = countyInfoMap.get(fipsCode);
+
+          if (countyData && scoreData && feature.properties && countyInfo) {
+            tooltip = {
+              x: e.point.x,
+              y: e.point.y,
+              data: {
+                name: countyInfo.name,
+                state: countyInfo.state,
+                stateAbbrev: countyInfo.stateAbbrev,
+                fipsCode: fipsCode,
+                lat: countyInfo.lat,
+                lng: countyInfo.lng,
+                score: scoreData.score,
+                dimensions: countyData.values
+              }
+            };
+          }
+        } else if (tooltip) {
+          // Just update position for smoother following
+          tooltip = { ...tooltip, x: e.point.x, y: e.point.y };
+        }
+      }
+    };
+
+    mouseleaveHandler = () => {
+      // Don't clear tooltip on mouse leave if a county is pinned
+      if (pinnedCountyFips !== null) return;
+
+      hoveredCountyId = null;
+      tooltip = null;
+    };
+
+    // Click to pin/unpin tooltip
+    clickCountyHandler = (e) => {
+      countyWasClicked = true;
+      console.log('[click county] Clicked, current pin:', pinnedCountyFips);
+      if (e.features && e.features.length > 0) {
+        const feature = e.features[0];
+        const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
+        console.log('[click county] County FIPS:', fipsCode);
+
+        // If clicking the same county that's already pinned, unpin it
+        if (pinnedCountyFips === fipsCode) {
+          console.log('[click county] Unpinning');
+          pinnedCountyFips = null;
+          updatePinnedCounty(null, $theme);
+          return;
+        }
+
+        console.log('[click county] Pinning new county');
+        // Otherwise, pin this county
+        const countyData = countyDataMap.get(fipsCode);
+        const scoreData = countyScoresMap.get(fipsCode);
+        const countyInfo = countyInfoMap.get(fipsCode);
+
+        if (countyData && scoreData && feature.properties && countyInfo) {
+          tooltip = {
+            x: e.point.x,
+            y: e.point.y,
+            data: {
+              name: countyInfo.name,
+              state: countyInfo.state,
+              stateAbbrev: countyInfo.stateAbbrev,
+              fipsCode: fipsCode,
+              lat: countyInfo.lat,
+              lng: countyInfo.lng,
+              score: scoreData.score,
+              dimensions: countyData.values
+            }
+          };
+          pinnedCountyFips = fipsCode;
+          updatePinnedCounty(fipsCode, $theme);
+        }
+      }
+    };
+
+    // Click on map background (not a county) unpins
+    clickMapHandler = (e) => {
+      // If a county was clicked, don't handle this - let the county handler deal with it
+      if (countyWasClicked) {
+        countyWasClicked = false;
+        return;
+      }
+
+      // Check if click was on a county (backup check)
+      const features = map.queryRenderedFeatures(e.point, {
+        layers: ['county-fills']
+      });
+
+      // If no county was clicked and we have a pinned county, unpin it
+      if (features.length === 0 && pinnedCountyFips !== null) {
+        pinnedCountyFips = null;
+        updatePinnedCounty(null, $theme);
+        tooltip = null;
+      }
+    };
+
+    mouseenterHandler = () => {
+      map.getCanvas().style.cursor = 'pointer';
+    };
+
+    // Note: We need a separate mouseleave handler for cursor
+    const mouseleaveCursorHandler = () => {
+      map.getCanvas().style.cursor = 'default';
+    };
+
+    // Register all the handlers
+    map.on('mousemove', 'county-fills', mousemoveHandler);
+    map.on('mouseleave', 'county-fills', mouseleaveHandler);
+    map.on('mouseenter', 'county-fills', mouseenterHandler);
+    map.on('click', 'county-fills', clickCountyHandler);
+    map.on('click', clickMapHandler);
+
+    // Cursor handlers (these are simple and don't need removal)
+    map.getCanvas().style.cursor = 'default';
+    map.on('mouseenter', 'county-fills', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'county-fills', () => {
+      map.getCanvas().style.cursor = 'default';
+    });
+  }
+
+  onMount(async () => {
     // Initialize map with theme-appropriate basemap
     const getMapStyle = () => {
       return $theme === 'dark'
@@ -119,14 +323,21 @@
       maxBounds: [
         [-180, 15], // Southwest coordinates (includes all of Alaska)
         [-50, 72]   // Northeast coordinates
-      ]
+      ],
+      doubleClickZoom: false // Disable double-click zoom (we use clicks for pinning)
     });
+
+    // Prevent browser zoom (Ctrl/Cmd + scroll) on the map container
+    mapContainer.addEventListener('wheel', (e) => {
+      if (e.ctrlKey || e.metaKey) {
+        e.preventDefault();
+      }
+    }, { passive: false });
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
     // Expose map globally for debugging
     (window as any).map = map;
-    console.log('💡 Map exposed as window.map for debugging');
 
     // Subscribe to score changes
     const unsubscribe = countyScores.subscribe((scores) => {
@@ -252,6 +463,28 @@
           },
         });
 
+        // Add pinned county layers (initially with no county pinned)
+        map.addLayer({
+          id: 'pinned-county-fill',
+          type: 'fill',
+          source: 'counties',
+          paint: {
+            'fill-color': $theme === 'dark' ? '#4fc3f7' : '#0288d1',
+            'fill-opacity': 0,
+          },
+        });
+
+        map.addLayer({
+          id: 'pinned-county-border',
+          type: 'line',
+          source: 'counties',
+          paint: {
+            'line-color': $theme === 'dark' ? '#4fc3f7' : '#0288d1',
+            'line-width': 3,
+            'line-opacity': 0,
+          },
+        });
+
         // County name labels - fade in at mid zoom, fade out at extreme zooms
         // CK3-inspired bold all-caps style with modern font
         try {
@@ -295,57 +528,11 @@
           console.warn('Could not add county labels (font not available):', error);
         }
 
-        // Hover interactions with optimized tooltip updates
-        map.on('mousemove', 'county-fills', (e) => {
-          if (e.features && e.features.length > 0) {
-            const feature = e.features[0];
-            const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
-
-            // Only update tooltip data when entering a new county
-            if (hoveredCountyId !== fipsCode) {
-              hoveredCountyId = fipsCode;
-
-              // Fast O(1) Map lookups instead of O(n) array.find()
-              const countyData = countyDataMap.get(fipsCode);
-              const scoreData = countyScoresMap.get(fipsCode);
-              const countyInfo = countyInfoMap.get(fipsCode);
-
-              if (countyData && feature.properties && countyInfo) {
-                tooltip = {
-                  x: e.point.x,
-                  y: e.point.y,
-                  data: {
-                    name: countyInfo.name,
-                    state: countyInfo.state,
-                    stateAbbrev: countyInfo.stateAbbrev,
-                    fipsCode: fipsCode,
-                    lat: countyInfo.lat,
-                    lng: countyInfo.lng,
-                    score: scoreData?.score || 0,
-                    dimensions: countyData.values
-                  }
-                };
-              }
-            }
-            // REMOVED: Don't update position on mousemove - keeps tooltip fixed so links are clickable
-          }
-          map.getCanvas().style.cursor = 'pointer';
-        });
-
-        map.on('mouseleave', 'county-fills', () => {
-          hoveredCountyId = null;
-          // Delay hiding tooltip to allow user to hover over it
-          hideTooltipTimeout = window.setTimeout(() => {
-            if (!tooltipHovered) {
-              tooltip = null;
-            }
-          }, 300); // 300ms grace period
-          map.getCanvas().style.cursor = '';
-        });
+        // Register hover interactions
+        registerHoverInteractions();
 
         mapLoaded = true;
         currentMapStyle = $theme; // Set initial theme
-        console.log('✅ Map loaded with theme:', $theme);
 
         // Apply initial colors if scores are available
         if ($countyScores && $countyScores.length > 0) {
@@ -383,10 +570,7 @@
     const counties = $topCounties;
     const loaded = mapLoaded;
 
-    console.log('🎯 Map effect: topCounties changed', { loaded, countiesCount: counties?.length });
-
     if (loaded && counties && counties.length > 0) {
-      console.log('⭐ Calling updateTopCountiesHighlight with', counties.length, 'counties');
       updateTopCountiesHighlight(counties);
     }
   });
@@ -395,8 +579,6 @@
   $effect(() => {
     // Explicitly track theme dependency
     const currentTheme = $theme;
-
-    console.log('🎨 Theme effect:', { currentTheme, currentMapStyle, mapLoaded, hasMap: !!map });
 
     if (map && mapLoaded && currentTheme !== currentMapStyle) {
       const newStyle = currentTheme === 'dark'
@@ -407,7 +589,6 @@
       const currentZoom = map.getZoom();
       const themeToApply = currentTheme; // Capture for async callback
 
-      console.log('🔄 Switching map style to:', currentTheme);
       map.setStyle(newStyle);
 
       // Re-add county layers after style loads
@@ -533,6 +714,32 @@
             });
           }
 
+          // Add pinned county layers (initially with no county pinned)
+          if (!map.getLayer('pinned-county-fill')) {
+            map.addLayer({
+              id: 'pinned-county-fill',
+              type: 'fill',
+              source: 'counties',
+              paint: {
+                'fill-color': themeToApply === 'dark' ? '#4fc3f7' : '#0288d1',
+                'fill-opacity': 0,
+              },
+            });
+          }
+
+          if (!map.getLayer('pinned-county-border')) {
+            map.addLayer({
+              id: 'pinned-county-border',
+              type: 'line',
+              source: 'counties',
+              paint: {
+                'line-color': themeToApply === 'dark' ? '#4fc3f7' : '#0288d1',
+                'line-width': 3,
+                'line-opacity': 0,
+              },
+            });
+          }
+
           try {
             if (!map.getLayer('county-labels')) {
               map.addLayer({
@@ -580,63 +787,20 @@
           if ($topCounties) {
             updateTopCountiesHighlight($topCounties);
           }
+          // Update pinned county if there is one
+          if (pinnedCountyFips) {
+            updatePinnedCounty(pinnedCountyFips, themeToApply);
+          }
           updateIncompleteDataPattern();
 
-          // Add hover interactions (optimized)
-          map.on('mousemove', 'county-fills', (e) => {
-            if (e.features && e.features.length > 0) {
-              const feature = e.features[0];
-              const fipsCode = (feature.properties.STATE || '') + (feature.properties.COUNTY || '');
-
-              // Only update tooltip data when entering a new county
-              if (hoveredCountyId !== fipsCode) {
-                hoveredCountyId = fipsCode;
-
-                // Fast O(1) Map lookups
-                const countyData = countyDataMap.get(fipsCode);
-                const scoreData = countyScoresMap.get(fipsCode);
-                const countyInfo = countyInfoMap.get(fipsCode);
-
-                if (countyData && scoreData && feature.properties && countyInfo) {
-                  tooltip = {
-                    x: e.point.x,
-                    y: e.point.y,
-                    data: {
-                      name: countyInfo.name,
-                      state: countyInfo.state,
-                      stateAbbrev: countyInfo.stateAbbrev,
-                      fipsCode: fipsCode,
-                      score: scoreData.score,
-                      dimensions: countyData.values
-                    }
-                  };
-                }
-              } else if (tooltip) {
-                // Just update position for smoother following
-                tooltip = { ...tooltip, x: e.point.x, y: e.point.y };
-              }
-            }
-          });
-
-          map.on('mouseleave', 'county-fills', () => {
-            hoveredCountyId = null;
-            tooltip = null;
-          });
-
-          map.getCanvas().style.cursor = 'default';
-          map.on('mouseenter', 'county-fills', () => {
-            map.getCanvas().style.cursor = 'pointer';
-          });
-          map.on('mouseleave', 'county-fills', () => {
-            map.getCanvas().style.cursor = 'default';
-          });
+          // Re-register hover interactions after theme swap
+          registerHoverInteractions();
 
           map.setCenter(currentCenter);
           map.setZoom(currentZoom);
 
           // Update currentMapStyle after successful style change
           currentMapStyle = themeToApply;
-          console.log(`✅ Map style changed successfully to ${themeToApply}`);
         } catch (error) {
           console.error('Failed to reload counties after style change:', error);
         }
@@ -667,15 +831,12 @@
   }
 
   function updateTopCountiesHighlight(topFipsCodes: string[]) {
-    console.log('⭐ Updating top counties highlight:', topFipsCodes.length, 'counties');
-
     if (!map || !map.getSource('counties')) {
-      console.warn('⚠️ Cannot update highlights - map or source not ready');
       return;
     }
 
     // Use brighter/more visible colors in dark mode
-    const fillColor = $theme === 'dark' ? '#FFD700' : '#FFD700'; // Bright gold in both
+    const fillColor = '#FFD700'; // Bright gold in both themes
     const borderColor = $theme === 'dark' ? '#FFA500' : '#B8860B'; // Brighter in dark mode
 
     // Build fill opacity expression - VERY VISIBLE in both themes
@@ -722,8 +883,6 @@
         'line-opacity': borderExpression
       }
     });
-
-    console.log('✅ Highlight updated successfully. Top counties:', topFipsCodes.slice(0, 3));
   }
 
   function updateIncompleteDataPattern() {
@@ -740,8 +899,6 @@
       });
     });
 
-    console.log('🔍 Counties with incomplete data:', incompleteCounties.length);
-
     // Build opacity expression - show pattern for incomplete counties
     const patternExpression: any = ['match', ['concat', ['get', 'STATE'], ['get', 'COUNTY']]];
     incompleteCounties.forEach((county) => {
@@ -752,6 +909,39 @@
     // Apply pattern opacity
     map.setPaintProperty('incomplete-data-pattern', 'fill-opacity', patternExpression);
   }
+
+  function updatePinnedCounty(pinnedFipsCode: string | null, theme: string) {
+    if (!map || !map.getLayer('pinned-county-fill') || !map.getLayer('pinned-county-border')) {
+      return;
+    }
+
+    const pinColor = theme === 'dark' ? '#4fc3f7' : '#0288d1';
+
+    if (pinnedFipsCode) {
+      // Build match expressions to highlight the specific pinned county
+      const fillExpression: any = ['match', ['concat', ['get', 'STATE'], ['get', 'COUNTY']], pinnedFipsCode, 0.3, 0];
+      const borderExpression: any = ['match', ['concat', ['get', 'STATE'], ['get', 'COUNTY']], pinnedFipsCode, 1, 0];
+
+      map.setPaintProperty('pinned-county-fill', 'fill-color', pinColor);
+      map.setPaintProperty('pinned-county-fill', 'fill-opacity', fillExpression);
+      map.setPaintProperty('pinned-county-border', 'line-color', pinColor);
+      map.setPaintProperty('pinned-county-border', 'line-opacity', borderExpression);
+    } else {
+      // No county pinned - set opacity to 0 (constant, not an expression)
+      map.setPaintProperty('pinned-county-fill', 'fill-opacity', 0);
+      map.setPaintProperty('pinned-county-border', 'line-opacity', 0);
+    }
+  }
+
+  // Update pinned county appearance when pin state or theme changes
+  $effect(() => {
+    const fipsCode = pinnedCountyFips;
+    const currentTheme = $theme;
+
+    if (mapLoaded && map) {
+      updatePinnedCounty(fipsCode, currentTheme);
+    }
+  });
 </script>
 
 <div class="map-wrapper">
@@ -811,19 +1001,6 @@
     {@const isTopCounty = $topCounties.includes(tooltip.data.fipsCode)}
     {@const rank = isTopCounty ? $countyScores.findIndex(c => c.fipsCode === tooltip.data.fipsCode) + 1 : null}
 
-    {@const dimensionStats = dimensions.map(dim => {
-      const allValues = $countyScores.map(c => {
-        const cd = countyDataMap.get(c.fipsCode);
-        return cd?.values[dim.id];
-      }).filter(v => v !== undefined);
-
-      const min = Math.min(...allValues);
-      const max = Math.max(...allValues);
-      const avg = allValues.reduce((sum, v) => sum + v, 0) / allValues.length;
-
-      return { id: dim.id, min, max, avg, higherIsBetter: dim.higherIsBetter };
-    })}
-
     {@const bestDimensions = dimensions.filter(dim => {
       const thisValue = tooltip.data.dimensions[dim.id];
       if (thisValue === undefined) return false;
@@ -873,14 +1050,18 @@
     })()}
     <div
       class="tooltip"
+      class:pinned={pinnedCountyFips !== null}
+      role="tooltip"
       style="left: {tooltip.x + 15}px; top: {tooltip.y + 15}px;"
       onmouseenter={() => {
         if (hideTooltipTimeout) clearTimeout(hideTooltipTimeout);
         tooltipHovered = true;
       }}
       onmouseleave={() => {
-        tooltipHovered = false;
-        tooltip = null;
+        if (!pinnedCountyFips) {
+          tooltipHovered = false;
+          tooltip = null;
+        }
       }}
     >
       <!-- County Name with Badges -->
@@ -888,19 +1069,35 @@
         <div class="county-name">
           <span class="name">{tooltip.data.name}</span>
           <span class="state">{tooltip.data.stateAbbrev}</span>
+          {#if !pinnedCountyFips}
+            <span class="pin-hint">• Click to pin</span>
+          {/if}
         </div>
-        {#if rank === 1}
-          <div class="badge gold">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-            </svg>
-            #1
-          </div>
-        {:else if rank && rank <= 3}
-          <div class="badge silver">#{rank}</div>
-        {:else if rank}
-          <div class="badge">#{rank}</div>
-        {/if}
+        <div class="title-badges">
+          {#if pinnedCountyFips}
+            <button
+              class="unpin-btn"
+              onclick={() => { pinnedCountyFips = null; }}
+              title="Unpin tooltip"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16,9V4l1,0c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H7C6.45,2,6,2.45,6,3v0 c0,0.55,0.45,1,1,1l1,0v5c0,1.66-1.34,3-3,3h0v2h5.97v7l1,1l1-1v-7H19v-2h0C17.34,12,16,10.66,16,9z"/>
+              </svg>
+            </button>
+          {/if}
+          {#if rank === 1}
+            <div class="badge gold">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              #1
+            </div>
+          {:else if rank && rank <= 3}
+            <div class="badge silver">#{rank}</div>
+          {:else if rank}
+            <div class="badge">#{rank}</div>
+          {/if}
+        </div>
       </div>
 
       <!-- Zillow Link for Land Search -->
@@ -996,7 +1193,7 @@
                title={hasMissingData
                  ? `${dim.name} - No data available (not counted in score)`
                  : normalizedValue !== null
-                   ? `${dim.name}: ${value.toFixed(1)} ${dim.unit || ''}\nNormalized: ${normalizedValue}/100 (${normalizedValue < 30 ? 'Poor' : normalizedValue < 60 ? 'Average' : 'Good'})`
+                   ? `${dim.name}: ${value.toFixed(1)} ${dim.unit || ''}\nScore: ${normalizedValue}/100 (${normalizedValue < 30 ? 'Poor' : normalizedValue < 60 ? 'Average' : 'Good'})`
                    : `${dim.name}: ${value.toFixed(1)} ${dim.unit || ''}`}>
             <span class="dim-icon">
               <DimensionIcons name={dim.icon ?? 'land_value'} size={14} />
@@ -1005,9 +1202,20 @@
             {#if hasMissingData}
               <span class="dim-val missing">N/A</span>
             {:else if normalizedValue !== null}
-              <span class="dim-val" class:dim-good={normalizedValue >= 70} class:dim-poor={normalizedValue < 30}>
-                {normalizedValue}
-              </span>
+              <div class="dim-score">
+                <div class="dim-bar-bg">
+                  <div
+                    class="dim-bar-fill"
+                    class:dim-good={normalizedValue >= 70}
+                    class:dim-average={normalizedValue >= 30 && normalizedValue < 70}
+                    class:dim-poor={normalizedValue < 30}
+                    style="width: {normalizedValue}%"
+                  ></div>
+                </div>
+                <span class="dim-val" class:dim-good={normalizedValue >= 70} class:dim-poor={normalizedValue < 30}>
+                  {normalizedValue}
+                </span>
+              </div>
             {:else}
               <span class="dim-val">{value.toFixed(0)}</span>
             {/if}
@@ -1169,6 +1377,13 @@
     font-size: 13px;
     animation: tooltipIn 0.15s ease-out;
     will-change: transform, opacity;
+    transition: all 0.3s ease;
+  }
+
+  .tooltip.pinned {
+    border: 2px solid var(--accent-primary);
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4), 0 0 0 3px var(--accent-primary-alpha);
+    animation: tooltipPinned 0.3s ease-out;
   }
 
   .zillow-link {
@@ -1207,6 +1422,18 @@
     }
   }
 
+  @keyframes tooltipPinned {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
   /* Title Section */
   .tooltip-title {
     display: flex;
@@ -1238,6 +1465,44 @@
     font-weight: 600;
     color: var(--text-secondary);
     opacity: 0.8;
+  }
+
+  .title-badges {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .unpin-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--text-secondary);
+  }
+
+  .unpin-btn:hover {
+    background: var(--bg-tertiary);
+    color: var(--accent-primary);
+    transform: scale(1.1);
+  }
+
+  .unpin-btn:active {
+    transform: scale(0.95);
+  }
+
+  .pin-hint {
+    font-size: 9px;
+    color: var(--text-secondary);
+    opacity: 0.5;
+    font-style: italic;
+    margin-left: 6px;
+    white-space: nowrap;
   }
 
   /* Badges */
@@ -1312,13 +1577,13 @@
   .insight-badge {
     display: inline-flex;
     align-items: center;
-    padding: 3px 8px;
-    border-radius: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
   }
 
   .insight-gem {
@@ -1353,13 +1618,13 @@
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 4px 10px;
+    border-radius: 6px;
     font-size: 10px;
     font-weight: 600;
     background: var(--accent-gold);
     color: #1a1a1a;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
   }
 
   /* Worst At Badges */
@@ -1374,14 +1639,14 @@
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 4px 10px;
+    border-radius: 6px;
     font-size: 10px;
     font-weight: 600;
-    background: rgba(255, 68, 68, 0.2);
+    background: rgba(255, 68, 68, 0.15);
     color: #ff4444;
-    border: 1px solid rgba(255, 68, 68, 0.3);
-    box-shadow: 0 1px 3px rgba(255, 68, 68, 0.15);
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    box-shadow: 0 2px 4px rgba(255, 68, 68, 0.12);
   }
 
   /* Compact Dimensions Grid */
@@ -1423,6 +1688,40 @@
     letter-spacing: 0.3px;
     text-align: center;
     line-height: 1;
+  }
+
+  .dim-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+  }
+
+  .dim-bar-bg {
+    width: 100%;
+    height: 4px;
+    background: var(--bg-tertiary);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .dim-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+
+  .dim-bar-fill.dim-good {
+    background: linear-gradient(90deg, #66bb6a, #4caf50);
+  }
+
+  .dim-bar-fill.dim-average {
+    background: linear-gradient(90deg, #ffa726, #ff9800);
+  }
+
+  .dim-bar-fill.dim-poor {
+    background: linear-gradient(90deg, #ff6b6b, #ff4444);
   }
 
   .dim-val {
