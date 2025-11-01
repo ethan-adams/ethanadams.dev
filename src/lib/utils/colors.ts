@@ -4,8 +4,8 @@
 
 /**
  * Convert a score (0-1) to a color on a gradient
- * CK3-STYLE: BOLD, SATURATED, DISTINCT colors
- * Deep Red (bad/0) -> Bright Orange (low/0.33) -> Golden Yellow (mid/0.67) -> Vibrant Green (good/1)
+ * Extended range: Purple (terrible) -> Red (bad) -> Orange (low) -> Yellow (mid) -> Green (good) -> Cyan (excellent)
+ * Adjusted thresholds to match actual county score distributions (most counties 0.4-0.8)
  */
 export function scoreToColor(score: number): string {
   // Clamp score to 0-1
@@ -13,24 +13,36 @@ export function scoreToColor(score: number): string {
 
   let r: number, g: number, b: number;
 
-  if (score < 0.33) {
-    // Deep Red to Bright Orange (0 to 0.33)
-    const t = score / 0.33; // 0 to 1
-    r = 200; // Keep strong red
-    g = Math.round(0 + t * 100); // 0 to 100
+  if (score < 0.15) {
+    // Purple to Dark Red (0 to 0.15) - Terrible scores
+    const t = score / 0.15;
+    r = Math.round(120 + t * 80); // 120 to 200
+    g = 0;
+    b = Math.round(120 - t * 120); // 120 to 0 (purple fades out)
+  } else if (score < 0.35) {
+    // Dark Red to Bright Red/Orange (0.15 to 0.35) - Bad scores
+    const t = (score - 0.15) / 0.20;
+    r = 200;
+    g = Math.round(0 + t * 80); // 0 to 80
     b = 0;
-  } else if (score < 0.67) {
-    // Bright Orange to Golden Yellow (0.33 to 0.67)
-    const t = (score - 0.33) / 0.34; // 0 to 1
+  } else if (score < 0.55) {
+    // Orange to Yellow (0.35 to 0.55) - Below average
+    const t = (score - 0.35) / 0.20;
     r = Math.round(200 + t * 55); // 200 to 255
-    g = Math.round(100 + t * 155); // 100 to 255
+    g = Math.round(80 + t * 175); // 80 to 255
     b = 0;
+  } else if (score < 0.75) {
+    // Yellow to Light Green (0.55 to 0.75) - Average to good
+    const t = (score - 0.55) / 0.20;
+    r = Math.round(255 - t * 100); // 255 to 155
+    g = 255;
+    b = Math.round(0 + t * 50); // 0 to 50
   } else {
-    // Golden Yellow to Vibrant Green (0.67 to 1)
-    const t = (score - 0.67) / 0.33; // 0 to 1
-    r = Math.round(255 - t * 255); // 255 to 0
-    g = 255; // Keep max green
-    b = Math.round(0 + t * 100); // 0 to 100
+    // Light Green to Vibrant Cyan-Green (0.75 to 1.0) - Excellent
+    const t = (score - 0.75) / 0.25;
+    r = Math.round(155 - t * 155); // 155 to 0
+    g = 255;
+    b = Math.round(50 + t * 150); // 50 to 200
   }
 
   return `rgb(${r}, ${g}, ${b})`;

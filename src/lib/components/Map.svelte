@@ -379,32 +379,35 @@
 
   // Reactively update top counties highlight whenever scores or count changes
   $effect(() => {
-    if (mapLoaded && $topCounties && $topCounties.length > 0) {
-      console.log('⭐ Reactively updating top', $topCounties.length, 'counties');
-      updateTopCountiesHighlight($topCounties);
+    // Explicitly track all dependencies
+    const counties = $topCounties;
+    const loaded = mapLoaded;
+
+    console.log('🎯 Map effect: topCounties changed', { loaded, countiesCount: counties?.length });
+
+    if (loaded && counties && counties.length > 0) {
+      console.log('⭐ Calling updateTopCountiesHighlight with', counties.length, 'counties');
+      updateTopCountiesHighlight(counties);
     }
   });
 
   // Update map style when theme changes
   $effect(() => {
-    console.log('🎨 Theme effect triggered:', {
-      theme: $theme,
-      currentMapStyle,
-      mapLoaded,
-      hasMap: !!map,
-      willSwitch: map && mapLoaded && $theme !== currentMapStyle
-    });
+    // Explicitly track theme dependency
+    const currentTheme = $theme;
 
-    if (map && mapLoaded && $theme !== currentMapStyle) {
-      const newStyle = $theme === 'dark'
+    console.log('🎨 Theme effect:', { currentTheme, currentMapStyle, mapLoaded, hasMap: !!map });
+
+    if (map && mapLoaded && currentTheme !== currentMapStyle) {
+      const newStyle = currentTheme === 'dark'
         ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
         : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
 
       const currentCenter = map.getCenter();
       const currentZoom = map.getZoom();
+      const themeToApply = currentTheme; // Capture for async callback
 
-      console.log(`🔄 Switching map style to ${$theme} mode from ${currentMapStyle}`);
-      console.log(`📍 Preserving position:`, { center: currentCenter, zoom: currentZoom });
+      console.log('🔄 Switching map style to:', currentTheme);
       map.setStyle(newStyle);
 
       // Re-add county layers after style loads
@@ -632,8 +635,8 @@
           map.setZoom(currentZoom);
 
           // Update currentMapStyle after successful style change
-          currentMapStyle = $theme;
-          console.log(`Map style changed successfully to ${$theme}`);
+          currentMapStyle = themeToApply;
+          console.log(`✅ Map style changed successfully to ${themeToApply}`);
         } catch (error) {
           console.error('Failed to reload counties after style change:', error);
         }
@@ -807,16 +810,67 @@
   {#if tooltip}
     {@const isTopCounty = $topCounties.includes(tooltip.data.fipsCode)}
     {@const rank = isTopCounty ? $countyScores.findIndex(c => c.fipsCode === tooltip.data.fipsCode) + 1 : null}
+
+    {@const dimensionStats = dimensions.map(dim => {
+      const allValues = $countyScores.map(c => {
+        const cd = countyDataMap.get(c.fipsCode);
+        return cd?.values[dim.id];
+      }).filter(v => v !== undefined);
+
+      const min = Math.min(...allValues);
+      const max = Math.max(...allValues);
+      const avg = allValues.reduce((sum, v) => sum + v, 0) / allValues.length;
+
+      return { id: dim.id, min, max, avg, higherIsBetter: dim.higherIsBetter };
+    })}
+
     {@const bestDimensions = dimensions.filter(dim => {
       const thisValue = tooltip.data.dimensions[dim.id];
       if (thisValue === undefined) return false;
-      const allValues = $countyScores.map(c => {
-        const cd = countyDataMap.get(c.fipsCode);
-        return cd?.values[dim.id] || 0;
-      });
-      const bestValue = dim.higherIsBetter ? Math.max(...allValues) : Math.min(...allValues);
+      const stats = dimensionStats.find(s => s.id === dim.id);
+      if (!stats) return false;
+      const bestValue = dim.higherIsBetter ? stats.max : stats.min;
       return thisValue === bestValue;
     })}
+
+    {@const worstDimensions = dimensions.filter(dim => {
+      const thisValue = tooltip.data.dimensions[dim.id];
+      if (thisValue === undefined) return false;
+      const stats = dimensionStats.find(s => s.id === dim.id);
+      if (!stats) return false;
+      // Consider "worst" if in bottom 10% of all counties
+      const threshold = dim.higherIsBetter
+        ? stats.min + (stats.max - stats.min) * 0.1
+        : stats.max - (stats.max - stats.min) * 0.1;
+      return dim.higherIsBetter ? thisValue < threshold : thisValue > threshold;
+    })}
+
+    {@const insights = (() => {
+      const result = [];
+      const score = tooltip.data.score;
+
+      // Hidden gem: Good score but not in top counties
+      if (score > 0.65 && !isTopCounty) {
+        result.push({ type: 'gem', text: 'Hidden Gem', desc: 'High score, low competition' });
+      }
+
+      // Underdog: Low overall score but excellent at something
+      if (score < 0.5 && bestDimensions.length > 0) {
+        result.push({ type: 'specialist', text: 'Specialist', desc: `Best in ${bestDimensions[0].name}` });
+      }
+
+      // Balanced: No terrible dimensions
+      if (worstDimensions.length === 0 && score > 0.5) {
+        result.push({ type: 'balanced', text: 'Well-Rounded', desc: 'No major weaknesses' });
+      }
+
+      // Trade-off alert: Good score but has dealbreakers
+      if (score > 0.6 && worstDimensions.length >= 2) {
+        result.push({ type: 'tradeoff', text: 'Trade-Offs', desc: `Strong overall, weak in ${worstDimensions.length} areas` });
+      }
+
+      return result;
+    })()}
     <div
       class="tooltip"
       style="left: {tooltip.x + 15}px; top: {tooltip.y + 15}px;"
@@ -850,7 +904,8 @@
       </div>
 
       <!-- Zillow Link for Land Search -->
-      {#if tooltip.data.name && tooltip.data.stateAbbrev && tooltip.data.lat && tooltip.data.lng}
+      {#if tooltip.data.name && tooltip.data.stateAbbrev}
+        {@const countySlug = `${tooltip.data.name.toLowerCase().replace(/\s+/g, '-')}-county-${tooltip.data.stateAbbrev.toLowerCase()}`}
         {@const searchState = JSON.stringify({
           pagination: {},
           isMapVisible: true,
@@ -865,22 +920,10 @@
             manu: { value: false }
           },
           isListVisible: true,
-          mapBounds: {
-            west: tooltip.data.lng - 0.5,
-            east: tooltip.data.lng + 0.5,
-            south: tooltip.data.lat - 0.5,
-            north: tooltip.data.lat + 0.5
-          },
-          regionSelection: [
-            {
-              regionId: null,
-              regionType: 4
-            }
-          ],
           mapZoom: 10
         })}
         <a
-          href="https://www.zillow.com/homes/for_sale/?searchQueryState={encodeURIComponent(searchState)}"
+          href="https://www.zillow.com/{countySlug}/?searchQueryState={encodeURIComponent(searchState)}"
           target="_blank"
           rel="noopener noreferrer"
           class="zillow-link"
@@ -905,13 +948,36 @@
         </div>
       </div>
 
+      <!-- Insights -->
+      {#if insights.length > 0}
+        <div class="insights-badges">
+          {#each insights as insight}
+            <span class="insight-badge insight-{insight.type}" title={insight.desc}>
+              {insight.text}
+            </span>
+          {/each}
+        </div>
+      {/if}
+
       <!-- Best At -->
       {#if bestDimensions.length > 0}
         <div class="best-badges">
           {#each bestDimensions as dim}
             <span class="best-badge">
               <DimensionIcons name={dim.icon} size={14} />
-              Best
+              Best {dim.name.split(' ')[0]}
+            </span>
+          {/each}
+        </div>
+      {/if}
+
+      <!-- Worst At -->
+      {#if worstDimensions.length > 0}
+        <div class="worst-badges">
+          {#each worstDimensions as dim}
+            <span class="worst-badge">
+              <DimensionIcons name={dim.icon} size={14} />
+              Poor {dim.name.split(' ')[0]}
             </span>
           {/each}
         </div>
@@ -922,13 +988,26 @@
         {#each dimensions as dim}
           {@const value = tooltip.data.dimensions[dim.id]}
           {@const hasMissingData = value === undefined}
-          <div class="dim-item {hasMissingData ? 'missing-data' : ''}" title={hasMissingData ? `${dim.name} - No data available (not counted in score)` : dim.name}>
+          {@const stats = dimensionStats.find(s => s.id === dim.id)}
+          {@const normalizedValue = stats && value !== undefined
+            ? Math.round(((value - stats.min) / (stats.max - stats.min)) * 100)
+            : null}
+          <div class="dim-item {hasMissingData ? 'missing-data' : ''}"
+               title={hasMissingData
+                 ? `${dim.name} - No data available (not counted in score)`
+                 : normalizedValue !== null
+                   ? `${dim.name}: ${value.toFixed(1)} ${dim.unit || ''}\nNormalized: ${normalizedValue}/100 (${normalizedValue < 30 ? 'Poor' : normalizedValue < 60 ? 'Average' : 'Good'})`
+                   : `${dim.name}: ${value.toFixed(1)} ${dim.unit || ''}`}>
             <span class="dim-icon">
               <DimensionIcons name={dim.icon ?? 'land_value'} size={14} />
             </span>
             <span class="dim-label">{dim.name.split(' ')[0]}</span>
             {#if hasMissingData}
               <span class="dim-val missing">N/A</span>
+            {:else if normalizedValue !== null}
+              <span class="dim-val" class:dim-good={normalizedValue >= 70} class:dim-poor={normalizedValue < 30}>
+                {normalizedValue}
+              </span>
             {:else}
               <span class="dim-val">{value.toFixed(0)}</span>
             {/if}
@@ -1222,24 +1301,87 @@
     transition: width 0.3s ease;
   }
 
+  /* Insight Badges */
+  .insights-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 8px;
+  }
+
+  .insight-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .insight-gem {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+
+  .insight-specialist {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+  }
+
+  .insight-balanced {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+  }
+
+  .insight-tradeoff {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    color: #1a1a1a;
+  }
+
   /* Best At Badges */
   .best-badges {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .best-badge {
     display: inline-flex;
     align-items: center;
-    padding: 2px 6px;
+    gap: 4px;
+    padding: 3px 8px;
     border-radius: 4px;
     font-size: 10px;
     font-weight: 600;
     background: var(--accent-gold);
     color: #1a1a1a;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Worst At Badges */
+  .worst-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+
+  .worst-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    background: rgba(255, 68, 68, 0.2);
+    color: #ff4444;
+    border: 1px solid rgba(255, 68, 68, 0.3);
+    box-shadow: 0 1px 3px rgba(255, 68, 68, 0.15);
   }
 
   /* Compact Dimensions Grid */
@@ -1288,6 +1430,14 @@
     font-weight: 700;
     color: var(--text-primary);
     white-space: nowrap;
+  }
+
+  .dim-val.dim-good {
+    color: #4caf50;
+  }
+
+  .dim-val.dim-poor {
+    color: #ff4444;
   }
 
   /* Missing data styles */
