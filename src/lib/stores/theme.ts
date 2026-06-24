@@ -7,20 +7,19 @@ const isBrowser = typeof window !== 'undefined';
 
 // Detect OS/browser preference
 function getInitialTheme(): Theme {
-  if (!isBrowser) return 'light';
+  if (!isBrowser) return 'dark';
 
   // Check if user has a saved preference
   const saved = localStorage.getItem('theme');
   if (saved === 'light' || saved === 'dark') return saved;
 
-  // Otherwise, use OS/browser preference
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  return 'dark';
 }
 
 function createThemeStore() {
   const { subscribe, set, update } = writable<Theme>(getInitialTheme());
 
-  if (isBrowser) {
+  if (isBrowser && typeof window.matchMedia === 'function') {
     // Listen for OS theme changes
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     mediaQuery.addEventListener('change', (e) => {

@@ -46,8 +46,8 @@ describe('theme store', () => {
     mockSetAttribute.mockClear();
   });
 
-  it('should initialize with light theme by default', () => {
-    expect(get(theme)).toBe('light');
+  it('should initialize with dark theme by default', () => {
+    expect(get(theme)).toBe('dark');
   });
 
   it('should persist theme to localStorage when set', () => {

@@ -22,4 +22,20 @@ npm run dev
 
 ## Deployment
 
-Hosted on Vercel (planned).
+Production deploys run through GitHub Actions and Vercel.
+
+Required `ethanadams.dev` repository secrets:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+The site deploy workflow runs on pushes to `master`, manual dispatches, and `repository_dispatch` events named
+`mandarin-updated`.
+
+Required `mandarin-lesson-practice` repository secret:
+
+- `SITE_REPO_DISPATCH_TOKEN` - a GitHub token that can create repository dispatch events for
+  `ethan-adams/ethanadams.dev`.
+
+When `mandarin-lesson-practice` pushes to `main`, its workflow dispatches a production site deploy.
