@@ -1,11 +1,13 @@
 <script lang="ts">
   import Map from './lib/components/Map.svelte';
   import ControlPanel from './lib/components/ControlPanel.svelte';
+  import MandarinPractice from './lib/components/MandarinPractice.svelte';
   import { countyScores } from './lib/stores/dimensions';
   import { theme } from './lib/stores/theme';
   import { onMount } from 'svelte';
 
   let showDebug = $state(false);
+  let pathname = $state('/');
 
   // Toggle debug with 'd' key
   function handleKeyPress(e: KeyboardEvent) {
@@ -17,6 +19,7 @@
   // Initialize theme on mount
   onMount(() => {
     document.documentElement.setAttribute('data-theme', $theme);
+    pathname = window.location.pathname;
   });
 
   // Update theme attribute when theme changes
@@ -25,11 +28,20 @@
   });
 </script>
 
-<svelte:window onkeypress={handleKeyPress} />
+<svelte:window onkeypress={handleKeyPress} onpopstate={() => (pathname = window.location.pathname)} />
 
-<main>
-  <ControlPanel />
-  <Map />
+<main class:project-page={pathname.startsWith('/mandarin')}>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class:active={pathname === '/'} href="/">Homesteader</a>
+    <a class:active={pathname.startsWith('/mandarin')} href="/mandarin">Mandarin</a>
+  </nav>
+
+  {#if pathname.startsWith('/mandarin')}
+    <MandarinPractice />
+  {:else}
+    <ControlPanel />
+    <Map />
+  {/if}
 
   {#if showDebug}
     <div class="debug-overlay">
@@ -56,6 +68,43 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+  }
+
+  .project-page {
+    display: block;
+    min-height: 100%;
+    height: auto;
+  }
+
+  .project-nav {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    background: var(--overlay-bg);
+    box-shadow: var(--shadow-md);
+    z-index: 20;
+  }
+
+  .project-nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 650;
+    line-height: 1;
+  }
+
+  .project-nav a:hover,
+  .project-nav a.active {
+    color: var(--text-primary);
+    background: var(--bg-tertiary);
   }
 
   .debug-overlay {
