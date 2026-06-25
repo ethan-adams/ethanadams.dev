@@ -15,6 +15,7 @@
   let showInfoPanel = $state(false);
   let hoveredDimension = $state<string | null>(null);
   let showPresets = $state(false);
+  const topCountOptions = [5, 10, 25, 50] as const;
 
   function applyPreset(preset: DimensionPreset) {
     setDimensionRankOrder(preset.dimensionOrder);
@@ -228,7 +229,7 @@
       <span class="control-value">{$topCountiesCount}</span>
     </div>
     <div class="count-options">
-      {#each [5, 10, 25, 50] as count}
+      {#each topCountOptions as count}
         <button
           class="count-option"
           class:active={$topCountiesCount === count}

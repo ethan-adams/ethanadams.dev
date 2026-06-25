@@ -10,7 +10,7 @@
   import { dimensions } from '../data/dimensions';
   import { countyDatabase } from '../data/countyDatabase';
   import DimensionIcons from './icons/DimensionIcons.svelte';
-  import type { County } from '../types';
+  import type { CountyBase } from '../data/countyDatabase';
 
   let mapContainer: HTMLDivElement;
   let map: maplibregl.Map;
@@ -22,8 +22,8 @@
     state: string;
     stateAbbrev: string;
     fipsCode: string;
-    lat: number;
-    lng: number;
+    lat: number | null;
+    lng: number | null;
     score: number;
     dimensions: Record<string, number>;
   }
@@ -33,7 +33,7 @@
   let pinnedCountyFips = $state<string | null>(null); // The FIPS code of the pinned county (null = not pinned)
   let hideTooltipTimeout: number | null = null;
   let searchQuery = $state('');
-  let searchResults = $state<County[]>([]);
+  let searchResults = $state<CountyBase[]>([]);
   let showSearchResults = $state(false);
 
   // Performance: Create lookup Maps for O(1) access instead of O(n) array.find()
@@ -105,8 +105,8 @@
     }
   });
 
-  function selectCounty(county: County) {
-    if (map) {
+  function selectCounty(county: CountyBase) {
+    if (map && county.lng !== null && county.lat !== null) {
       map.flyTo({
         center: [county.lng, county.lat],
         zoom: 8,
@@ -305,7 +305,7 @@
     });
   }
 
-  onMount(async () => {
+  onMount(() => {
     // Initialize map with theme-appropriate basemap
     const getMapStyle = () => {
       return $theme === 'dark'
@@ -998,11 +998,12 @@
 
   <!-- Hover Tooltip - Modern, Compact Design -->
   {#if tooltip}
-    {@const isTopCounty = $topCounties.includes(tooltip.data.fipsCode)}
-    {@const rank = isTopCounty ? $countyScores.findIndex(c => c.fipsCode === tooltip.data.fipsCode) + 1 : null}
+    {@const activeTooltip = tooltip}
+    {@const isTopCounty = $topCounties.includes(activeTooltip.data.fipsCode)}
+    {@const rank = isTopCounty ? $countyScores.findIndex(c => c.fipsCode === activeTooltip.data.fipsCode) + 1 : null}
 
     {@const bestDimensions = dimensions.filter(dim => {
-      const thisValue = tooltip.data.dimensions[dim.id];
+      const thisValue = activeTooltip.data.dimensions[dim.id];
       if (thisValue === undefined) return false;
       const stats = dimensionStats.find(s => s.id === dim.id);
       if (!stats) return false;
@@ -1011,7 +1012,7 @@
     })}
 
     {@const worstDimensions = dimensions.filter(dim => {
-      const thisValue = tooltip.data.dimensions[dim.id];
+      const thisValue = activeTooltip.data.dimensions[dim.id];
       if (thisValue === undefined) return false;
       const stats = dimensionStats.find(s => s.id === dim.id);
       if (!stats) return false;
@@ -1024,7 +1025,7 @@
 
     {@const insights = (() => {
       const result = [];
-      const score = tooltip.data.score;
+      const score = activeTooltip.data.score;
 
       // Hidden gem: Good score but not in top counties
       if (score > 0.65 && !isTopCounty) {
@@ -1052,7 +1053,7 @@
       class="tooltip"
       class:pinned={pinnedCountyFips !== null}
       role="tooltip"
-      style="left: {tooltip.x + 15}px; top: {tooltip.y + 15}px;"
+      style="left: {activeTooltip.x + 15}px; top: {activeTooltip.y + 15}px;"
       onmouseenter={() => {
         if (hideTooltipTimeout) clearTimeout(hideTooltipTimeout);
         tooltipHovered = true;
@@ -1067,8 +1068,8 @@
       <!-- County Name with Badges -->
       <div class="tooltip-title">
         <div class="county-name">
-          <span class="name">{tooltip.data.name}</span>
-          <span class="state">{tooltip.data.stateAbbrev}</span>
+          <span class="name">{activeTooltip.data.name}</span>
+          <span class="state">{activeTooltip.data.stateAbbrev}</span>
           {#if !pinnedCountyFips}
             <span class="pin-hint">• Click to pin</span>
           {/if}
@@ -1101,8 +1102,8 @@
       </div>
 
       <!-- Zillow Link for Land Search -->
-      {#if tooltip.data.name && tooltip.data.stateAbbrev}
-        {@const countySlug = `${tooltip.data.name.toLowerCase().replace(/\s+/g, '-')}-county-${tooltip.data.stateAbbrev.toLowerCase()}`}
+      {#if activeTooltip.data.name && activeTooltip.data.stateAbbrev}
+        {@const countySlug = `${activeTooltip.data.name.toLowerCase().replace(/\s+/g, '-')}-county-${activeTooltip.data.stateAbbrev.toLowerCase()}`}
         {@const searchState = JSON.stringify({
           pagination: {},
           isMapVisible: true,
@@ -1124,7 +1125,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="zillow-link"
-          title="Search for land in {tooltip.data.name} County, {tooltip.data.stateAbbrev} on Zillow"
+          title="Search for land in {activeTooltip.data.name} County, {activeTooltip.data.stateAbbrev} on Zillow"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -1138,10 +1139,10 @@
       <div class="score-bar">
         <div class="score-label">
           <span>Fit Score</span>
-          <span class="score-value">{(tooltip.data.score * 100).toFixed(0)}%</span>
+          <span class="score-value">{(activeTooltip.data.score * 100).toFixed(0)}%</span>
         </div>
         <div class="score-track">
-          <div class="score-fill" style="width: {tooltip.data.score * 100}%"></div>
+          <div class="score-fill" style="width: {activeTooltip.data.score * 100}%"></div>
         </div>
       </div>
 
@@ -1161,7 +1162,7 @@
         <div class="best-badges">
           {#each bestDimensions as dim}
             <span class="best-badge">
-              <DimensionIcons name={dim.icon} size={14} />
+              <DimensionIcons name={dim.icon ?? 'land_value'} size={14} />
               Best {dim.name.split(' ')[0]}
             </span>
           {/each}
@@ -1173,7 +1174,7 @@
         <div class="worst-badges">
           {#each worstDimensions as dim}
             <span class="worst-badge">
-              <DimensionIcons name={dim.icon} size={14} />
+              <DimensionIcons name={dim.icon ?? 'land_value'} size={14} />
               Poor {dim.name.split(' ')[0]}
             </span>
           {/each}
@@ -1183,7 +1184,7 @@
       <!-- Compact Dimensions Grid -->
       <div class="dims-grid">
         {#each dimensions as dim}
-          {@const value = tooltip.data.dimensions[dim.id]}
+          {@const value = activeTooltip.data.dimensions[dim.id]}
           {@const hasMissingData = value === undefined}
           {@const stats = dimensionStats.find(s => s.id === dim.id)}
           {@const normalizedValue = stats && value !== undefined

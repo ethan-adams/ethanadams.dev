@@ -11,8 +11,8 @@ export interface CountyBase {
   name: string;
   state: string;
   stateAbbrev: string;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   population: number;
 }
 

@@ -57,6 +57,7 @@
     border-radius: 3px;
     background: var(--bg-tertiary);
     outline: none;
+    appearance: none;
     -webkit-appearance: none;
   }
 

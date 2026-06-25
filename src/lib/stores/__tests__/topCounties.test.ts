@@ -1,20 +1,43 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { get, writable } from 'svelte/store';
-import { topCountiesCount } from '../topCounties';
+import { get } from 'svelte/store';
+import type { DimensionWeight, CountyScore } from '../../types';
 
 // Mock countyScores store
-const mockCountyScores = writable<any[]>([]);
+const { mockCountyScores, mockDimensionRankOrder, mockDimensionWeights } = vi.hoisted(() => {
+  function createWritable<T>(initial: T) {
+    let value = initial;
+    const subscribers = new Set<(value: T) => void>();
+
+    return {
+      set(next: T) {
+        value = next;
+        subscribers.forEach((subscriber) => subscriber(value));
+      },
+      subscribe(subscriber: (value: T) => void) {
+        subscriber(value);
+        subscribers.add(subscriber);
+        return () => subscribers.delete(subscriber);
+      },
+    };
+  }
+
+  return {
+    mockCountyScores: createWritable<CountyScore[]>([]),
+    mockDimensionRankOrder: createWritable<string[]>([]),
+    mockDimensionWeights: createWritable<DimensionWeight[]>([]),
+  };
+});
 
 // Mock the dimensions module
 vi.mock('../dimensions', () => ({
   countyScores: mockCountyScores,
-  dimensionRankOrder: writable([]),
-  dimensionWeights: writable([]),
-  setDimensionRankOrder: vi.fn(),
+  dimensionRankOrder: mockDimensionRankOrder,
+  dimensionWeights: mockDimensionWeights,
+  setDimensionRankOrder: () => {},
 }));
 
 // Import after mocking
-const { topCounties } = await import('../topCounties');
+const { topCounties, topCountiesCount } = await import('../topCounties');
 
 describe('topCounties store', () => {
   beforeEach(() => {
@@ -27,6 +50,7 @@ describe('topCounties store', () => {
     const mockScores = Array.from({ length: 100 }, (_, i) => ({
       fipsCode: `${i.toString().padStart(5, '0')}`,
       score: 1 - i / 100, // Descending scores
+      normalizedValues: {},
     }));
 
     mockCountyScores.set(mockScores);
@@ -40,6 +64,7 @@ describe('topCounties store', () => {
     const mockScores = Array.from({ length: 100 }, (_, i) => ({
       fipsCode: `${i.toString().padStart(5, '0')}`,
       score: 1 - i / 100, // Descending scores
+      normalizedValues: {},
     }));
 
     mockCountyScores.set(mockScores);
@@ -61,16 +86,16 @@ describe('topCounties store', () => {
 
   it('should sort counties by score descending', () => {
     const mockScores = [
-      { fipsCode: '00001', score: 0.5 },
-      { fipsCode: '00002', score: 0.9 },
-      { fipsCode: '00003', score: 0.3 },
-      { fipsCode: '00004', score: 0.7 },
+      { fipsCode: '00001', score: 0.5, normalizedValues: {} },
+      { fipsCode: '00002', score: 0.9, normalizedValues: {} },
+      { fipsCode: '00003', score: 0.3, normalizedValues: {} },
+      { fipsCode: '00004', score: 0.7, normalizedValues: {} },
     ];
 
     mockCountyScores.set(mockScores);
-    topCountiesCount.set(3);
+    topCountiesCount.set(5);
 
     const top = get(topCounties);
-    expect(top).toEqual(['00002', '00004', '00001']);
+    expect(top).toEqual(['00002', '00004', '00001', '00003']);
   });
 });
